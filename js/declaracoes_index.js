@@ -8,3 +8,5 @@ let nextSlide = document.getElementById('nextSlide--button')
 let dot_01 = document.getElementById('dot_01')
 let dot_02 = document.getElementById('dot_02')
 let index = 0
+
+

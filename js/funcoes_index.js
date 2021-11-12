@@ -76,7 +76,7 @@ let TornarControlesInvisiveis = function(){
         carrosel_controls[i].style.opacity = "0"
     }
     Array.from(slides).forEach(function name(params) {
-        slides.item(index).style.animation = 'slide_img 10s infinite ease-in'
+        slides.item(index).style.animation = 'slide_img 7s infinite ease-in'
         index = index + 1
     })
     index=0
@@ -87,3 +87,20 @@ Array.from(mouse__interaction__areas).forEach(function name(item) {
 Array.from(mouse__interaction__areas).forEach(function name(item) {
     item.addEventListener('mouseout', TornarControlesInvisiveis)
 })
+
+$('#inicio').mouseover(function () { 
+    $('#inicio').css('border-bottom', 'solid 3px white');
+});
+$('#inicio').mouseout(function () { 
+    $('#inicio').css('border-bottom', 'solid 3px #dec223');
+});
+
+$('.hamburger').click(function (e) { 
+    e.preventDefault();
+    $('.nav').toggleClass('mobile_nav');
+    $('.ul_pags').toggleClass('mobile_ul_pags');
+    $('.menu_li').toggleClass('mobile_menu_li');
+    $('.ul_social').toggleClass('mobile_ul_social');
+    $('.li_social').toggleClass('mobile_li_social');
+    $('.bi-list').toggleClass('bi-x-lg');
+});
