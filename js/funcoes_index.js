@@ -104,3 +104,8 @@ $('.hamburger').click(function (e) {
     $('.li_social').toggleClass('mobile_li_social');
     $('.bi-list').toggleClass('bi-x-lg');
 });
+
+if(window.innerWidth < 768){
+    $('#img_01').attr('src', '../img/Stories SONHOS.png');
+    $('#img_02').attr('src', '../img/Stories PLANETA.png');
+}
