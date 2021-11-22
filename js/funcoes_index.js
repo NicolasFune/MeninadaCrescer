@@ -106,6 +106,6 @@ $('.hamburger').click(function (e) {
 });
 
 if(window.innerWidth < 768){
-    $('#img_01').attr('src', '../img/Stories SONHOS.png');
-    $('#img_02').attr('src', '../img/Stories PLANETA.png');
+    $('#img_01').attr('src', 'img/Stories SONHOS.png');
+    $('#img_02').attr('src', 'img/Stories PLANETA.png');
 }
