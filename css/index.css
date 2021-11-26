@@ -21,13 +21,13 @@ body{
 }
 .sec_carrosel{
     width: 100vw;
-    height: 100vh;
+    height: 85vh;
 }
 .menu{
     background-image: url(../img/PATTERN\ VEIA\ ARVORE.png);
     background-color: #1a519a;
-    width: 100%;
-    height: 10%;
+    width: 100vw;
+    height: 10vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -86,110 +86,16 @@ nav{
     
 }
 .social--icon{
-    width: 2rem;
+    font-size: 2rem;
+    color: white;
+}
+.social--icon:hover{
+    color: #dec223;
 }
 .ul_social > a:hover{
     transition: .2s;
     transform: scale(1.1);
-}
-
-
-
-
-
-.carrosel{
-    background-color: bisque;
-    width: 100%;
-    height: 88%;
     
-    
-}
-
-.container__img{
-    position: absolute;
-    width: 100%;
-    background-color: blue;
-    height: 90%;
-    overflow:hidden;
-}
-.container__img--ul{
-    display: flex;
-    width: 100%;
-    height: 100%;
-}
-.container__img--li{
-    width: 100%;
-    position: relative;
-    animation: slide_img 7s infinite ease-in;
-    transition: all .3s ease-in-out;
-    
-}
-@keyframes slide_img{
-    0%{left: 0vw}
-    20%{left: 0vw}
-    40%{left: -100vw}
-    100%{left: -100vw}
-}
-.img__carrosel{
-    width: 100vw;
-    height: 100%;
-}
-.container__dots{
-    position: absolute;
-    top: 80%;
-    transform: translateY(-50%);
-    opacity: 0;
-    padding: 2vw;
-    width: 100%;
-    height: 10%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 2;
-    position: relative;
-    transition: .6s;
-}
-
-.dot{
-    background-color: rgb(131, 131, 131);
-    width: .5vw;
-    height: .5vw;
-    margin-left: 1vw;
-    border-radius: 50%;
-    cursor: pointer;
-    transition: .2s;
-}
-#dot_01{
-    background-color: black;
-}
-.dot:hover{
-    transform: scale(1.8);
-}
-.container__buttons{
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    opacity: 0;
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-    z-index: 2;
-    transition: .6s;
-}
-.__button{
-    background-color: transparent;
-}
-.__button > i{
-    font-size: 3.6rem;
-    color: black;
-    margin: 0vw 2vw;
-}
-.__button:hover{
-    transition: .2s;
-    transform: scale(1.2);
-    cursor: pointer;
 }
 .hamburger{
     display:none
@@ -227,73 +133,310 @@ nav{
     opacity: 1;
 }
 
-@media (min-width:2001px) and (max-width:3000px){
+
+
+
+
+
+
+
+
+
+.carrosel{
+    width: 100%;
+    height: 100%;
+    
+    
+}
+.container__img{
+    position: absolute;
+    width: 100%;
+    height: 85%;
+    overflow:hidden;
+}
+.mascara{
+    background-color: rgba(0,0,0,0.0);
+    transition: .6s;
+    width: 100vw;
+    height: 85vh;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.container__img--ul{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.container__img--li{
+    width: 100%;
+    position: relative;
+    animation: slide_img 7s infinite ease-in;
+    transition: all .3s ease-in-out;
+    
+}
+@keyframes slide_img{
+    0%{left: 0vw}
+    20%{left: 0vw}
+    40%{left: -100vw}
+    100%{left: -100vw}
+}
+.img__carrosel{
+    width: 100vw;
+    height: 100%;
+}
+.container__dots{
+    opacity: 0;
+    padding: 2vw;
+    width: 100%;
+    height: 33.33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+    position: relative;
+    transition: .6s;
+}
+.space{
+    width: 100%;
+    height: 20%;
+}
+.dot{
+    background-color: white;
+    width: .5vw;
+    height: .5vw;
+    margin-left: 1vw;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .2s;
+}
+#dot_01{
+    background-color: rgb(80,80,80);
+}
+.dot:hover{
+    transform: scale(1.8);
+}
+.container__buttons{
+    opacity: 0;
+    display: flex;
+    width: 100%;
+    height: 33.33%;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    transition: .6s;
+}
+.__button{
+    background-color: transparent;
+}
+.__button > i{
+    font-size: 3.6rem;
+    color: rgb(255, 255, 255);
+    margin: 0vw 2vw;
+}
+.__button:hover{
+    transition: .2s;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+footer{
+    background-image: url(../img/PATTERN\ VEIA\ ARVORE.png);
+    background-color: #1a519a;
+    height: 5vh;
+    width: 100vw;
+    font-family: 'nexa' ;
+    color: white;
+    font-size: 0.6rem;
+}
+.footer_ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer_li{
+    height: 100%;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.copy{
+    margin-left: 5%;
+}
+.construção{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bi-tools{
+    font-size: 1.5rem;
+    margin-right: 5%;
+}
+.logo{
+    margin-right: 2%;
+    transition: .4;
+}
+.logo:hover{
+    transform: scale(1.1);
+}
+.footer_li img{
+    height: 5vh;
+}
+
+
+@media (min-width:2700px) and (max-width:3000px){
+	/*2850*/
+    html{
+        font-size: 135%;
+    }
+}
+@media (min-width:2400px) and (max-width:2699px){
+	/*2550*/
+    html{
+        font-size: 120%;
+    }
+}
+@media (min-width:2100px) and (max-width:2399px){
+	/*2250*/
+    html{
+        font-size: 105%;
+    }   
+}
+@media (min-width:1800px) and (max-width:2099px){
+    /*1950*/
     html{
         font-size: 90%;
     }
-    
-    
 }
-@media (min-width:1440px) and (max-width:2000px){
+@media (min-width:1500px) and (max-width:1799px){
+    /*1650*/
     html{
-        font-size: 85%;
+         font-size: 85%;
     }
-    
-    
 }
-@media (min-width:1024px) and (max-width:1439px){
+@media (min-width:1200px) and (max-width:1499px){
+  	/*1350*/
     html{
-        font-size: 62.5%;
-    }
- 
-}
-@media (min-width:768px) and (max-width:1023px){
-    html{
-        font-size: 50%;
-    }
-  
-}
-@media (min-width:421px) and (max-width:767px){
-    html{
-        font-size: 100%;
+        font-size: 80%;
     }
     .menu > img{
-        margin-left: 6%;
-        width: 14%;
+        width: 10%;
     }
-    nav{
-        display: none;
+    .footer_li{
+        width: 19%;
     }
-    .hamburger{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-right: 10%;
-        background-color: transparent;
-        font-family: 'nexa';
-        color: white;
-        
-    }
-    .hamburger:hover{
-        color: #fcda1b
-
-    }
-    .bi-list{
-        font-family: 'nexa';
-        font-size: 2rem;
-        line-height: 1rem;
-        margin-left: 10%;
-    }
-    
 }
-@media (min-width:320px) and (max-width:420px){
+@media (min-width:900px) and (max-width:1199px){
+  	/*1050*/
     html{
-        font-size: 100%;
+        font-size: 75%;
     }
     .menu > img{
-        margin-left: 6%;
+        width: 12%;
+    }
+    .footer_li{
+        width: 23%;
+    }
+}
+@media (min-width:600px) and (max-width:899px){
+    /*750*/
+    html{
+        font-size: 65%;
+    }
+    .menu > img{
         width: 18%;
     }
+    .bi-list{
+        font-size: 3rem;
+        line-height: 1rem;
+        margin-left: 10%;
+    }
+    .footer_li{
+        width: 33.33%;
+    }
+    .copy{
+        justify-content: flex-start;
+        padding-left: 2%;
+        margin-left: 0%;
+    }
+    .construção{
+        justify-content: flex-end;
+    }
+    .logo{
+        width: 25%;
+        justify-content: flex-end;
+        padding-right: 2%;
+        margin-right: 0%;
+    }
+    
+}
+@media (min-width:300px) and (max-width:599px){
+    /*450*/
+    html{
+        font-size: 55%;
+    }
+    .menu > img{
+        width: 26%;
+    }
+    .bi-list{
+        font-size: 3.5rem;
+        line-height: 1rem;
+        margin-left: 10%;
+    }
+    footer{
+        font-size: 0.5rem;
+    }
+    .footer_li{
+        width: 35%;
+    }
+    .copy{
+        justify-content: flex-start;
+        padding-left: 2%;
+        margin-left: 0%;
+    }
+    .construção{
+        justify-content: flex-end;
+    }
+    .logo{
+        width: 20%;
+        justify-content: flex-end;
+        padding-right: 2%;
+        margin-right: 0%;
+    }
+}
+@media (min-width:0px) and (max-width:299px){
+   	/*150*/
+    html{
+        font-size: 5%;
+    }
+    .menu > img{
+        width: 18%;
+    }
+    .footer_li{
+        width: 20%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1023px){
     nav{
         display: none;
     }
@@ -311,10 +454,5 @@ nav{
         color: #fcda1b
 
     }
-    .bi-list{
-        font-family: 'nexa';
-        font-size: 2rem;
-        line-height: 1rem;
-        margin-left: 10%;
-    }
+   
 }
