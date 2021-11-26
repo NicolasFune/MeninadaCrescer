@@ -120,6 +120,6 @@ if(window.innerWidth < 1024){
     $('#img_01').attr('src', 'img/Stories SONHOS.png');
     $('#img_02').attr('src', 'img/Stories PLANETA.png');
 }
-let img_carrosel_height = $('.sec_carrosel').height();
-    $('.img__carrosel').height(img_carrosel_height);
-    alert('*')
+let img_carrosel_height = $('.img__carrosel').height();
+    $('.sec_carrosel').height(img_carrosel_height);
+    alert('**')
