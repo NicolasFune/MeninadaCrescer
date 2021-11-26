@@ -9,7 +9,6 @@ html{
 body{
     scroll-behavior: smooth;
     overflow-x: hidden;
-    background-color: blue;
 }
 *{
     margin:0%;
@@ -188,6 +187,7 @@ nav{
 .img__carrosel{
     width: 100vw;
     height: 100%;
+    background-color: blue;
 }
 .container__dots{
     opacity: 0;
