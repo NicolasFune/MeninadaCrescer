@@ -122,3 +122,4 @@ if(window.innerWidth < 1024){
 }
 let img_carrosel_height = $('.img__carrosel').height();
     $('.sec_carrosel').height(img_carrosel_height);
+alert($('.sec_carrosel').height())
