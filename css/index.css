@@ -9,6 +9,7 @@ html{
 body{
     scroll-behavior: smooth;
     overflow-x: hidden;
+    overflow: hidden;
 }
 *{
     margin:0%;
@@ -19,13 +20,7 @@ body{
     outline: none;
     border: none;
 }
-#preloader{
-    width: 100vw;
-    height: 100vh;
-    background-color: mediumorchid;
-    position: absolute;
-    z-index: 999;
-}
+
 .sec_carrosel{
     width: 100vw;
     height: 85vh;
