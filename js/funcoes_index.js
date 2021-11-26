@@ -108,14 +108,17 @@ $('.hamburger').click(function (e) {
     $('.li_social').toggleClass('mobile_li_social');
     $('.bi-list').toggleClass('bi-x-lg');
 });
+
 window.addEventListener('resize',function (param) {
     if(window.innerWidth < 1024){
         $('#img_01').attr('src', 'img/Stories SONHOS.png');
         $('#img_02').attr('src', 'img/Stories PLANETA.png');
     }
-  })
-  if(window.innerWidth < 1024){
+})
+
+if(window.innerWidth < 1024){
     $('#img_01').attr('src', 'img/Stories SONHOS.png');
     $('#img_02').attr('src', 'img/Stories PLANETA.png');
+
+    //$('.sec_carrosel').css('height', );
 }
-alert(window.innerWidth)
