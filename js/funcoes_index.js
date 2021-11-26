@@ -118,3 +118,4 @@ window.addEventListener('resize',function (param) {
     $('#img_01').attr('src', 'img/Stories SONHOS.png');
     $('#img_02').attr('src', 'img/Stories PLANETA.png');
 }
+alert(window.innerWidth)
