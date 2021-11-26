@@ -351,6 +351,11 @@ footer{
     .menu > img{
         width: 12%;
     }
+    .dot{
+    width: .7vw;
+    height: .7vw;
+    margin-left: 1.2vw;
+    }
     .footer_li{
         width: 23%;
     }
@@ -363,6 +368,11 @@ footer{
     .menu > img{
         width: 18%;
     }
+    .dot{
+        width: 1.4vw;
+        height: 1.4vw;
+        margin-left: 2vw;
+        }
     .bi-list{
         font-size: 3rem;
         line-height: 1rem;
@@ -395,6 +405,11 @@ footer{
     .menu > img{
         width: 26%;
     }
+    .dot{
+        width: 2vw;
+        height: 2vw;
+        margin-left: 2.5vw;
+        }
     .bi-list{
         font-size: 3.5rem;
         line-height: 1rem;
