@@ -94,7 +94,10 @@ Array.from(mouse__interaction__areas).forEach(function name(item) {
     
 })
 
-
+$('.mouse__interaction__area').click(function (e) { 
+    e.preventDefault();
+    alert('teste')
+});
 $('#inicio').mouseover(function () { 
     $('#inicio').css('border-bottom', 'solid 3px white');
 });
@@ -113,12 +116,7 @@ $('.hamburger').click(function (e) {
 });
 
 
-if (window.innerWidth <1080){
-    $('.mouse__interaction__area').mousemove(function (e) { 
-        // values: e.clientX, e.clientY, e.pageX, e.pageY
-        TornarControlesInvisiveis();
-    });
-}
+
 window.addEventListener('resize',function (param) {
     if(window.innerWidth < 1080){
         $('#img_01').attr('src', 'img/Stories SONHOS.png');
