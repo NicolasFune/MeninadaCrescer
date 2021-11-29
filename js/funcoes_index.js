@@ -96,12 +96,24 @@ $('.mascara').mouseout(function () {
 });
 $('.mascara').click(function (e) { 
     e.preventDefault();
+    alert('teste1')
     if(isVisible){
         TornarControlesInvisiveis()
     }else{
         TornarControlesVisiveis()
     }
+}).children().click(function(e) {
+    alert('teste2')
+    if(isVisible){
+        TornarControlesInvisiveis()
+    }else{
+        TornarControlesVisiveis()
+    }
+ }).children().click(function(e) {
+    alert('teste3')
+    return false
 });
+
 $('#inicio').mouseover(function () { 
     $('#inicio').css('border-bottom', 'solid 3px white');
 });
