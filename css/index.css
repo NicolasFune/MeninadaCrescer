@@ -50,7 +50,7 @@ body::-webkit-scrollbar{
     width: 100vw;
 }
 .menu{
-    background-image: url(../img/PATTERN\ VEIA\ ARVORE.png);
+    background-image: url(../img/PATTERN\ VEIA\ DA\ ARVORE\ OTIMIZADO.svg);
     background-color: #1a519a;
     width: 100vw;
     height: 10vh;
@@ -275,7 +275,7 @@ nav{
 
 
 footer{
-    background-image: url(../img/PATTERN\ VEIA\ ARVORE.png);
+    background-image: url(../img/PATTERN\ VEIA\ DA\ ARVORE\ OTIMIZADO.svg);
     background-color: #1a519a;
     height: 5vh;
     width: 100vw;
