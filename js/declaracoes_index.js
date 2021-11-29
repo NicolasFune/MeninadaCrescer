@@ -7,6 +7,7 @@ let prevSlide = document.getElementById('prevSlide--button')
 let nextSlide = document.getElementById('nextSlide--button')
 let dot_01 = document.getElementById('dot_01')
 let dot_02 = document.getElementById('dot_02')
+let dot_03 = document.getElementById('dot_03')
 let index = 0
 
 
