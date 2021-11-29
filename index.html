@@ -6,25 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="author" content="Forja Desenvolvimento de Software ltda">
+    <meta name="author" content="Agência Forja">
     <meta name="keywords" content="">
     <meta name="copyright" content="&copy; 2021 Forja">
-    <meta name="description" content="Site Institucional da Escola Meninada Crescer">
+    <meta name="description" content="">
     <meta name="robots" content="follow,index">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="shortcut icon" href="img/logo_sem_fundo_amarelo.png" type="image/x-icon">
     
-    <script src="https://kit.fontawesome.com/6cc179733b.js" crossorigin="anonymous"></script>
 
     <title>Meninada Crescer</title>
 </head>
 <body>
+
+    <div class="loader-container">
+        <i class="fas fa-cog fa-spin"></i>
+    </div>
     
         <div class="menu">
-            <img src="img/logo_oficial.png" alt="">
-            <button class="hamburger">
+            <img id='logo'src="img/logo_oficial.png" alt="Logo">
+            <button id='hamburger' class="hamburger">
                 <h1 class="button_menu_txt">Menu</h1>
                  <i class="bi bi-list"></i>
             </button>
@@ -144,8 +147,29 @@
           </footer>
 
 
+        <script src="https://kit.fontawesome.com/6cc179733b.js" crossorigin="anonymous"></script>
       <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="js/declaracoes_index.js"></script>
     <script src="js/funcoes_index.js"></script>
+    <script>
+        $(window).on('load',function () { 
+          $('.menu').slideUp(50)
+          $('#inicio').fadeOut(50)
+          $('#matricula').fadeOut(50)
+          $('.bi-whatsapp').fadeOut(50)
+          $('.bi-instagram').fadeOut(50)
+          $('.bi-facebook').fadeOut(50)
+          $('.bi-tiktok').fadeOut(50)
+          $('.loader-container').fadeOut('slow')
+          $('.menu').slideDown(1000)
+          $('#inicio').delay(2000).fadeIn()
+          $('#matricula').delay(1800).fadeIn()
+          $('.bi-whatsapp').delay(1600).fadeIn()
+          $('.bi-instagram').delay(1400).fadeIn()
+          $('.bi-facebook').delay(1200).fadeIn()
+          $('.bi-tiktok').delay(1000).fadeIn()
+          
+         })
+    </script>
 </body>
 </html>

@@ -10,6 +10,7 @@ body{
     scroll-behavior: smooth;
     overflow-x: hidden;
     overflow: hidden;
+    background-color: #1a519a;
 }
 *{
     margin:0%;
@@ -20,7 +21,21 @@ body{
     outline: none;
     border: none;
 }
+.loader-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1a519a;
+}
+.loader-container .fa-cog{
+    font-size: 25vh;
+    color: white;
+    text-shadow: 1vh 1vh 1.5vh #081e3a8a,
+                -1vh -1vh 1.5vh #081e3a83;
 
+}
 .sec_carrosel{
     width: 100vw;
     height: 85vh;
@@ -107,7 +122,7 @@ nav{
     flex-direction: column;
     position: fixed;
     background-color: rgba(0, 0, 0, 0.904);
-    z-index: 1;
+    z-index: 999;
     width: 100vw;
     height: 100vh;
     top: 10%;
@@ -332,6 +347,9 @@ footer{
     html{
          font-size: 85%;
     }
+    .footer_li{
+        width: 23%;
+    }
 }
 @media (min-width:1200px) and (max-width:1499px){
   	/*1350*/
@@ -342,7 +360,7 @@ footer{
         width: 10%;
     }
     .footer_li{
-        width: 19%;
+        width: 23%;
     }
 }
 @media (min-width:900px) and (max-width:1199px){
@@ -481,6 +499,9 @@ footer{
     .hamburger:hover{
         color: #fcda1b
 
+    }
+    .ul_social{
+        margin-right: 0;
     }
    
 }
