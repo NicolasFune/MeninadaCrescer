@@ -62,7 +62,7 @@ dot_02.addEventListener('click',function SelecionarSlide02() {
     })
     index=0
 })
-
+let isVisible
 let TornarControlesVisiveis = function(){
     for(let i=0;i<carrosel_controls.length;i++){
         carrosel_controls[i].style.opacity = "1"
@@ -74,6 +74,7 @@ let TornarControlesVisiveis = function(){
     })
     index=0
     $('.mascara').css('background-color', 'rgba(0,0,0,0.7)');
+    isVisible = true
 }
 let TornarControlesInvisiveis = function(){
     for(let i=0;i<carrosel_controls.length;i++){
@@ -85,25 +86,22 @@ let TornarControlesInvisiveis = function(){
     })
     index=0
     $('.mascara').css('background-color', 'rgba(0,0,0,0.0)');
+    isVisible = false
 }
-let _switch = true
-if(window.innerWidth < 1080){
-    $('.mouse__interaction__area').click(function (e) { 
-        e.preventDefault();
+$('.mascara').mouseover(function () { 
+    TornarControlesVisiveis()
+});
+$('.mascara').mouseout(function () { 
+    TornarControlesInvisiveis()
+});
+$('.mascara').click(function (e) { 
+    e.preventDefault();
+    if(isVisible){
+        TornarControlesInvisiveis()
+    }else{
         TornarControlesVisiveis()
-        
-    });
-}else{
-    Array.from(mouse__interaction__areas).forEach(function name(item) {
-        item.addEventListener('mouseover', TornarControlesVisiveis)
-        
-    })
-    Array.from(mouse__interaction__areas).forEach(function name(item) {
-        item.addEventListener('mouseout', TornarControlesInvisiveis)
-        
-    })
-}
-
+    }
+});
 $('#inicio').mouseover(function () { 
     $('#inicio').css('border-bottom', 'solid 3px white');
 });
