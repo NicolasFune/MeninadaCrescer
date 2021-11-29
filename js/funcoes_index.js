@@ -114,12 +114,15 @@ let TornarControlesInvisiveis = function(){
     $('.mascara').css('background-color', 'rgba(0,0,0,0.0)');
     isVisible = false
 }
-$('.mascara').mouseover(function () { 
-    TornarControlesVisiveis()
-});
-$('.mascara').mouseout(function () { 
-    TornarControlesInvisiveis()
-});
+
+if(window.innerWidth > 1080){
+    $('.mascara').mouseover(function () { 
+        TornarControlesVisiveis()
+    });
+    $('.mascara').mouseout(function () { 
+        TornarControlesInvisiveis()
+    });
+}
 
 $('.mouse__interaction__area').click(function (e) { 
     e.preventDefault();
