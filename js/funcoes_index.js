@@ -19,6 +19,7 @@ prevSlide.addEventListener('click',function VoltarSlide(){
             dot_02.style.backgroundColor = 'rgb(255, 255, 255)'
             break;
     }
+    
 })
 nextSlide.addEventListener('click',function AvançarSlide(){
     leftPositionSlide = leftPositionSlide - 100
@@ -110,13 +111,13 @@ $('.hamburger').click(function (e) {
 });
 
 window.addEventListener('resize',function (param) {
-    if(window.innerWidth < 1024){
+    if(window.innerWidth < 1080){
         $('#img_01').attr('src', 'img/Stories SONHOS.png');
         $('#img_02').attr('src', 'img/Stories PLANETA.png');
     }
 })
 
-if(window.innerWidth < 1024){
+if(window.innerWidth < 1080){
     $('#img_01').attr('src', 'img/Stories SONHOS.png');
     $('#img_02').attr('src', 'img/Stories PLANETA.png');
 }

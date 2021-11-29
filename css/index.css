@@ -201,6 +201,7 @@ nav{
 .img__carrosel{
     width: 100vw;
     height: 100%;
+    object-fit: contain;
 }
 .container__dots{
     opacity: 0;
@@ -256,6 +257,9 @@ nav{
     transform: scale(1.2);
     cursor: pointer;
 }
+
+
+
 footer{
     background-image: url(../img/PATTERN\ VEIA\ ARVORE.png);
     background-color: #1a519a;
