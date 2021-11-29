@@ -9,7 +9,6 @@ html{
 body{
     scroll-behavior: smooth;
     overflow-x: hidden;
-    overflow: hidden;
     background-color: #1a519a;
 }
 *{
@@ -38,7 +37,6 @@ body{
 }
 .sec_carrosel{
     width: 100vw;
-    height: 85vh;
 }
 .menu{
     background-image: url(../img/PATTERN\ VEIA\ ARVORE.png);
@@ -166,7 +164,7 @@ nav{
 .container__img{
     position: absolute;
     width: 100%;
-    height: 85%;
+    
     overflow:hidden;
 }
 .mascara{
@@ -200,7 +198,6 @@ nav{
 }
 .img__carrosel{
     width: 100vw;
-    height: 100%;
     object-fit: contain;
 }
 .container__dots{
