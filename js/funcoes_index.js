@@ -96,6 +96,7 @@ Array.from(mouse__interaction__areas).forEach(function name(item) {
 $('.mouse__interaction__area').click(function (e) { 
     e.preventDefault();
     TornarControlesInvisiveis();
+    alert('click')
 });
 $('#inicio').mouseover(function () { 
     $('#inicio').css('border-bottom', 'solid 3px white');
