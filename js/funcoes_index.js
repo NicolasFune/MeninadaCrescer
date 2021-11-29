@@ -41,6 +41,7 @@ nextSlide.addEventListener('click',function AvançarSlide(){
             dot_02.style.backgroundColor = 'rgb(255, 255, 255)'
             break;
     }
+    TornarControlesInvisiveis
 })
 
 dot_01.addEventListener('click',function SelecionarSlide01() {
@@ -92,7 +93,10 @@ Array.from(mouse__interaction__areas).forEach(function name(item) {
     item.addEventListener('mouseout', TornarControlesInvisiveis)
     
 })
-
+$('.mouse__interaction__area').click(function (e) { 
+    e.preventDefault();
+    TornarControlesInvisiveis();
+});
 $('#inicio').mouseover(function () { 
     $('#inicio').css('border-bottom', 'solid 3px white');
 });
