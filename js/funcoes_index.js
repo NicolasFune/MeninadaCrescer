@@ -90,17 +90,8 @@ let _switch = true
 if(window.innerWidth < 1080){
     $('.mouse__interaction__area').click(function (e) { 
         e.preventDefault();
+        TornarControlesVisiveis()
         
-        let ToggleVisibilidade = function() {
-        
-            if(_switch){
-            TornarControlesVisiveis()
-            _switch = false
-            }else{
-            TornarControlesInvisiveis()
-            _switch = true
-            }
-    }
     });
 }else{
     Array.from(mouse__interaction__areas).forEach(function name(item) {
