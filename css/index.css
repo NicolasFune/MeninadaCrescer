@@ -221,6 +221,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 15%;
     z-index: 3;
     position: relative;
     transition: .6s;
@@ -230,6 +231,7 @@ nav{
     height: 33.33%;
 }
 .dot{
+    box-shadow: 1px 1px 3px black;
     background-color: white;
     width: .5vw;
     height: .5vw;
@@ -262,6 +264,7 @@ nav{
     font-size: 3.6rem;
     color: rgb(255, 255, 255);
     margin: 0vw 2vw;
+    text-shadow: 1px 1px 3px black;
 }
 .__button:hover{
     transition: .2s;

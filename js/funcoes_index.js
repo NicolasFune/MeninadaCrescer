@@ -99,7 +99,7 @@ let TornarControlesVisiveis = function(){
         index = index + 1
     })
     index=0
-    $('.mascara').css('background-color', 'rgba(0,0,0,0.7)');
+    $('.mascara').css('background-color', 'rgba(0,0,0,0.0)');
     isVisible = true
 }
 let TornarControlesInvisiveis = function(){
