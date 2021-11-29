@@ -426,6 +426,9 @@ footer{
     .menu > img{
         width: 26%;
     }
+    .hamburger{
+        font-size: 1.1rem;
+    }
     .dot{
         width: 2vw;
         height: 2vw;

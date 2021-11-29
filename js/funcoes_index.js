@@ -111,14 +111,15 @@ $('.hamburger').click(function (e) {
 });
 
 
-let img_carrosel_height = $('.img__carrosel').css('height');
+
 window.addEventListener('resize',function (param) {
     if(window.innerWidth < 1080){
         $('#img_01').attr('src', 'img/Stories SONHOS.png');
         $('#img_02').attr('src', 'img/Stories PLANETA.png');
     }
-    img_carrosel_height = $('.img__carrosel').css('height');
     $('.sec_carrosel').css('height',document.querySelector('.img__carrosel').clientHeight);
+    $('.carrosel').css('height',document.querySelector('.img__carrosel').clientHeight);
+    $('.mascara').css('height',document.querySelector('.img__carrosel').clientHeight);
 })
 
 if(window.innerWidth < 1080){
@@ -127,4 +128,6 @@ if(window.innerWidth < 1080){
 }
 img_carrosel_height = $('.img__carrosel').css('height');
     $('.sec_carrosel').css('height',document.querySelector('.img__carrosel').clientHeight);
+    $('.carrosel').css('height',document.querySelector('.img__carrosel').clientHeight);
+    $('.mascara').css('height',document.querySelector('.img__carrosel').clientHeight);
     
