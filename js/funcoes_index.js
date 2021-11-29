@@ -156,9 +156,9 @@ $('.hamburger').click(function (e) {
 
 window.addEventListener('resize',function (param) {
     if(window.innerWidth < 1080){
-        $('#img_01').attr('src', 'img/Stories SONHOS.png');
-        $('#img_02').attr('src', 'img/Stories PLANETA.png');
-        $('#img_03').attr('src', 'img/Stories PAC.png');
+        $('#img_01').attr('src', 'img/Stories SONHOS.jpg');
+        $('#img_02').attr('src', 'img/Stories PLANETA.jpg');
+        $('#img_03').attr('src', 'img/Stories PAC.jpg');
     }
     $('.sec_carrosel').css('height',document.querySelector('.img__carrosel').clientHeight);
     $('.carrosel').css('height',document.querySelector('.img__carrosel').clientHeight);
@@ -166,9 +166,9 @@ window.addEventListener('resize',function (param) {
 })
 
 if(window.innerWidth < 1080){
-    $('#img_01').attr('src', 'img/Stories SONHOS.png');
-    $('#img_02').attr('src', 'img/Stories PLANETA.png');
-    $('#img_03').attr('src', 'img/Stories PAC.png');
+    $('#img_01').attr('src', 'img/Stories SONHOS.jpg');
+    $('#img_02').attr('src', 'img/Stories PLANETA.jpg');
+    $('#img_03').attr('src', 'img/Stories PAC.jpg');
 }
 img_carrosel_height = $('.img__carrosel').css('height');
     $('.sec_carrosel').css('height',document.querySelector('.img__carrosel').clientHeight);
