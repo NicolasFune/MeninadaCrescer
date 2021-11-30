@@ -158,6 +158,14 @@ nav{
     border-radius: 5%;
     opacity: 1;
 }
+.mobile_ul_social{
+    margin-bottom: 25%;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.mobile_li_social{
+    margin-top: 5%;
+}
 .mobile_body{
     overflow: hidden;
 }
@@ -527,6 +535,18 @@ footer{
     .hamburger:hover{
         color: #fcda1b
 
+    }
+    .bi-list{
+        font-size: 2.4rem;
+    }
+    .menu_li{
+        font-size: 3rem;
+    }
+    .mobile_ul_social{
+        width:  13rem;
+    }
+    .social--icon{
+        font-size: 4rem;
     }
     .ul_social{
         margin-right: 0;
