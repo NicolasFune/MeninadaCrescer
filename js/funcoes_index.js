@@ -2,7 +2,7 @@ prevSlide.addEventListener('click',function VoltarSlide(){
     
     leftPositionSlide = leftPositionSlide + 100
     if(leftPositionSlide > 0){
-        leftPositionSlide = -200
+        leftPositionSlide = -400
     }
     Array.from(slides).forEach(function name(params) {
         slides.item(index).style.left = leftPositionSlide + 'vw'
@@ -14,23 +14,43 @@ prevSlide.addEventListener('click',function VoltarSlide(){
             dot_01.style.backgroundColor = 'rgb(255, 255, 255)'
             dot_02.style.backgroundColor = 'rgb(80, 80, 80)'
             dot_03.style.backgroundColor = 'rgb(255, 255, 255)'
+            dot_04.style.backgroundColor = 'rgb(255, 255, 255)'
+            dot_05.style.backgroundColor = 'rgb(255, 255, 255)'
             break;
         case -200:
             dot_01.style.backgroundColor = 'rgb(255, 255, 255)'
             dot_02.style.backgroundColor = 'rgb(255, 255, 255)'
             dot_03.style.backgroundColor = 'rgb(80, 80, 80)'
+            dot_04.style.backgroundColor = 'rgb(255, 255, 255)'
+            dot_05.style.backgroundColor = 'rgb(255, 255, 255)'
             break;
-        default:
-            dot_01.style.backgroundColor = 'rgb(80, 80, 80)'
+        case -300:
+            dot_01.style.backgroundColor = 'rgb(255,255,255)'
             dot_02.style.backgroundColor = 'rgb(255, 255, 255)'
             dot_03.style.backgroundColor = 'rgb(255, 255, 255)'
+            dot_04.style.backgroundColor = 'rgb(80, 80, 80)'
+            dot_05.style.backgroundColor = 'rgb(255, 255, 255)'
             break;
+        case -400:
+            dot_01.style.backgroundColor = 'rgb(255,255,255)'
+            dot_02.style.backgroundColor = 'rgb(255, 255, 255)'
+            dot_03.style.backgroundColor = 'rgb(255, 255, 255)'
+            dot_04.style.backgroundColor = 'rgb(255, 255, 255)'
+            dot_05.style.backgroundColor = 'rgb(80, 80, 80)'
+            break;
+        default:
+            dot_01.style.backgroundColor = 'rgb(80,80,80)'
+            dot_02.style.backgroundColor = 'rgb(255, 255, 255)'
+            dot_03.style.backgroundColor = 'rgb(255, 255, 255)'
+            dot_04.style.backgroundColor = 'rgb(255, 255, 255)'
+            dot_05.style.backgroundColor = 'rgb(255,255,255)'
+            break
     }
     
 })
 nextSlide.addEventListener('click',function AvançarSlide(){
     leftPositionSlide = leftPositionSlide - 100
-    if(leftPositionSlide < -200){
+    if(leftPositionSlide < -400){
         leftPositionSlide = 0
     }
     Array.from(slides).forEach(function name(params) {
@@ -43,17 +63,37 @@ nextSlide.addEventListener('click',function AvançarSlide(){
             dot_01.style.backgroundColor = 'rgb(255, 255, 255)'
             dot_02.style.backgroundColor = 'rgb(80, 80, 80)'
             dot_03.style.backgroundColor = 'rgb(255, 255, 255)'
+            dot_04.style.backgroundColor = 'rgb(255, 255, 255)'
+            dot_05.style.backgroundColor = 'rgb(255, 255, 255)'
             break;
         case -200:
             dot_01.style.backgroundColor = 'rgb(255, 255, 255)'
             dot_02.style.backgroundColor = 'rgb(255, 255, 255)'
             dot_03.style.backgroundColor = 'rgb(80, 80, 80)'
+            dot_04.style.backgroundColor = 'rgb(255, 255, 255)'
+            dot_05.style.backgroundColor = 'rgb(255, 255, 255)'
             break;
-        default:
-            dot_01.style.backgroundColor = 'rgb(80, 80, 80)'
+        case -300:
+            dot_01.style.backgroundColor = 'rgb(255,255,255)'
             dot_02.style.backgroundColor = 'rgb(255, 255, 255)'
             dot_03.style.backgroundColor = 'rgb(255, 255, 255)'
+            dot_04.style.backgroundColor = 'rgb(80, 80, 80)'
+            dot_05.style.backgroundColor = 'rgb(255, 255, 255)'
             break;
+        case -400:
+            dot_01.style.backgroundColor = 'rgb(255,255,255)'
+            dot_02.style.backgroundColor = 'rgb(255, 255, 255)'
+            dot_03.style.backgroundColor = 'rgb(255, 255, 255)'
+            dot_04.style.backgroundColor = 'rgb(255, 255, 255)'
+            dot_05.style.backgroundColor = 'rgb(80, 80, 80)'
+            break;
+        default:
+            dot_01.style.backgroundColor = 'rgb(80,80,80)'
+            dot_02.style.backgroundColor = 'rgb(255, 255, 255)'
+            dot_03.style.backgroundColor = 'rgb(255, 255, 255)'
+            dot_04.style.backgroundColor = 'rgb(255, 255, 255)'
+            dot_05.style.backgroundColor = 'rgb(255,255,255)'
+            break
     }
     
 })
@@ -62,6 +102,8 @@ dot_01.addEventListener('click',function SelecionarSlide01() {
     dot_01.style.backgroundColor = 'rgb(80, 80, 80)'
     dot_02.style.backgroundColor = 'rgb(255, 255, 255)'
     dot_03.style.backgroundColor = 'rgb(255, 255, 255)'
+    dot_04.style.backgroundColor = 'rgb(255, 255, 255)'
+    dot_05.style.backgroundColor = 'rgb(255, 255, 255)'
     Array.from(slides).forEach(function name(params) {
         slides.item(index).style.left= '0vw'
         index = index + 1
@@ -72,18 +114,46 @@ dot_02.addEventListener('click',function SelecionarSlide02() {
     dot_01.style.backgroundColor = 'rgb(255, 255, 255)'
     dot_02.style.backgroundColor = 'rgb(80, 80, 80)'
     dot_03.style.backgroundColor = 'rgb(255, 255, 255)'
+    dot_04.style.backgroundColor = 'rgb(255, 255, 255)'
+    dot_05.style.backgroundColor = 'rgb(255, 255, 255)'
     Array.from(slides).forEach(function name(params) {
         slides.item(index).style.left= '-100vw'
         index = index + 1
     })
     index=0
 })
-dot_03.addEventListener('click',function SelecionarSlide02() {
+dot_03.addEventListener('click',function SelecionarSlide03() {
     dot_01.style.backgroundColor = 'rgb(255, 255, 255)'
     dot_02.style.backgroundColor = 'rgb(255, 255, 255)'
     dot_03.style.backgroundColor = 'rgb(80, 80, 80)'
+    dot_04.style.backgroundColor = 'rgb(255, 255, 255)'
+    dot_05.style.backgroundColor = 'rgb(255, 255, 255)'
     Array.from(slides).forEach(function name(params) {
         slides.item(index).style.left= '-200vw'
+        index = index + 1
+    })
+    index=0
+})
+dot_04.addEventListener('click',function SelecionarSlide04() {
+    dot_01.style.backgroundColor = 'rgb(255, 255, 255)'
+    dot_02.style.backgroundColor = 'rgb(255, 255, 255)'
+    dot_03.style.backgroundColor = 'rgb(255, 255, 255)'
+    dot_04.style.backgroundColor = 'rgb(80, 80, 80)'
+    dot_05.style.backgroundColor = 'rgb(255, 255, 255)'
+    Array.from(slides).forEach(function name(params) {
+        slides.item(index).style.left= '-300vw'
+        index = index + 1
+    })
+    index=0
+})
+dot_05.addEventListener('click',function SelecionarSlide05() {
+    dot_01.style.backgroundColor = 'rgb(255, 255, 255)'
+    dot_02.style.backgroundColor = 'rgb(255, 255, 255)'
+    dot_03.style.backgroundColor = 'rgb(255, 255, 255)'
+    dot_04.style.backgroundColor = 'rgb(255, 255, 255)'
+    dot_05.style.backgroundColor = 'rgb(80, 80, 80)'
+    Array.from(slides).forEach(function name(params) {
+        slides.item(index).style.left= '-400vw'
         index = index + 1
     })
     index=0
@@ -95,7 +165,7 @@ let TornarControlesVisiveis = function(){
     }
     Array.from(slides).forEach(function name(params) {
         slides.item(index).style.animation = 'none'
-        slides.item(index).left = '0vw'
+        //slides.item(index).left = '0vw'
         index = index + 1
     })
     index=0
@@ -107,7 +177,7 @@ let TornarControlesInvisiveis = function(){
         carrosel_controls[i].style.opacity = "0"
     }
     Array.from(slides).forEach(function name(params) {
-        slides.item(index).style.animation = 'slide_img 7s infinite ease-in'
+        slides.item(index).style.animation = 'slide_img 15s infinite ease-in'
         index = index + 1
     })
     index=0
@@ -158,7 +228,9 @@ window.addEventListener('resize',function (param) {
     if(window.innerWidth < 1080){
         $('#img_01').attr('src', 'img/Stories SONHOS.jpg');
         $('#img_02').attr('src', 'img/Stories PLANETA.jpg');
-        $('#img_03').attr('src', 'img/Stories PAC.jpg');
+        $('#img_03').attr('src', 'img/Stories FUTURO.svg');
+        $('#img_04').attr('src', 'img/Stories VALORES.svg');
+        $('#img_05').attr('src', 'img/Stories PAC.jpg');
     }
     $('.sec_carrosel').css('height',document.querySelector('.img__carrosel').clientHeight);
     $('.carrosel').css('height',document.querySelector('.img__carrosel').clientHeight);
@@ -168,7 +240,9 @@ window.addEventListener('resize',function (param) {
 if(window.innerWidth < 1080){
     $('#img_01').attr('src', 'img/Stories SONHOS.jpg');
     $('#img_02').attr('src', 'img/Stories PLANETA.jpg');
-    $('#img_03').attr('src', 'img/Stories PAC.jpg');
+    $('#img_03').attr('src', 'img/Stories FUTURO.svg');
+    $('#img_04').attr('src', 'img/Stories VALORES.svg');
+    $('#img_05').attr('src', 'img/Stories PAC.jpg');
 }
 img_carrosel_height = $('.img__carrosel').css('height');
     $('.sec_carrosel').css('height',document.querySelector('.img__carrosel').clientHeight);
