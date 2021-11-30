@@ -8,9 +8,9 @@ html{
 }
 body{
     scroll-behavior: smooth;
-    overflow-x: hidden;
     overflow: hidden;
     background-color: #1a519a;
+    position: relative;
 }
 *{
     margin:0%;
@@ -111,17 +111,17 @@ nav{
     padding: 8px;
     
 }
+.li_social:hover{
+    transition: .2s;
+    transform: scale(1.2);
+}
 .social--icon{
     font-size: 2rem;
     color: white;
 }
 .social--icon:hover{
     color: #dec223;
-}
-.ul_social > a:hover{
     transition: .2s;
-    transform: scale(1.1);
-    
 }
 .hamburger{
     display:none
@@ -134,7 +134,7 @@ nav{
     z-index: 999;
     width: 100vw;
     height: 100vh;
-    top: 10%;
+    top: 9.9%;
     justify-content: space-around;
     visibility: visible;
 }
@@ -158,7 +158,9 @@ nav{
     border-radius: 5%;
     opacity: 1;
 }
-
+.mobile_body{
+    overflow: hidden;
+}
 
 
 

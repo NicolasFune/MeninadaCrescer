@@ -182,7 +182,6 @@ let TornarControlesVisiveis = function(){
     isVisible = true
 }
 let TornarControlesInvisiveis = function(){
-
     for(let i=0;i<carrosel_controls.length;i++){
         carrosel_controls[i].style.opacity = "0"
     }
@@ -239,6 +238,12 @@ $('.hamburger').click(function (e) {
     $('.ul_social').toggleClass('mobile_ul_social');
     $('.li_social').toggleClass('mobile_li_social');
     $('.bi-list').toggleClass('bi-x-lg');
+    if($('.bi-list').hasClass('bi-x-lg')){
+        $('body').css('overflow', 'hidden');
+    }else{
+        $('body').css('overflow', 'visible');
+    }
+    
 });
 
 
