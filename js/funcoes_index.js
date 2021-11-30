@@ -1,5 +1,4 @@
 prevSlide.addEventListener('click',function VoltarSlide(){
-    
     leftPositionSlide = leftPositionSlide + 100
     if(leftPositionSlide > 0){
         leftPositionSlide = -400
@@ -99,6 +98,7 @@ nextSlide.addEventListener('click',function AvançarSlide(){
 })
 
 dot_01.addEventListener('click',function SelecionarSlide01() {
+    
     dot_01.style.backgroundColor = 'rgb(80, 80, 80)'
     dot_02.style.backgroundColor = 'rgb(255, 255, 255)'
     dot_03.style.backgroundColor = 'rgb(255, 255, 255)'
@@ -111,6 +111,7 @@ dot_01.addEventListener('click',function SelecionarSlide01() {
     index=0
 })
 dot_02.addEventListener('click',function SelecionarSlide02() {
+    
     dot_01.style.backgroundColor = 'rgb(255, 255, 255)'
     dot_02.style.backgroundColor = 'rgb(80, 80, 80)'
     dot_03.style.backgroundColor = 'rgb(255, 255, 255)'
@@ -123,6 +124,7 @@ dot_02.addEventListener('click',function SelecionarSlide02() {
     index=0
 })
 dot_03.addEventListener('click',function SelecionarSlide03() {
+    
     dot_01.style.backgroundColor = 'rgb(255, 255, 255)'
     dot_02.style.backgroundColor = 'rgb(255, 255, 255)'
     dot_03.style.backgroundColor = 'rgb(80, 80, 80)'
@@ -135,6 +137,7 @@ dot_03.addEventListener('click',function SelecionarSlide03() {
     index=0
 })
 dot_04.addEventListener('click',function SelecionarSlide04() {
+    
     dot_01.style.backgroundColor = 'rgb(255, 255, 255)'
     dot_02.style.backgroundColor = 'rgb(255, 255, 255)'
     dot_03.style.backgroundColor = 'rgb(255, 255, 255)'
@@ -147,6 +150,7 @@ dot_04.addEventListener('click',function SelecionarSlide04() {
     index=0
 })
 dot_05.addEventListener('click',function SelecionarSlide05() {
+    
     dot_01.style.backgroundColor = 'rgb(255, 255, 255)'
     dot_02.style.backgroundColor = 'rgb(255, 255, 255)'
     dot_03.style.backgroundColor = 'rgb(255, 255, 255)'
@@ -163,27 +167,42 @@ let TornarControlesVisiveis = function(){
     for(let i=0;i<carrosel_controls.length;i++){
         carrosel_controls[i].style.opacity = "1"
     }
+
     Array.from(slides).forEach(function name(params) {
         slides.item(index).style.animation = 'none'
-        //slides.item(index).left = '0vw'
+        slides.item(index).left = '0vw'
+        // slides.item(index).style.animationPlayState = 'paused'
+
         index = index + 1
     })
     index=0
+
+
     $('.mascara').css('background-color', 'rgba(0,0,0,0.0)');
     isVisible = true
 }
 let TornarControlesInvisiveis = function(){
+
     for(let i=0;i<carrosel_controls.length;i++){
         carrosel_controls[i].style.opacity = "0"
     }
+
+
     Array.from(slides).forEach(function name(params) {
-        slides.item(index).style.animation = 'slide_img 15s infinite ease-in'
+        slides.item(index).style.animation = 'slide_img 25s infinite ease-in'
+        // slides.item(index).style.animationPlayState = 'running'
+
         index = index + 1
     })
     index=0
+
+
     $('.mascara').css('background-color', 'rgba(0,0,0,0.0)');
     isVisible = false
 }
+
+
+
 
 if(window.innerWidth > 1080){
     $('.mascara').mouseover(function () { 

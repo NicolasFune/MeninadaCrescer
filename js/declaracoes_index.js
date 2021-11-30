@@ -4,6 +4,7 @@ let leftPositionSlide = 0
 let carrosel_controls = document.getElementsByClassName('carrosel_control')
 let carrosel = document.getElementsByClassName('carrosel')
 let slides = document.getElementsByClassName('container__img--li')
+let slides_constrols = document.getElementsByClassName('RunAnimation')
 
 let prevSlide = document.getElementById('prevSlide--button')
 let nextSlide = document.getElementById('nextSlide--button')
