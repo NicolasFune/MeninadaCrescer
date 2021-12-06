@@ -32,12 +32,14 @@ body::-webkit-scrollbar{
     border-radius: 50px;
 }
 .loader-container{
+    position: fixed;
     width: 100vw;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #1a519a;
+    z-index: 21;
 }
 .loader-container .fa-circle-notch{
     font-size: 25vh;
