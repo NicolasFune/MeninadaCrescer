@@ -48,8 +48,8 @@
 .container-modal-call-interno{
     background-color: #1a519a;
     margin-top: 65%;
-    margin-left: 13%;
-    width: 75%;
+    margin-left: 18%;
+    width: 65%;
     height: 35px;
     border-radius: 50px;
     display: flex;
@@ -71,7 +71,7 @@
 }
 .call-saiba-mais{
     width: 75%;
-    height: 85%;
+    height: 80%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -100,6 +100,9 @@
     .fechar-modal{
         font-size: 3rem;
     }
+    .container-modal-call-interno{
+        height: 55px;
+    }
     .call-whatapp{
         font-size: 1.4rem;
     }
@@ -118,6 +121,9 @@
     }
     .fechar-modal{
         font-size: 3rem;
+    }
+    .container-modal-call-interno{
+        height: 55px;
     }
     .call-whatapp{
         font-size: 1.6rem;
@@ -138,6 +144,9 @@
     .fechar-modal{
         font-size: 3rem;
     }
+    .container-modal-call-interno{
+        height: 55px;
+    }
     .call-whatapp{
         font-size: 1.6rem;
     }
@@ -156,6 +165,9 @@
     }
     .fechar-modal{
         font-size: 3rem;
+    }
+    .container-modal-call-interno{
+        height: 45px;
     }
     .call-whatapp{
         font-size: 2rem;
@@ -176,6 +188,10 @@
     .fechar-modal{
         font-size: 3rem;
     }
+    .container-modal-call-interno{
+
+        height: 50px;
+    }
     .call-whatapp{
         font-size: 2rem;
     }
@@ -195,8 +211,11 @@
     .fechar-modal{
         font-size: 3rem;
     }
+    .container-modal-call-interno{
+        height: 45px;
+    }
     .call-whatapp{
-        font-size: 2rem;
+        font-size: 1.9rem;
     }
     .call-saiba-mais{
         font-size: .7rem;
@@ -210,6 +229,10 @@
     .modal{
         min-width: 380px;
         min-height: 400px;
+    }
+    .container-modal-call-interno{
+        
+        height: 45px;
     }
     .call-whatapp{
         font-size: 2rem;
@@ -226,6 +249,9 @@
     .modal{
         min-width: 350px;
         min-height: 370px;
+    }
+    .call-whatapp{
+        font-size: 2.1rem;
     }
     
 }
