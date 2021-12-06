@@ -28,7 +28,7 @@ body::-webkit-scrollbar{
     background-color: transparent;
 }
 ::-webkit-scrollbar-thumb{
-    background-color: #dec223;
+    background-color: #fae32c;
     border-radius: 50px;
 }
 .loader-container{
@@ -39,11 +39,10 @@ body::-webkit-scrollbar{
     justify-content: center;
     background-color: #1a519a;
 }
-.loader-container .fa-cog{
+.loader-container .fa-circle-notch{
     font-size: 25vh;
     color: white;
-    text-shadow: 1vh 1vh 1.5vh #081e3a8a,
-                -1vh -1vh 1.5vh #081e3a83;
+    text-shadow: 0px 0px 1vh rgba(0, 0, 0, 0.432)
 
 }
 .sec_carrosel{
@@ -86,13 +85,13 @@ body::-webkit-scrollbar{
     letter-spacing: .1rem;
 }
 .menu_li[isEnable="Yes"]{
-    border-bottom: solid 3px #dec223;
+    border-bottom: solid 3px #fae32c;
     border-radius: 5%;
     opacity: 1;
 }
 .menu_li:hover{
     opacity: 1;
-    color: #fcda1b;
+    color: #fae32c;
 }
 nav{
     width: 70%;
@@ -120,7 +119,7 @@ nav{
     color: white;
 }
 .social--icon:hover{
-    color: #dec223;
+    color: #fae32c;
     transition: .2s;
 }
 .hamburger{
@@ -154,7 +153,7 @@ nav{
     width: 20vw;
 }
 .mobile_menu_li[isEnable="Yes"]{
-    border-bottom: solid 3px #dec223;
+    border-bottom: solid 3px #fae32c;
     border-radius: 5%;
     opacity: 1;
 }

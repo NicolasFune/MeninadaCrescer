@@ -250,11 +250,11 @@ $('.hamburger').click(function (e) {
 
 window.addEventListener('resize',function (param) {
     if(window.innerWidth < 1080){
-        $('#img_01').attr('src', 'img/Stories SONHOS.jpg');
-        $('#img_02').attr('src', 'img/Stories PLANETA.jpg');
-        $('#img_03').attr('src', 'img/Stories FUTURO.jpg');
-        $('#img_04').attr('src', 'img/Stories VALORES.jpg');
-        $('#img_05').attr('src', 'img/Stories PAC.jpg');
+        $('#img_01').attr('src', 'img/Stories SONHOS.webp');
+        $('#img_02').attr('src', 'img/Stories PLANETA.webp');
+        $('#img_03').attr('src', 'img/Stories FUTURO.webp');
+        $('#img_04').attr('src', 'img/Stories VALORES.webp');
+        $('#img_05').attr('src', 'img/Stories PAC.webp');
     }
     $('.sec_carrosel').css('height',document.querySelector('.img__carrosel').clientHeight);
     $('.carrosel').css('height',document.querySelector('.img__carrosel').clientHeight);
@@ -262,11 +262,11 @@ window.addEventListener('resize',function (param) {
 })
 
 if(window.innerWidth < 1080){
-    $('#img_01').attr('src', 'img/Stories SONHOS.jpg');
-        $('#img_02').attr('src', 'img/Stories PLANETA.jpg');
-        $('#img_03').attr('src', 'img/Stories FUTURO.jpg');
-        $('#img_04').attr('src', 'img/Stories VALORES.jpg');
-        $('#img_05').attr('src', 'img/Stories PAC.jpg');
+    $('#img_01').attr('src', 'img/Stories SONHOS.webp');
+        $('#img_02').attr('src', 'img/Stories PLANETA.webp');
+        $('#img_03').attr('src', 'img/Stories FUTURO.webp');
+        $('#img_04').attr('src', 'img/Stories VALORES.webp');
+        $('#img_05').attr('src', 'img/Stories PAC.webp');
 }
 img_carrosel_height = $('.img__carrosel').css('height');
     $('.sec_carrosel').css('height',document.querySelector('.img__carrosel').clientHeight);
