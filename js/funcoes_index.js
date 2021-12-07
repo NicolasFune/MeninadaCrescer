@@ -268,7 +268,6 @@ if(window.innerWidth < 1080){
         $('#img_04').attr('src', 'img/Stories VALORES.webp');
         $('#img_05').attr('src', 'img/Stories PAC.webp');
 }
-img_carrosel_height = $('.img__carrosel').css('height');
     $('.sec_carrosel').css('height',document.querySelector('.img__carrosel').clientHeight);
     $('.carrosel').css('height',document.querySelector('.img__carrosel').clientHeight);
     $('.mascara').css('height',document.querySelector('.img__carrosel').clientHeight);
