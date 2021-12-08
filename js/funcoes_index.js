@@ -1,3 +1,4 @@
+
 prevSlide.addEventListener('click',function VoltarSlide(){
     leftPositionSlide = leftPositionSlide + 100
     if(leftPositionSlide > 0){

@@ -3,13 +3,16 @@
     font-family: 'nexa';
     src: url(../fonts/nexa/NEXA\ LIGHT.OTF);
 }
+@font-face {
+    font-family: 'menu';
+    src: url(../fonts/Montserrat-SemiBold.ttf);
+}
 html{
     font-size: 62.5%;
 }
 body{
     scroll-behavior: smooth;
     overflow: hidden;
-    background-color: #1a519a;
     position: relative;
 }
 *{
@@ -47,23 +50,31 @@ body::-webkit-scrollbar{
     text-shadow: 0px 0px 1vh rgba(0, 0, 0, 0.432)
 
 }
-.sec_carrosel{
-    width: 100vw;
-}
+
 .menu{
-    background-image: url(../img/PATTERN\ VEIA\ DA\ ARVORE\ OTIMIZADO.svg);
-    background-color: #1a519a;
+    position: absolute;
+    z-index: 3;
+    background-color: rgb(5, 87, 169,.39);
     width: 100vw;
     height: 10vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 2px 2px 5px rgba(3, 44, 85, 0.8);
+    font-family: 'menu';
 }
 .menu > img{
     margin-left: 6%;
     width: 8%;
 }
+nav{
+    width: 85%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
 .menu .ul_pags{
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -75,31 +86,42 @@ body::-webkit-scrollbar{
     margin: 0px 2vw;
     align-items: center;
     justify-content: center;
-    font-family: 'nexa' ;
-    font-weight: 700;
     color: white;
     font-size: 1.5rem;
     text-align: center;
-    width: 60%;
+    width: 20%;
     line-height: 8%;
     height: 10vh; 
-    opacity: .7;
     letter-spacing: .1rem;
+    cursor: pointer;
+    text-shadow: 0 3px 3px rgba(3, 44, 85, .6);
+    padding: 0 8px;
+    
+    
 }
 .menu_li[isEnable="Yes"]{
     border-bottom: solid 3px #fae32c;
     border-radius: 5%;
-    opacity: 1;
+
 }
 .menu_li:hover{
-    opacity: 1;
     color: #fae32c;
 }
-nav{
-    width: 70%;
-    display: flex;
-    justify-content: right;
-    align-items: center;
+.matricula_li{
+    padding: 0;
+    width: 30%;
+    
+}
+.matricula_button{
+    width: 100%;
+    height: 40%;
+    font-family: 'menu';
+    font-size: 1.5rem;
+    text-align: center;
+    color: #0556a9;
+    background-color: #fce42e;
+    border-radius: 4px;
+    cursor: pointer;
 }
 .ul_social{
     width: 12%;
@@ -119,10 +141,12 @@ nav{
 .social--icon{
     font-size: 2rem;
     color: white;
+    text-shadow: 0 3px 3px rgba(3, 44, 85, .6);
 }
 .social--icon:hover{
     color: #fae32c;
     transition: .2s;
+    
 }
 .hamburger{
     display:none
@@ -178,7 +202,9 @@ nav{
 
 
 
-
+.sec_carrosel{
+    width: 100vw;
+}
 .carrosel{
     width: 100%;
     height: 100%;
@@ -190,7 +216,7 @@ nav{
     overflow:hidden;
 }
 .mascara{
-    background-color: rgba(0,0,0,0.0);
+    background-color: rgba(0,0,0,1);
     transition: .6s;
     width: 100vw;
     height: 85vh;
@@ -291,7 +317,6 @@ nav{
 
 
 footer{
-    background-image: url(../img/PATTERN\ VEIA\ DA\ ARVORE\ OTIMIZADO.svg);
     background-color: #1a519a;
     height: 5vh;
     width: 100vw;
