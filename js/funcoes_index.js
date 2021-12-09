@@ -9,6 +9,23 @@ prevSlide.addEventListener('click',function VoltarSlide(){
         index = index + 1
     })
     index=0
+    SelecionarDotReferenteAPosiçãoDoSlide(leftPositionSlide)
+    
+})
+nextSlide.addEventListener('click',function AvançarSlide(){
+    leftPositionSlide = leftPositionSlide - 100
+    if(leftPositionSlide < -400){
+        leftPositionSlide = 0
+    }
+    Array.from(slides).forEach(function name(params) {
+        slides.item(index).style.left = leftPositionSlide + 'vw'
+        index = index + 1
+    })
+    index=0
+    SelecionarDotReferenteAPosiçãoDoSlide(leftPositionSlide)
+})
+
+function SelecionarDotReferenteAPosiçãoDoSlide(leftPositionSlide){
     switch (leftPositionSlide) {
         case -100:
             dot_01.style.transform = 'scale(1.0)'
@@ -46,65 +63,11 @@ prevSlide.addEventListener('click',function VoltarSlide(){
             dot_05.style.transform = 'scale(1.0)'
             break
     }
-    
-})
-nextSlide.addEventListener('click',function AvançarSlide(){
-    leftPositionSlide = leftPositionSlide - 100
-    if(leftPositionSlide < -400){
-        leftPositionSlide = 0
-    }
-    Array.from(slides).forEach(function name(params) {
-        slides.item(index).style.left = leftPositionSlide + 'vw'
-        index = index + 1
-    })
-    index=0
-    switch (leftPositionSlide) {
-        case -100:
-            dot_01.style.backgroundColor = 'rgb(255, 255, 255)'
-            dot_02.style.backgroundColor = 'rgb(80, 80, 80)'
-            dot_03.style.backgroundColor = 'rgb(255, 255, 255)'
-            dot_04.style.backgroundColor = 'rgb(255, 255, 255)'
-            dot_05.style.backgroundColor = 'rgb(255, 255, 255)'
-            break;
-        case -200:
-            dot_01.style.backgroundColor = 'rgb(255, 255, 255)'
-            dot_02.style.backgroundColor = 'rgb(255, 255, 255)'
-            dot_03.style.backgroundColor = 'rgb(80, 80, 80)'
-            dot_04.style.backgroundColor = 'rgb(255, 255, 255)'
-            dot_05.style.backgroundColor = 'rgb(255, 255, 255)'
-            break;
-        case -300:
-            dot_01.style.backgroundColor = 'rgb(255,255,255)'
-            dot_02.style.backgroundColor = 'rgb(255, 255, 255)'
-            dot_03.style.backgroundColor = 'rgb(255, 255, 255)'
-            dot_04.style.backgroundColor = 'rgb(80, 80, 80)'
-            dot_05.style.backgroundColor = 'rgb(255, 255, 255)'
-            break;
-        case -400:
-            dot_01.style.backgroundColor = 'rgb(255,255,255)'
-            dot_02.style.backgroundColor = 'rgb(255, 255, 255)'
-            dot_03.style.backgroundColor = 'rgb(255, 255, 255)'
-            dot_04.style.backgroundColor = 'rgb(255, 255, 255)'
-            dot_05.style.backgroundColor = 'rgb(80, 80, 80)'
-            break;
-        default:
-            dot_01.style.backgroundColor = 'rgb(80,80,80)'
-            dot_02.style.backgroundColor = 'rgb(255, 255, 255)'
-            dot_03.style.backgroundColor = 'rgb(255, 255, 255)'
-            dot_04.style.backgroundColor = 'rgb(255, 255, 255)'
-            dot_05.style.backgroundColor = 'rgb(255,255,255)'
-            break
-    }
-    
-})
+}
 
 dot_01.addEventListener('click',function SelecionarSlide01() {
     
-    dot_01.style.backgroundColor = 'rgb(80, 80, 80)'
-    dot_02.style.backgroundColor = 'rgb(255, 255, 255)'
-    dot_03.style.backgroundColor = 'rgb(255, 255, 255)'
-    dot_04.style.backgroundColor = 'rgb(255, 255, 255)'
-    dot_05.style.backgroundColor = 'rgb(255, 255, 255)'
+    SelecionarDotReferenteAPosiçãoDoSlide(0)
     Array.from(slides).forEach(function name(params) {
         slides.item(index).style.left= '0vw'
         index = index + 1
@@ -113,11 +76,7 @@ dot_01.addEventListener('click',function SelecionarSlide01() {
 })
 dot_02.addEventListener('click',function SelecionarSlide02() {
     
-    dot_01.style.backgroundColor = 'rgb(255, 255, 255)'
-    dot_02.style.backgroundColor = 'rgb(80, 80, 80)'
-    dot_03.style.backgroundColor = 'rgb(255, 255, 255)'
-    dot_04.style.backgroundColor = 'rgb(255, 255, 255)'
-    dot_05.style.backgroundColor = 'rgb(255, 255, 255)'
+    SelecionarDotReferenteAPosiçãoDoSlide(-100)
     Array.from(slides).forEach(function name(params) {
         slides.item(index).style.left= '-100vw'
         index = index + 1
@@ -126,11 +85,7 @@ dot_02.addEventListener('click',function SelecionarSlide02() {
 })
 dot_03.addEventListener('click',function SelecionarSlide03() {
     
-    dot_01.style.backgroundColor = 'rgb(255, 255, 255)'
-    dot_02.style.backgroundColor = 'rgb(255, 255, 255)'
-    dot_03.style.backgroundColor = 'rgb(80, 80, 80)'
-    dot_04.style.backgroundColor = 'rgb(255, 255, 255)'
-    dot_05.style.backgroundColor = 'rgb(255, 255, 255)'
+    SelecionarDotReferenteAPosiçãoDoSlide(-200)
     Array.from(slides).forEach(function name(params) {
         slides.item(index).style.left= '-200vw'
         index = index + 1
@@ -139,11 +94,7 @@ dot_03.addEventListener('click',function SelecionarSlide03() {
 })
 dot_04.addEventListener('click',function SelecionarSlide04() {
     
-    dot_01.style.backgroundColor = 'rgb(255, 255, 255)'
-    dot_02.style.backgroundColor = 'rgb(255, 255, 255)'
-    dot_03.style.backgroundColor = 'rgb(255, 255, 255)'
-    dot_04.style.backgroundColor = 'rgb(80, 80, 80)'
-    dot_05.style.backgroundColor = 'rgb(255, 255, 255)'
+    SelecionarDotReferenteAPosiçãoDoSlide(-300)
     Array.from(slides).forEach(function name(params) {
         slides.item(index).style.left= '-300vw'
         index = index + 1
@@ -152,11 +103,7 @@ dot_04.addEventListener('click',function SelecionarSlide04() {
 })
 dot_05.addEventListener('click',function SelecionarSlide05() {
     
-    dot_01.style.backgroundColor = 'rgb(255, 255, 255)'
-    dot_02.style.backgroundColor = 'rgb(255, 255, 255)'
-    dot_03.style.backgroundColor = 'rgb(255, 255, 255)'
-    dot_04.style.backgroundColor = 'rgb(255, 255, 255)'
-    dot_05.style.backgroundColor = 'rgb(80, 80, 80)'
+    SelecionarDotReferenteAPosiçãoDoSlide(-400)
     Array.from(slides).forEach(function name(params) {
         slides.item(index).style.left= '-400vw'
         index = index + 1
@@ -177,9 +124,6 @@ let TornarControlesVisiveis = function(){
         index = index + 1
     })
     index=0
-
-
-    $('.mascara').css('background-color', 'rgba(0,0,0,0.0)');
     isVisible = true
 }
 let TornarControlesInvisiveis = function(){
@@ -213,6 +157,8 @@ if(window.innerWidth > 1080){
     });
 }
 
+
+//Define que ao clicar no slide ele executa um toggle da visibilidade dos controles
 $('.mouse__interaction__area').click(function (e) { 
     e.preventDefault();
     if(isVisible){
@@ -224,13 +170,8 @@ $('.mouse__interaction__area').click(function (e) {
     return false
  })
 
-$('#inicio').mouseover(function () { 
-    $('#inicio').css('border-bottom', 'solid 3px white');
-});
-$('#inicio').mouseout(function () { 
-    $('#inicio').css('border-bottom', 'solid 3px #dec223');
-});
 
+//Define a mudança do menu desktop para menu mobile ao clicar no hamburger
 $('.hamburger').click(function (e) { 
     e.preventDefault();
     $('.nav').toggleClass('mobile_nav');
@@ -248,7 +189,7 @@ $('.hamburger').click(function (e) {
 });
 
 
-
+//Define Qual banner vai carregar e corrigi o tamanho da section para o tamanho do banner no EVENTO RESIZE
 window.addEventListener('resize',function (param) {
     if(window.innerWidth < 1080){
         $('#img_01').attr('src', 'img/Stories SONHOS.webp');
@@ -256,20 +197,33 @@ window.addEventListener('resize',function (param) {
         $('#img_03').attr('src', 'img/Stories FUTURO.webp');
         $('#img_04').attr('src', 'img/Stories VALORES.webp');
         $('#img_05').attr('src', 'img/Stories PAC.webp');
+    }else{
+        $('#img_01').attr('src', 'img/SONHOS.webp');
+        $('#img_02').attr('src', 'img/PLANETA.webp');
+        $('#img_03').attr('src', 'img/FUTURO.webp');
+        $('#img_04').attr('src', 'img/VALORES.webp');
+        $('#img_05').attr('src', 'img/PAC.webp');
     }
     $('.sec_carrosel').css('height',document.querySelector('.img__carrosel').clientHeight);
     $('.carrosel').css('height',document.querySelector('.img__carrosel').clientHeight);
     $('.mascara').css('height',document.querySelector('.img__carrosel').clientHeight);
 })
 
+//Define Qual banner vai carregar e corrigi o tamanho da section para o tamanho do banner no EVENTO LOAD
 if(window.innerWidth < 1080){
     $('#img_01').attr('src', 'img/Stories SONHOS.webp');
-        $('#img_02').attr('src', 'img/Stories PLANETA.webp');
-        $('#img_03').attr('src', 'img/Stories FUTURO.webp');
-        $('#img_04').attr('src', 'img/Stories VALORES.webp');
-        $('#img_05').attr('src', 'img/Stories PAC.webp');
+    $('#img_02').attr('src', 'img/Stories PLANETA.webp');
+    $('#img_03').attr('src', 'img/Stories FUTURO.webp');
+    $('#img_04').attr('src', 'img/Stories VALORES.webp');
+    $('#img_05').attr('src', 'img/Stories PAC.webp');
+}else{
+    $('#img_01').attr('src', 'img/SONHOS.webp');
+    $('#img_02').attr('src', 'img/PLANETA.webp');
+    $('#img_03').attr('src', 'img/FUTURO.webp');
+    $('#img_04').attr('src', 'img/VALORES.webp');
+    $('#img_05').attr('src', 'img/PAC.webp');
 }
-    $('.sec_carrosel').css('height',document.querySelector('.img__carrosel').clientHeight);
-    $('.carrosel').css('height',document.querySelector('.img__carrosel').clientHeight);
-    $('.mascara').css('height',document.querySelector('.img__carrosel').clientHeight);
+$('.sec_carrosel').css('height',document.querySelector('.img__carrosel').clientHeight);
+$('.carrosel').css('height',document.querySelector('.img__carrosel').clientHeight);
+$('.mascara').css('height',document.querySelector('.img__carrosel').clientHeight);
     

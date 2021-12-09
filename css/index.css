@@ -105,6 +105,9 @@ nav{
     border-radius: 5%;
 
 }
+.menu_li[isEnable="Yes"]:hover{
+    border-bottom: solid 3px white;
+}
 .menu_li:hover{
     color: #fae32c;
     font-size: 1.35rem;
@@ -282,7 +285,7 @@ nav{
 }
 .dot{
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.671);
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.7);
     width: .5vw;
     height: .5vw;
     margin-left: 1vw;
@@ -291,10 +294,10 @@ nav{
     transition: .2s;
 }
 #dot_01{
-    background-color: rgb(80,80,80);
+    transform: scale(2.0);
 }
 .dot:hover{
-    transform: scale(1.8);
+    background-color: #fae32c;
 }
 .container__buttons{
     opacity: 0;

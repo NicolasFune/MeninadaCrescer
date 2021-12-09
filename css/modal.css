@@ -56,9 +56,16 @@
     align-items: center;
     justify-content: center;
     transition: .1s;
+    
+}
+.container-modal-call-interno:hover .call-saiba-mais{
+    transform: translateY(-3px);
 }
 .container-modal-call-interno:hover{
-    transform: scale(1.1);
+    background-color: #fae32c;
+}
+.container-modal-call-interno:hover .call-whatapp{
+    color: black;
 }
 .call-whatapp{
     height: 100%;
@@ -80,6 +87,8 @@
     color: black;
     font-size: .8rem;
     box-shadow: 4px 0px 5px rgba(0, 0, 0, 0.438);
+    cursor: pointer;
+    transition: .4s;
 }
 
 
