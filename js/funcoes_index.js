@@ -11,39 +11,39 @@ prevSlide.addEventListener('click',function VoltarSlide(){
     index=0
     switch (leftPositionSlide) {
         case -100:
-            dot_01.style.backgroundColor = 'rgb(255, 255, 255)'
-            dot_02.style.backgroundColor = 'rgb(80, 80, 80)'
-            dot_03.style.backgroundColor = 'rgb(255, 255, 255)'
-            dot_04.style.backgroundColor = 'rgb(255, 255, 255)'
-            dot_05.style.backgroundColor = 'rgb(255, 255, 255)'
+            dot_01.style.transform = 'scale(1.0)'
+            dot_02.style.transform = 'scale(2.0)'
+            dot_03.style.transform = 'scale(1.0)'
+            dot_04.style.transform = 'scale(1.0)'
+            dot_05.style.transform = 'scale(1.0)'
             break;
         case -200:
-            dot_01.style.backgroundColor = 'rgb(255, 255, 255)'
-            dot_02.style.backgroundColor = 'rgb(255, 255, 255)'
-            dot_03.style.backgroundColor = 'rgb(80, 80, 80)'
-            dot_04.style.backgroundColor = 'rgb(255, 255, 255)'
-            dot_05.style.backgroundColor = 'rgb(255, 255, 255)'
+            dot_01.style.transform = 'scale(1.0)'
+            dot_02.style.transform = 'scale(1.0)'
+            dot_03.style.transform = 'scale(2.0)'
+            dot_04.style.transform = 'scale(1.0)'
+            dot_05.style.transform = 'scale(1.0)'
             break;
         case -300:
-            dot_01.style.backgroundColor = 'rgb(255,255,255)'
-            dot_02.style.backgroundColor = 'rgb(255, 255, 255)'
-            dot_03.style.backgroundColor = 'rgb(255, 255, 255)'
-            dot_04.style.backgroundColor = 'rgb(80, 80, 80)'
-            dot_05.style.backgroundColor = 'rgb(255, 255, 255)'
+            dot_01.style.transform = 'scale(1.0)'
+            dot_02.style.transform = 'scale(1.0)'
+            dot_03.style.transform = 'scale(1.0)'
+            dot_04.style.transform = 'scale(2.0)'
+            dot_05.style.transform = 'scale(1.0)'
             break;
         case -400:
-            dot_01.style.backgroundColor = 'rgb(255,255,255)'
-            dot_02.style.backgroundColor = 'rgb(255, 255, 255)'
-            dot_03.style.backgroundColor = 'rgb(255, 255, 255)'
-            dot_04.style.backgroundColor = 'rgb(255, 255, 255)'
-            dot_05.style.backgroundColor = 'rgb(80, 80, 80)'
+            dot_01.style.transform = 'scale(1.0)'
+            dot_02.style.transform = 'scale(1.0)'
+            dot_03.style.transform = 'scale(1.0)'
+            dot_04.style.transform = 'scale(1.0)'
+            dot_05.style.transform = 'scale(2.0)'
             break;
         default:
-            dot_01.style.backgroundColor = 'rgb(80,80,80)'
-            dot_02.style.backgroundColor = 'rgb(255, 255, 255)'
-            dot_03.style.backgroundColor = 'rgb(255, 255, 255)'
-            dot_04.style.backgroundColor = 'rgb(255, 255, 255)'
-            dot_05.style.backgroundColor = 'rgb(255,255,255)'
+            dot_01.style.transform = 'scale(2.0)'
+            dot_02.style.transform = 'scale(1.0)'
+            dot_03.style.transform = 'scale(1.0)'
+            dot_04.style.transform = 'scale(1.0)'
+            dot_05.style.transform = 'scale(1.0)'
             break
     }
     
