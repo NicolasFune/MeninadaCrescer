@@ -204,9 +204,9 @@ window.addEventListener('resize',function (param) {
         $('#img_04').attr('src', 'img/VALORES.webp');
         $('#img_05').attr('src', 'img/PAC.webp');
     }
-    $('.sec_carrosel').css('height',document.querySelector('.img__carrosel').clientHeight);
-    $('.carrosel').css('height',document.querySelector('.img__carrosel').clientHeight);
-    $('.mascara').css('height',document.querySelector('.img__carrosel').clientHeight);
+    $('.sec_carrosel').css('height',document.querySelector('.container__img').clientHeight);
+    $('.carrosel').css('height',document.querySelector('.container__img').clientHeight);
+    $('.mascara').css('height',document.querySelector('.container__img').clientHeight);
 })
 
 //Define Qual banner vai carregar e corrigi o tamanho da section para o tamanho do banner no EVENTO LOAD
