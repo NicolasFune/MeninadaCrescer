@@ -1,29 +1,48 @@
+let leftPositionSlide_01 = 0
 
-prevSlide.addEventListener('click',function VoltarSlide(){
-    leftPositionSlide = leftPositionSlide + 100
-    if(leftPositionSlide > 0){
-        leftPositionSlide = -400
+$('.nextSlide--button').click(function (e) { 
+    e.preventDefault();
+    leftPositionSlide_01 = leftPositionSlide_01 - 100
+    if(leftPositionSlide_01 < (RetornaQuantidadeDeSlidesNaVariável(slides) - 1)*-100){
+        leftPositionSlide_01 = 0
     }
-    Array.from(slides).forEach(function name(params) {
-        slides.item(index).style.left = leftPositionSlide + 'vw'
-        index = index + 1
-    })
-    index=0
-    SelecionarDotReferenteAPosiçãoDoSlide(leftPositionSlide)
-    
-})
-nextSlide.addEventListener('click',function AvançarSlide(){
-    leftPositionSlide = leftPositionSlide - 100
-    if(leftPositionSlide < -400){
-        leftPositionSlide = 0
+    SetaALeftPositionDeTodosOsSlides(slides,leftPositionSlide_01)
+    SelecionarDotReferenteAPosiçãoDoSlide(leftPositionSlide_01)
+});
+
+$('.prevSlide--button').click(function (e) { 
+    e.preventDefault();
+    leftPositionSlide_01 = leftPositionSlide_01 + 100
+    if(leftPositionSlide_01 > 0){
+        leftPositionSlide_01 = (RetornaQuantidadeDeSlidesNaVariável(slides) - 1)*-100
     }
-    Array.from(slides).forEach(function name(params) {
-        slides.item(index).style.left = leftPositionSlide + 'vw'
-        index = index + 1
+    SetaALeftPositionDeTodosOsSlides(slides,leftPositionSlide_01)
+    SelecionarDotReferenteAPosiçãoDoSlide(leftPositionSlide_01)
+    alert(leftPositionSlide_01)
+});
+
+
+
+function SetaALeftPositionDeTodosOsSlides(SlideReferente,Posição){
+    Array.from(SlideReferente).forEach(()=>{
+        SlideReferente.item(index).style.left = Posição	+ 'vw'
+        index = index+1
     })
-    index=0
-    SelecionarDotReferenteAPosiçãoDoSlide(leftPositionSlide)
-})
+    index = 0
+}
+
+
+
+function RetornaQuantidadeDeSlidesNaVariável(SlideReferente){
+    let Quantidade = 0
+    Array.from(SlideReferente).forEach(function name(params) {
+        Quantidade = Quantidade+1
+    })
+    return Quantidade
+}
+
+
+
 
 function SelecionarDotReferenteAPosiçãoDoSlide(leftPositionSlide){
     switch (leftPositionSlide) {
@@ -65,6 +84,10 @@ function SelecionarDotReferenteAPosiçãoDoSlide(leftPositionSlide){
     }
 }
 
+
+
+
+
 dot_01.addEventListener('click',function SelecionarSlide01() {
     
     SelecionarDotReferenteAPosiçãoDoSlide(0)
@@ -73,6 +96,7 @@ dot_01.addEventListener('click',function SelecionarSlide01() {
         index = index + 1
     })
     index=0
+    leftPositionSlide_01 = 0
 })
 dot_02.addEventListener('click',function SelecionarSlide02() {
     
@@ -82,6 +106,7 @@ dot_02.addEventListener('click',function SelecionarSlide02() {
         index = index + 1
     })
     index=0
+    leftPositionSlide_01 = -100
 })
 dot_03.addEventListener('click',function SelecionarSlide03() {
     
@@ -91,6 +116,7 @@ dot_03.addEventListener('click',function SelecionarSlide03() {
         index = index + 1
     })
     index=0
+    leftPositionSlide_01 = -200
 })
 dot_04.addEventListener('click',function SelecionarSlide04() {
     
@@ -100,6 +126,7 @@ dot_04.addEventListener('click',function SelecionarSlide04() {
         index = index + 1
     })
     index=0
+    leftPositionSlide_01 = -300
 })
 dot_05.addEventListener('click',function SelecionarSlide05() {
     
@@ -109,7 +136,13 @@ dot_05.addEventListener('click',function SelecionarSlide05() {
         index = index + 1
     })
     index=0
+    leftPositionSlide_01 = -400
 })
+
+
+
+
+
 let isVisible
 let TornarControlesVisiveis = function(){
     for(let i=0;i<carrosel_controls.length;i++){
@@ -227,3 +260,5 @@ $('.sec_carrosel').css('height',document.querySelector('.img__carrosel').clientH
 $('.carrosel').css('height',document.querySelector('.img__carrosel').clientHeight);
 $('.mascara').css('height',document.querySelector('.img__carrosel').clientHeight);
     
+
+
