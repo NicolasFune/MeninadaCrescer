@@ -14,6 +14,8 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/carrosel_banners.css">
+    <link rel="stylesheet" href="css/carrosel_depoimentos.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="shortcut icon" href="img/Amarelo.svg" type="image/x-icon">
     <script src="https://kit.fontawesome.com/6cc179733b.js" crossorigin="anonymous"></script>
@@ -230,43 +232,49 @@
 
 
           <section class="depoimentos">
-            <h1>Depoimentos</h1>
-            <div class="carrosel mouse__interaction__area">
+            <h1 class="depoimentos_titulo">Depoimentos</h1>
+            <div class="carrosel_depoimentos mouse__interaction__area_depoimentos">
     
-                <div class="container__depoimentos">
+                <div class="container_depoimentos">
     
     
                         <ul class="container__depoimentos--ul">
 
-                            <li class="container__img--li">
+                            <li class="container__depoimentos--li">
 
-                                <img id="img_01"class="img__carrosel" src="img/SONHOS.webp" alt="Poster Sonhos">
-
-                            </li>
-
-                            <li class="container__img--li">
-
-                                <img id="img_02" class="img__carrosel" src="img/PLANETA.webp" alt="Poster Planetas">
+                                <img class="depoimentos_img" src="img/foto-default.jpg" alt="">
+                                <h1 class="depoimentos_txt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, cumque.</h1>
 
                             </li>
 
-                            <li class="container__img--li">
+                            <li class="container__depoimentos--li">
 
-                                <img id="img_03" class="img__carrosel" src="img/FUTURO.webp" alt="Poster FUTURO">
-
-                            </li>
-
-                            <li class="container__img--li">
-
-                                <img id="img_04" class="img__carrosel" src="img/VALORES.webp" alt="Poster VALORES">
+                                <img class="depoimentos_img" src="img/foto-default.jpg" alt="">
+                                <h1 class="depoimentos_txt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, cumque.</h1>
 
                             </li>
 
-                            <li class="container__img--li">
+                            <li class="container__depoimentos--li">
 
-                                <img id="img_05" class="img__carrosel" src="img/PAC.webp" alt="Poster PAC">
+                                <img  class="depoimentos_img" src="img/foto-default.jpg" alt="">
+                                <h1 class="depoimentos_txt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, cumque.</h1>
 
                             </li>
+
+                            <li class="container__depoimentos--li">
+
+                                <img class="depoimentos_img" src="img/foto-default.jpg" alt="">
+                                <h1 class="depoimentos_txt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, cumque.</h1>
+
+                            </li>
+
+                            <li class="container__depoimentos--li">
+
+                                <img class="depoimentos_img" src="img/foto-default.jpg" alt="">
+                                <h1 class="depoimentos_txt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, cumque.</h1>
+
+                            </li>
+
 
                         </ul>
     
@@ -274,35 +282,35 @@
                 </div>
     
     
-                <div class="mascara">
+                <div class="mascara_depoimentos">
 
-                    <div class="space carrosel_control mouse__interaction__area">
+                    <div class="space carrosel_control_depoimentos">
     
                     </div>
 
-                    <div class="container__buttons carrosel_control mouse__interaction__area">
+                    <div class="container__buttons carrosel_control_depoimentos">
 
                         <button aria-label="Slide Anterior" class="__button RunAnimation">
-                            <i id="prevSlide--button" class="bi bi-chevron-left "></i>
+                            <i id="prevSlide--button_depoimentos" class="bi bi-chevron-left "></i>
                         </button>
 
                         <button aria-label="Proximo Slide" class="__button RunAnimation">
-                            <i id="nextSlide--button" class="bi bi-chevron-right nextSlide--button"></i>
+                            <i id="nextSlide--button_depoimentos" class="bi bi-chevron-right nextSlide--button"></i>
                         </button>
 
                     </div>
     
-                    <div class="container__dots carrosel_control mouse__interaction__area">
+                    <div class="container__dots carrosel_control_depoimentos">
 
-                        <button aria-label="Primeiro Slide"id="dot_01"class="dot_SlideShow01 RunAnimation"></button>
+                        <button aria-label="Primeiro Slide"id="dot_01"class="dot_SlideShow02 RunAnimation"></button>
 
-                        <button aria-label="Segundo Slide" id="dot_02" class="dot_SlideShow01 RunAnimation"></button>
+                        <button aria-label="Segundo Slide" id="dot_02_depoimentos" class="dot_SlideShow01 RunAnimation"></button>
 
-                        <button aria-label="Terceiro Slide" id="dot_03" class="dot_SlideShow01 RunAnimation"></button>
+                        <button aria-label="Terceiro Slide" id="dot_03_depoimentos" class="dot_SlideShow01 RunAnimation"></button>
 
-                        <button aria-label="Quarto Slide" id="dot_04" class="dot_SlideShow01 RunAnimation"></button>
+                        <button aria-label="Quarto Slide" id="dot_04_depoimentos" class="dot_SlideShow01 RunAnimation"></button>
 
-                        <button aria-label="Quinto Slide" id="dot_05" class="dot_SlideShow01 RunAnimation"></button>
+                        <button aria-label="Quinto Slide" id="dot_05_depoimentos" class="dot_SlideShow01 RunAnimation"></button>
 
                     </div>
     
@@ -378,8 +386,9 @@
 
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="js/declaracoes_index.js"></script>
     <script src="js/funcoes_index.js"></script>
+    <script src="js/carrosel_banners.js"></script>
+    <script src="js/carrosel_depoimentos.js"></script>
     <script src="js/modal.js"></script>
     <script>
 
