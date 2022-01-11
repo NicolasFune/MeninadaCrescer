@@ -21,9 +21,6 @@
     
 }
 
-.active{
-    border-bottom: 2px solid #fce42e;
-}
 .nav-link-social:hover{
     transform: scale(1.1);
 }

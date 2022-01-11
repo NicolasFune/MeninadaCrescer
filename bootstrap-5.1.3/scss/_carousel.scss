@@ -103,7 +103,7 @@
   text-align: center;
   background: none;
   border: 0;
-  opacity: $carousel-control-opacity;
+  opacity: carousel-control-opacity;
   @include transition($carousel-control-transition);
 
   // Hover/focus state
