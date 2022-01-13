@@ -5,6 +5,8 @@ const Banners_Img_02 = document.querySelector("#banners-img-02");
 const Banners_Img_03 = document.querySelector("#banners-img-03");
 const Banners_Img_04 = document.querySelector("#banners-img-04");
 const Banners_Img_05 = document.querySelector("#banners-img-05");
+const nav_items_social = document.querySelectorAll(".nav-item-social")
+
 
 function SetBanners(){
     if(viewportWidth < 992){
@@ -21,8 +23,21 @@ function SetBanners(){
         Banners_Img_05.setAttribute("src","../img/Banners/PAC.webp");
     }
 }
-SetBanners();
+
 
 $(window).resize(SetBanners());
 
+function SetPaddingToTheSocialNav(){
+    if(viewportWidth < 992){
+        Array.from(nav_items_social).forEach((element)=>{
+            $(element).toggleClass("px-2");
+        })
+        $('.navbar-nav-social').toggleClass('me-4');
+    }else{
+    }
+    
+}
+
+SetBanners();
+SetPaddingToTheSocialNav();
 

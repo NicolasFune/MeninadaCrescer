@@ -14,6 +14,12 @@
     text-shadow: 0 1px 3px rgba(0, 0, 0, 0.507);
     transition: .1s;
     
+    
+    
+}
+.nav-link.active{
+    border-radius: 2px;
+    border-bottom: 2px solid yellow;
 }
 
 .nav-link:hover{
@@ -29,6 +35,8 @@
     color: #0556a9;
     box-shadow: 0 5px 8px rgba(0, 0, 0, 0.24);
     transition: .1s;
+    width: fit-content;
+    text-shadow: none;
 }
 #nav-li-matricula:hover{
     background-color: white;
@@ -58,33 +66,162 @@
 
 @media (min-width:2700px) and (max-width:3000px){
 	/*2850*/
+    .navbar-collapse{
+        padding-right: 4rem;
+    }
+    #section-nav{
+        height: 80vh;
+    }
+    #section-nav .img-container{
+        width: 50%;
+      }
+      #section-nav h1{
+        width: 65%;
+        height: 10%;
+        font-size: 1.2rem;
+      }
 }
 @media (min-width:2400px) and (max-width:2699px){
 	/*2550*/
+    .navbar-collapse{
+        padding-right: 4rem;
+    }
+    #section-nav{
+        height: 80vh;
+    }
+    #section-nav .img-container{
+        width: 50%;
+      }
+      #section-nav h1{
+        width: 65%;
+        height: 10%;
+        font-size: 1.2rem;
+      }
 }
 @media (min-width:2100px) and (max-width:2399px){
-	/*2250*/     
+	/*2250*/
+    .navbar-collapse{
+        padding-right: 3.5rem;
+    }
+    #section-nav{
+        height: 80vh;
+    }
+    #section-nav .img-container{
+        width: 50%;
+      }
+      #section-nav h1{
+        width: 65%;
+        height: 10%;
+        font-size: 1.2rem;
+      }
 }
 @media (min-width:1800px) and (max-width:2099px){
      	/*1950*/
+         .navbar-collapse{
+            padding-right: 3rem;
+        }
+        #section-nav{
+        height: 80vh;
+    }
+    #section-nav .img-container{
+        width: 50%;
+      }
+      #section-nav h1{
+        width: 65%;
+        height: 10%;
+        font-size: 1.2rem;
+      }
 }
 @media (min-width:1500px) and (max-width:1799px){
      	/*1650*/
+    .navbar-collapse{
+        padding-right: 3rem;
+    }
+    #section-nav{
+    height: 80vh;
+    }
+    #section-nav .img-container{
+        width: 50%;
+      }
+      #section-nav h1{
+        width: 65%;
+        height: 10%;
+        font-size: 1.2rem;
+      }
 }
 @media (min-width:1200px) and (max-width:1499px){
   	/*1350*/
+      .navbar-collapse{
+        padding-right: 3rem;
+    }
+      #section-nav{
+        height: 80vh;
+    }
+    #section-nav .img-container{
+        width: 50%;
+      }
+      #section-nav h1{
+        width: 65%;
+        height: 10%;
+        font-size: 1.2rem;
+      }
 }
-@media (min-width:900px) and (max-width:1199px){
+@media (min-width:991px) and (max-width:1199px){
   	/*1050*/
+      .navbar-collapse{
+        padding-right: 1rem;
+    }
+      #section-nav{
+          height: 70vh;
+      }
+      #section-nav .img-container{
+        width: 50%;
+      }
+      #section-nav h1{
+        width: 65%;
+        height: 10%;
+        font-size: 1.2rem;
+      }
 }
-@media (min-width:600px) and (max-width:899px){
+@media (min-width:600px) and (max-width:990px){
     	/*750*/
+        #section-nav{
+            height: 100vh;
+        }
+        #section-nav .img-container{
+            width: 25%;
+        }
+        #section-nav h1{
+            width: 40%;
+            height: 10%;
+            font-size: 1.2rem;
+        }
 }
 @media (min-width:300px) and (max-width:599px){
     	/*450*/
-
+        #section-nav{
+            height: 100vh;
+        }
+        #section-nav .img-container{
+            width: 25%;
+        }
+        #section-nav h1{
+            width: 40%;
+            height: 10%;
+            font-size: 1.2rem;
+        }
 }
 @media (min-width:0px) and (max-width:299px){
    	/*150*/
-    
+       #section-nav{
+        height: 100vh;
+    }
+    #section-nav .img-container{
+        width: 25%;
+    }
+    #section-nav h1{
+        width: 40%;
+        height: 10%;
+        font-size: 1.2rem;
+    }
 }
