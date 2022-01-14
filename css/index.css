@@ -86,6 +86,35 @@
         height: 10%;
         font-size: 1.2rem;
       }
+      #section-segmentos{
+        height: 75vh;
+    }
+    .segmentos-title{
+        height: 10vh;
+    }
+    #segmentos{
+        height: 60vh;
+    }
+    #segmentos .carousel-inner{
+        height: 60vh;
+    }
+    #segmentos .img-container{
+        width: 32%;
+    }
+    #segmentos h1{
+        font-size: 2rem;
+    }
+    #section-matriculas{
+        height: 75vh;
+    }
+    
+    #section-matriculas .img-container{
+        width: 35%;
+    }
+    #section-matriculas #matriculas-btn{
+        width: 25%;
+        font-size: 1.2rem;
+    }
 }
 @media (min-width:2400px) and (max-width:2699px){
 	/*2550*/
@@ -103,6 +132,34 @@
         height: 10%;
         font-size: 1.2rem;
       }
+      #section-segmentos{
+        height: 75vh;
+    }
+    .segmentos-title{
+        height: 10vh;
+    }
+    #segmentos{
+        height: 60vh;
+    }
+    #segmentos .carousel-inner{
+        height: 60vh;
+    }
+    #segmentos .img-container{
+        width: 28%;
+    }
+    #segmentos h1{
+        font-size: 1.8rem;
+    }
+    #section-matriculas{
+        height: 85vh;
+    }
+    #section-matriculas .img-container{
+        width: 40%;
+    }
+    #section-matriculas #matriculas-btn{
+        width: 25%;
+        font-size: 1.2rem;
+    }
 }
 @media (min-width:2100px) and (max-width:2399px){
 	/*2250*/
@@ -120,6 +177,34 @@
         height: 10%;
         font-size: 1.2rem;
       }
+      #section-segmentos{
+        height: 75vh;
+    }
+    .segmentos-title{
+        height: 10vh;
+    }
+    #segmentos{
+        height: 60vh;
+    }
+    #segmentos .carousel-inner{
+        height: 60vh;
+    }
+    #segmentos .img-container{
+        width: 25%;
+    }
+    #segmentos h1{
+        font-size: 1.6rem;
+    }
+    #section-matriculas{
+        height: 85vh;
+    }
+    #section-matriculas .img-container{
+        width: 50%;
+    }
+    #section-matriculas #matriculas-btn{
+        width: 25%;
+        font-size: 1.2rem;
+    }
 }
 @media (min-width:1800px) and (max-width:2099px){
      	/*1950*/
@@ -137,6 +222,34 @@
         height: 10%;
         font-size: 1.2rem;
       }
+      #section-segmentos{
+        height: 75vh;
+    }
+    .segmentos-title{
+        height: 10vh;
+    }
+    #segmentos{
+        height: 60vh;
+    }
+    #segmentos .carousel-inner{
+        height: 60vh;
+    }
+    #segmentos .img-container{
+        width: 22%;
+    }
+    #segmentos h1{
+        font-size: 1.4rem;
+    }
+    #section-matriculas{
+        height: 80vh;
+    }
+    #section-matriculas .img-container{
+        width: 50%;
+    }
+    #section-matriculas #matriculas-btn{
+        width: 25%;
+        font-size: 1.2rem;
+    }
 }
 @media (min-width:1500px) and (max-width:1799px){
      	/*1650*/
@@ -154,6 +267,34 @@
         height: 10%;
         font-size: 1.2rem;
       }
+      #section-segmentos{
+        height: 75vh;
+    }
+    .segmentos-title{
+        height: 10vh;
+    }
+    #segmentos{
+        height: 60vh;
+    }
+    #segmentos .carousel-inner{
+        height: 60vh;
+    }
+    #segmentos .img-container{
+        width: 22%;
+    }
+    #segmentos h1{
+        font-size: 1.4rem;
+    }
+    #section-matriculas{
+        height: 70vh;
+    }
+    #section-matriculas .img-container{
+        width: 50%;
+    }
+    #section-matriculas #matriculas-btn{
+        width: 40%;
+        font-size: 1rem;
+    }
 }
 @media (min-width:1200px) and (max-width:1499px){
   	/*1350*/
@@ -171,6 +312,34 @@
         height: 10%;
         font-size: 1.2rem;
       }
+      #section-segmentos{
+        height: 70vh;
+    }
+    .segmentos-title{
+        height: 10vh;
+    }
+    #segmentos{
+        height: 55vh;
+    }
+    #segmentos .carousel-inner{
+        height: 55vh;
+    }
+    #segmentos .img-container{
+        width: 20%;
+    }
+    #segmentos h1{
+        font-size: 1.4rem;
+    }
+    #section-matriculas{
+        height: 70vh;
+    }
+    #section-matriculas .img-container{
+        width: 50%;
+    }
+    #section-matriculas #matriculas-btn{
+        width: 40%;
+        font-size: 1rem;
+    }
 }
 @media (min-width:991px) and (max-width:1199px){
   	/*1050*/
@@ -188,6 +357,33 @@
         height: 10%;
         font-size: 1.2rem;
       }
+      #section-segmentos{
+        height: 70vh;
+    }
+    .segmentos-title{
+        height: 10vh;
+    }
+    #segmentos{
+        height: 50vh;
+    }
+    #segmentos .carousel-inner{
+        height: 50vh;
+    }
+    #segmentos .img-container{
+        width: 22%;
+    }
+    #segmentos h1{
+        font-size: 1.4rem;
+    }
+    #section-matriculas{
+        height: 70vh;
+    }
+    #section-matriculas .img-container{
+        width: 50%;
+    }
+    #section-matriculas #matriculas-btn{
+        width: 40%;
+    }
 }
 @media (min-width:600px) and (max-width:990px){
     	/*750*/
@@ -202,6 +398,34 @@
             height: 10%;
             font-size: 1.2rem;
         }
+        #section-segmentos{
+            height: 60vh;
+        }
+        .segmentos-title{
+            height: 10vh;
+        }
+        #segmentos{
+            height: 40vh;
+        }
+        #segmentos .carousel-inner{
+            height: 40vh;
+        }
+        #segmentos .img-container{
+            width: 30%;
+        }
+        #segmentos h1{
+            font-size: 1.2rem;
+        }
+        #section-matriculas{
+            height: 50vh;
+        }
+        #section-matriculas .img-container{
+            width: 50%;
+        }
+        #section-matriculas #matriculas-btn{
+            width: 50%;
+        }
+        
 }
 @media (min-width:300px) and (max-width:599px){
     	/*450*/
@@ -212,10 +436,38 @@
             width: 25%;
         }
         #section-nav h1{
-            width: 40%;
+            width: 100%;
             height: 10%;
             font-size: 1.2rem;
         }
+        #section-segmentos{
+            height: 60vh;
+        }
+        .segmentos-title{
+            height: 10vh;
+        }
+        #segmentos{
+            height: 40vh;
+        }
+        #segmentos .carousel-inner{
+            height: 40vh;
+        }
+        #segmentos .img-container{
+            width: 40%;
+        }
+        #segmentos h1{
+            font-size: 1rem;
+        }
+        #section-matriculas{
+            height: 50vh;
+        }
+        #section-matriculas .img-container{
+            width: 50%;
+        }
+        #section-matriculas #matriculas-btn{
+            width: 75%;
+        }
+
 }
 @media (min-width:0px) and (max-width:299px){
    	/*150*/
