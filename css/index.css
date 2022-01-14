@@ -38,6 +38,12 @@
     width: fit-content;
     text-shadow: none;
 }
+.default-btn{
+    background-color: #0556a9;
+    color: White;
+    border: none;
+    font-size: .8rem;
+}
 #nav-li-matricula:hover{
     background-color: white;
     transform: translateY(-3px);
@@ -50,11 +56,11 @@
     color: rgb(91,79,53);
     font-size: 1rem;
 }
-.default-btn{
-    background-color: #0556a9;
-    color: White;
-    border: none;
-    font-size: .8rem;
+.img-container{
+    transition: .3s;
+}
+.img-container:hover{
+    transform: scale(1.1);
 }
 
 
