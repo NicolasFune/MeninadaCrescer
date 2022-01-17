@@ -38,15 +38,21 @@
     width: fit-content;
     text-shadow: none;
 }
+#nav-li-matricula:hover{
+    background-color: white;
+    transform: translateY(-3px);
+}
 .default-btn{
     background-color: #0556a9;
     color: White;
     border: none;
     font-size: .8rem;
+    transition: .2s;
 }
-#nav-li-matricula:hover{
-    background-color: white;
+.default-btn:hover{
     transform: translateY(-3px);
+    background-color: #b0d5fc;
+    color: #0556a9;
 }
 #nav-li-a-matricula{
     color: #0556a9;
@@ -56,10 +62,10 @@
     color: rgb(91,79,53);
     font-size: 1rem;
 }
-.img-container{
+.img-container-hover{
     transition: .3s;
 }
-.img-container:hover{
+.img-container-hover:hover{
     transform: scale(1.1);
 }
 
@@ -115,7 +121,51 @@
         width: 25%;
         font-size: 1.2rem;
     }
+    #section-equipe{
+        height: 90vh;
+    }
+    #section-equipe p{
+        font-size: 1.6rem;
+        padding: 4rem 2rem;
+    }
+    #section-equipe .equipe-btn-container{
+        padding-top: 3rem;
+    }
+    #section-equipe #equipe-btn{
+        font-size: 1.2rem;
+    }
+    #section-formandos{
+        height: 85vh;
+    }
+    #section-formandos h1{
+        padding-bottom: 2rem;
+    }
+    #section-formandos p{
+        padding: 5rem 45rem;
+        font-size: 1.4rem;
+    }
+    #section-parceiros{
+        height: 40vh;
+    }
+    #section-parceiros p{
+        padding: 0 55rem;
+        font-size: 1.4rem;
+    }
+    #section-depoimentos{
+        height: 50vh;
+    }
+    #section-depoimentos #depoimentos{
+        height: 50vh;
+    }
+    #section-depoimentos p{
+        font-size: 1.4rem;
+    }
 }
+
+
+
+
+
 @media (min-width:2400px) and (max-width:2699px){
 	/*2550*/
     .navbar-collapse{
@@ -160,7 +210,51 @@
         width: 25%;
         font-size: 1.2rem;
     }
+    #section-equipe{
+        height: 90vh;
+    }
+    #section-equipe p{
+        font-size: 1.4rem;
+        padding: 4rem 2rem;
+    }
+    #section-equipe .equipe-btn-container{
+        padding-top: 3rem;
+    }
+    #section-equipe #equipe-btn{
+        font-size: 1.2rem;
+    }
+    #section-formandos{
+        height: 85vh;
+    }
+    #section-formandos h1{
+        padding-bottom: 2rem;
+    }
+    #section-formandos p{
+        padding: 5rem 45rem;
+        font-size: 1.2rem;
+    }
+    #section-parceiros{
+        height: 50vh;
+    }
+    #section-parceiros p{
+        padding: 0 45rem;
+        font-size: 1.2rem;
+    }
+    #section-depoimentos{
+        height: 50vh;
+    }
+    #section-depoimentos #depoimentos{
+        height: 50vh;
+    }
+    #section-depoimentos p{
+        font-size: 1.2rem;
+    }
 }
+
+
+
+
+
 @media (min-width:2100px) and (max-width:2399px){
 	/*2250*/
     .navbar-collapse{
@@ -205,7 +299,51 @@
         width: 25%;
         font-size: 1.2rem;
     }
+    #section-equipe{
+        height: 90vh;
+    }
+    #section-equipe p{
+        font-size: 1.2rem;
+        padding: 4rem 2rem;
+    }
+    #section-equipe .equipe-btn-container{
+        padding-top: 3rem;
+    }
+    #section-equipe #equipe-btn{
+        font-size: 1.2rem;
+    }
+    #section-formandos{
+        height: 85vh;
+    }
+    #section-formandos h1{
+        padding-bottom: 2rem;
+    }
+    #section-formandos p{
+        padding: 5rem 45rem;
+        font-size: 1.2rem;
+    }
+    #section-parceiros{
+        height: 50vh;
+    }
+    #section-parceiros p{
+        padding: 0 45rem;
+    }
+    #section-depoimentos{
+        height: 50vh;
+    }
+    #section-depoimentos #depoimentos{
+        height: 50vh;
+    }
+    #section-depoimentos p{
+        font-size: 1.2rem;
+    }
 }
+    
+
+
+
+
+
 @media (min-width:1800px) and (max-width:2099px){
      	/*1950*/
          .navbar-collapse{
@@ -250,7 +388,50 @@
         width: 25%;
         font-size: 1.2rem;
     }
+    #section-equipe{
+        height: 90vh;
+    }
+    #section-equipe p{
+        font-size: 1.2rem;
+        padding: 4rem 2rem;
+    }
+    #section-equipe .equipe-btn-container{
+        padding-top: 3rem;
+    }
+    #section-equipe #equipe-btn{
+        font-size: 1.2rem;
+    }
+    #section-formandos{
+        height: 85vh;
+    }
+    #section-formandos h1{
+        padding-bottom: 2rem;
+    }
+    #section-formandos p{
+        padding: 5rem 25rem;
+    }
+    #section-parceiros{
+        height: 50vh;
+    }
+    #section-parceiros p{
+        padding: 0 35rem;
+        font-size: 1.2rem;
+    }
+    #section-depoimentos{
+        height: 50vh;
+    }
+    #section-depoimentos #depoimentos{
+        height: 50vh;
+    }
+    #section-depoimentos p{
+        font-size: 1.2rem;
+    }
 }
+
+
+
+
+
 @media (min-width:1500px) and (max-width:1799px){
      	/*1650*/
     .navbar-collapse{
@@ -295,7 +476,46 @@
         width: 40%;
         font-size: 1rem;
     }
+    #section-equipe{
+        height: 95vh;
+    }
+    #section-equipe p{
+        padding: 4rem 2rem;
+    }
+    #section-formandos{
+        height: 85vh;
+    }
+    #section-formandos p{
+        padding: 0 18rem;
+    }
+    #section-parceiros{
+        height: 80vh;
+    }
+    #section-parceiros p{
+        padding: 0 4rem;
+    }
+    #section-parceiros{
+        height: 50vh;
+    }
+    #section-parceiros p{
+        padding: 0 25rem;
+        font-size: 1.2rem;
+    }
+    #section-depoimentos{
+        height: 50vh;
+    }
+    #section-depoimentos #depoimentos{
+        height: 50vh;
+    }
+    #section-depoimentos p{
+        font-size: 1.2rem;
+    }
 }
+
+
+
+
+
 @media (min-width:1200px) and (max-width:1499px){
   	/*1350*/
       .navbar-collapse{
@@ -340,7 +560,39 @@
         width: 40%;
         font-size: 1rem;
     }
+    #section-equipe{
+        height: 95vh;
+    }
+    #section-equipe p{
+        padding: 4rem 2rem;
+    }
+    #section-formandos{
+        height: 85vh;
+    }
+    #section-formandos p{
+        padding: 0 10rem;
+    }
+    #section-parceiros{
+        height: 50vh;
+    }
+    #section-parceiros p{
+        padding: 0 15rem;
+    }
+    #section-depoimentos{
+        height: 50vh;
+    }
+    #section-depoimentos #depoimentos{
+        height: 50vh;
+    }
+    #section-depoimentos p{
+        font-size: 1.2rem;
+    }
 }
+
+
+
+
+
 @media (min-width:991px) and (max-width:1199px){
   	/*1050*/
       .navbar-collapse{
@@ -384,7 +636,40 @@
     #section-matriculas #matriculas-btn{
         width: 40%;
     }
+    #section-equipe{
+        height: 95vh;
+    }
+    #section-equipe p{
+        padding: 4rem 2rem;
+    }
+    #section-formandos{
+        height: 85vh;
+    }
+    #section-formandos p{
+        padding: 0 5rem;
+    }
+    #section-parceiros{
+        height: 50vh;
+    }
+    #section-parceiros p{
+        padding: 0 10rem;
+    }
+    #section-depoimentos{
+        height: 60vh;
+    }
+    #section-depoimentos #depoimentos{
+        height: 50vh;
+    }
+    #section-depoimentos p{
+        font-size: 1.2rem;
+    }
+    
 }
+
+
+
+
+
 @media (min-width:600px) and (max-width:990px){
     	/*750*/
         #section-nav{
@@ -425,8 +710,36 @@
         #section-matriculas #matriculas-btn{
             width: 50%;
         }
-        
+        #section-equipe{
+            height: 95vh;
+        }
+        #section-equipe p{
+            padding: 4rem 2rem;
+        }
+        #section-formandos{
+            height: 85vh;
+        }
+        #section-formandos p{
+            padding: 0 5rem;
+        }
+        #section-parceiros{
+            height: 60vh;
+        }
+        #section-parceiros p{
+            padding: 0 4rem;
+        }
+        #section-depoimentos{
+            height: 60vh;
+        }
+        #section-depoimentos #depoimentos{
+            height: 50vh;
+        }
 }
+
+
+
+
+
 @media (min-width:300px) and (max-width:599px){
     	/*450*/
         #section-nav{
@@ -467,8 +780,42 @@
         #section-matriculas #matriculas-btn{
             width: 75%;
         }
-
+        #section-equipe{
+            height: 100vh;
+        }
+        #section-equipe p{
+            padding-top: 5rem;
+        }
+        #section-formandos{
+            height: 85vh;
+        }
+        #section-formandos p{
+            padding: 0 1.2rem;
+            font-size: .8rem;
+        }
+        #section-parceiros{
+            height: 120vh;
+        }
+        #section-parceiros p{
+            padding: 0 1rem;
+        }
+        #section-depoimentos{
+            height: 60vh;
+        }
+        #section-depoimentos #depoimentos{
+            height: 50vh;
+        }
+        #section-loc{
+            height: 50vh;
+        }
+        
+        
 }
+
+
+
+
+
 @media (min-width:0px) and (max-width:299px){
    	/*150*/
        #section-nav{
