@@ -798,20 +798,25 @@
 
 
 
-    <div class="section-loc container p-0" style="color: rgb(91,79,53); background-color: rgb(230,238,246);" >
+    <div class="section-loc container-fluid p-0" style="color: rgb(91,79,53); background-color: rgb(230,238,246);" >
         <h1 class="text-center m-0 pt-5">Nossa Localização</h1>
-        <div class="row">
-            <div class="col">
-                <img class="w-100" src="img/logos-derivados/Amarelo.svg" alt="">
+        <div class="row d-flex flex-md-row flex-column p-5">
+            <div class="col d-flex justify-content-center align-items-center">
+                <img class="w-75" src="img/logos-derivados/Amarelo.svg" alt="">
             </div>
-            <div class="col">
-                <h1>Contato e Endereço</h1>
-                <h2>Telefones:</h2>
-                <h2>31 3712-7571 | 31 98865-9534</h2>
+            <div class="col  pt-3 d-flex align-items-center flex-column">
+                <h2 id="section-loc-h2" class="text-center mt-5">Contato e Endereço</h2>
                 <br>
-                <h2>Endereço:</h2>
-                <h2>Rua Primeiro de Janeiro 329/330, Centro</h2>
-                <h2>Matozinhos/MG</h2>
+                <p id="section-loc-p" class="text-center mb-5 ">
+                    Telefones: <br>
+                    31 3712-7571 | 31 98865-9534
+                    <br>
+                    <br>
+                    Endereço: <br>
+                    Rua Primeiro de Janeiro 329/330, Centro <br>
+                    Matozinhos/MG
+
+                </p>
             </div>
         </div>
     </div>
@@ -825,13 +830,13 @@
 
 
 
-    <div class="footer container p-0" style="height: 50vh;">
-        <div class="navigation-footer" style="height: 90%; background-color: rgb(51,50,50); color: white;">
+    <div class="footer container-fluid p-0">
+        <div class="navigation-footer" style="background-color: rgb(51,50,50); color: white;">
 
-            <div class="row">
-                <div class="col-4">
-                    <h1 class="">Instituto</h1>
-                    <p class="" style="font-size: .7rem;">Acreditamos que a
+            <div class="row d-flex flex-column flex-sm-row">
+                <div class="col px-5 mt-3">
+                    <h1 class="text-center footer-title">Instituto</h1>
+                    <p id="footer-text-instituto"class="footer-text mb-2 px-5">Acreditamos que a
                         aprendizagem acontece em
                         um ambiente de afetividade,
                         por isso, priorizamos um
@@ -841,9 +846,9 @@
                         valorizadas e respeitadas suas
                         características e limitações.</p>
                 </div>
-                <div class="col">
-                    <h1>Mapa do Site</h1>
-                    <ul class="menus" style="list-style: none; ">
+                <div class="col d-flex flex-column px-5 mt-3 ">
+                    <h1 class="text-center footer-title">Mapa do Site</h1>
+                    <ul class="menus footer-text" style="list-style: none; ">
                         <li >
                             <a style="text-decoration: none;color: white;" href="#">-Início</a>
                         </li>
@@ -863,9 +868,9 @@
                     
 
                 </div>
-                <div class="col-4" >
-                    <h1>Contato e Endereço</h1>
-                    <h2 style="font-size: .7rem;">Telefones: <br>
+                <div class="col" >
+                    <h1 class="text-center footer-title mt-3 px-5">Contato e Endereço</h1>
+                    <h2 class="text-center footer-text">Telefones: <br>
                         31 3712-7571 | 31 98865-9534 <br>
                         <br>
                         Endereço: <br>
@@ -874,18 +879,12 @@
                     </h2>
                 </div>
             </div>
-            <div class="row">
-
-
-            </div>
-
-
-
+            
         </div>
 
 
-        <div class="copywrite-footer" style="height: 10%;background-color: black; color: white;">
-            <h1 class="display-7" style="font-size: .8rem;"> Desenvolvido pela Agência Forja&copy; | Todos os direitos reservados ao Instituto Meninada Crescer | Matozinhos 2022</h1>
+        <div class="copywrite-footer" style="background-color: black; color: white;">
+            <h1 class="footer-text-copy text-center" > Desenvolvido pela Agência Forja&copy; | Todos os direitos reservados ao Instituto Meninada Crescer | Matozinhos 2022</h1>
         </div>
     </div>
 

@@ -160,6 +160,24 @@
     #section-depoimentos p{
         font-size: 1.4rem;
     }
+    #section-loc-h2{
+        font-size: 2.6rem;
+    }
+    #section-loc-p{
+        font-size: 1.8rem;
+    }
+    .footer-title{
+        font-size: 1.4rem;
+    }
+    .footer-text{
+        font-size: 1rem;
+    }
+    #footer-text-instituto{
+        margin: 0 auto;
+    }
+    .footer-text-copy{
+        font-size: .9rem;
+    }
 }
 
 
@@ -249,6 +267,24 @@
     #section-depoimentos p{
         font-size: 1.2rem;
     }
+    #section-loc-h2{
+        font-size: 2.6rem;
+    }
+    #section-loc-p{
+        font-size: 1.8rem;
+    }
+    .footer-title{
+        font-size: 1.4rem;
+    }
+    .footer-text{
+        font-size: 1rem;
+    }
+    #footer-text-instituto{
+        margin: 0 auto;
+    }
+    .footer-text-copy{
+        font-size: .9rem;
+    }
 }
 
 
@@ -336,6 +372,24 @@
     }
     #section-depoimentos p{
         font-size: 1.2rem;
+    }
+    #section-loc-h2{
+        font-size: 2.6rem;
+    }
+    #section-loc-p{
+        font-size: 1.8rem;
+    }
+    .footer-title{
+        font-size: 1.4rem;
+    }
+    .footer-text{
+        font-size: 1rem;
+    }
+    #footer-text-instituto{
+        margin: 0 auto;
+    }
+    .footer-text-copy{
+        font-size: .9rem;
     }
 }
     
@@ -426,6 +480,24 @@
     #section-depoimentos p{
         font-size: 1.2rem;
     }
+    #section-loc-h2{
+        font-size: 2.2rem;
+    }
+    #section-loc-p{
+        font-size: 1.6rem;
+    }
+    .footer-title{
+        font-size: 1.2rem;
+    }
+    .footer-text{
+        font-size: .8rem;
+    }
+    #footer-text-instituto{
+        margin: 0 auto;
+    }
+    .footer-text-copy{
+        font-size: .7rem;
+    }
 }
 
 
@@ -510,6 +582,24 @@
     #section-depoimentos p{
         font-size: 1.2rem;
     }
+    #section-loc-h2{
+        font-size: 2.2;
+    }
+    #section-loc-p{
+        font-size: 1.6rem;
+    }
+    .footer-title{
+        font-size: 1.2rem;
+    }
+    .footer-text{
+        font-size: .8rem;
+    }
+    #footer-text-instituto{
+        margin: 0 auto;
+    }
+    .footer-text-copy{
+        font-size: .7rem;
+    }
 }
 
 
@@ -587,6 +677,21 @@
     #section-depoimentos p{
         font-size: 1.2rem;
     }
+    #section-loc-p{
+        font-size: 1.2rem;
+    }
+    .footer-title{
+        font-size: 1rem;
+    }
+    .footer-text{
+        font-size: .7rem;
+    }
+    #footer-text-instituto{
+        margin: 0 auto;
+    }
+    .footer-text-copy{
+        font-size: .5rem;
+    }
 }
 
 
@@ -663,6 +768,18 @@
     #section-depoimentos p{
         font-size: 1.2rem;
     }
+    .footer-title{
+        font-size: 1rem;
+    }
+    .footer-text{
+        font-size: .7rem;
+    }
+    #footer-text-instituto{
+        margin: 0 auto;
+    }
+    .footer-text-copy{
+        font-size: .5rem;
+    }
     
 }
 
@@ -733,6 +850,18 @@
         }
         #section-depoimentos #depoimentos{
             height: 50vh;
+        }
+        .footer-title{
+            font-size: 1rem;
+        }
+        .footer-text{
+            font-size: .7rem;
+        }
+        #footer-text-instituto{
+            margin: 0 auto;
+        }
+        .footer-text-copy{
+            font-size: .5rem;
         }
 }
 
@@ -808,8 +937,15 @@
         #section-loc{
             height: 50vh;
         }
-        
-        
+        .footer-title{
+            font-size: 1.2rem;
+        }
+        .footer-text{
+            font-size: .7rem;
+        }
+        .footer-text-copy{
+            font-size: .5rem;
+        }
 }
 
 
