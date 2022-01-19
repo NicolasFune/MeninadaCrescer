@@ -40,6 +40,30 @@
 
 
 
+    <div class="preloader-container d-flex justify-content-center align-items-center" style="height: 100vh;width: 100vw;position: fixed;background-image: linear-gradient(135deg , #0556a9,#0d559c);z-index: 2000;">
+
+        <div class="spinner-grow" role="status" style="color: white;">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+          
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -897,5 +921,8 @@
     <script src="jquery/jquery-3.6.0.min.js"></script>
     <script src="bootstrap-5.1.3/dist/js/bootstrap.min.js"></script>
     <script src="js/index.js"></script>
+    <script>
+        $(".preloader-container").addClass("d-none");
+    </script>
 </body>
 </html>
