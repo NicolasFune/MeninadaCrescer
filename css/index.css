@@ -68,54 +68,12 @@
 .img-container-hover:hover{
     transform: scale(1.1);
 }
-#section-nav{
-    background-image: url(../img/backgrounds/Novo\ BG.svg);
+.background-pattern{
+    background-image: url(../img/backgrounds/Novo\ BG\ Sem\ Cor.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0% 0%;
-}
-#section-segmentos{
-    background-image: url(../img/backgrounds/Novo\ BG.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 0% 0%;
-    
-}
-#section-matriculas{
-    background-image: url(../img/backgrounds/Novo\ BG.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 0% 0%;
-}
-#section-equipe{
-    background-image: url(../img/backgrounds/Novo\ BG.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 0% 0%;
-}
-#section-formandos{
-    background-image: url(../img/backgrounds/Novo\ BG.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 0% 0%;
-}
-#section-parceiros{
-    background-image: url(../img/backgrounds/Novo\ BG.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 0% 0%;
-}
-#section-depoimentos{
-    background-image: url(../img/backgrounds/Novo\ BG.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 0% 0%;
-}
-.section-loc{
-    background-image: url(../img/backgrounds/Novo\ BG.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 0% 0%;
+    width: 100vw;
+    position: absolute;
 }
 
 
