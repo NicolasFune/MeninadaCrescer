@@ -4,7 +4,7 @@
 }
 *{
     font-family: 'index';
-   outline: 1px solid #f00 !important;
+   /*outline: 1px solid #f00 !important;*/
 }
 body::-webkit-scrollbar{
     width: 5px;
