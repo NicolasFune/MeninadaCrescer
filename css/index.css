@@ -4,8 +4,18 @@
 }
 *{
     font-family: 'index';
+   outline: 1px solid #f00 !important;
 }
-
+body::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #fce42e;
+    border-radius: 10px;
+}
 .hidden{
     display: none;
 }
@@ -13,9 +23,6 @@
     color: white;
     text-shadow: 0 1px 3px rgba(0, 0, 0, 0.507);
     transition: .1s;
-    
-    
-    
 }
 .nav-link.active{
     border-radius: 2px;
@@ -72,9 +79,35 @@
     background-image: url(../img/backgrounds/Novo\ BG\ Sem\ Cor.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100vw;
+    width: 99.7vw;
     position: absolute;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -121,11 +154,14 @@
     }
     
     #section-matriculas .img-container{
-        width: 35%;
+        width: 50%;
+    }
+    #section-matriculas p{
+        font-size: 1.6rem;
     }
     #section-matriculas #matriculas-btn{
-        width: 25%;
-        font-size: 1.2rem;
+        width: 30%;
+        font-size: 1.4rem;
     }
     #section-equipe{
         height: 90vh;
@@ -228,11 +264,14 @@
         height: 85vh;
     }
     #section-matriculas .img-container{
-        width: 40%;
+        width: 50%;
+    }
+    #section-matriculas p{
+        font-size: 1.6rem;
     }
     #section-matriculas #matriculas-btn{
-        width: 25%;
-        font-size: 1.2rem;
+        width: 30%;
+        font-size: 1.4rem;
     }
     #section-equipe{
         height: 90vh;
@@ -335,10 +374,13 @@
         height: 85vh;
     }
     #section-matriculas .img-container{
-        width: 50%;
+        width: 55%;
+    }
+    #section-matriculas p{
+        font-size: 1.4rem;
     }
     #section-matriculas #matriculas-btn{
-        width: 25%;
+        width: 30%;
         font-size: 1.2rem;
     }
     #section-equipe{
@@ -442,10 +484,13 @@
         height: 80vh;
     }
     #section-matriculas .img-container{
-        width: 50%;
+        width: 60%;
+    }
+    #section-matriculas p{
+        font-size: 1.4rem;
     }
     #section-matriculas #matriculas-btn{
-        width: 25%;
+        width: 35%;
         font-size: 1.2rem;
     }
     #section-equipe{
@@ -548,11 +593,14 @@
         height: 70vh;
     }
     #section-matriculas .img-container{
-        width: 50%;
+        width: 60%;
+    }
+    #section-matriculas p{
+        font-size: 1.4rem;
     }
     #section-matriculas #matriculas-btn{
         width: 40%;
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     #section-equipe{
         height: 95vh;
@@ -650,11 +698,14 @@
         height: 70vh;
     }
     #section-matriculas .img-container{
-        width: 50%;
+        width: 65%;
+    }
+    #section-matriculas p{
+        font-size: 1.4rem;
     }
     #section-matriculas #matriculas-btn{
         width: 40%;
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     #section-equipe{
         height: 95vh;
@@ -742,7 +793,7 @@
         height: 70vh;
     }
     #section-matriculas .img-container{
-        width: 50%;
+        width: 70%;
     }
     #section-matriculas #matriculas-btn{
         width: 40%;
@@ -828,7 +879,7 @@
             height: 50vh;
         }
         #section-matriculas .img-container{
-            width: 50%;
+            width: 80%;
         }
         #section-matriculas #matriculas-btn{
             width: 50%;
@@ -910,7 +961,7 @@
             height: 50vh;
         }
         #section-matriculas .img-container{
-            width: 50%;
+            width: 100%;
         }
         #section-matriculas #matriculas-btn{
             width: 75%;
