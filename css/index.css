@@ -161,7 +161,7 @@ body::-webkit-scrollbar{
         font-size: 1.6rem;
     }
     #section-matriculas #matriculas-btn{
-        width: 30%;
+        width: 15%;
         font-size: 1.4rem;
     }
     #section-equipe{
@@ -271,7 +271,7 @@ body::-webkit-scrollbar{
         font-size: 1.6rem;
     }
     #section-matriculas #matriculas-btn{
-        width: 30%;
+        width: 15%;
         font-size: 1.4rem;
     }
     #section-equipe{
@@ -381,7 +381,7 @@ body::-webkit-scrollbar{
         font-size: 1.4rem;
     }
     #section-matriculas #matriculas-btn{
-        width: 30%;
+        width: 15%;
         font-size: 1.2rem;
     }
     #section-equipe{
@@ -491,7 +491,7 @@ body::-webkit-scrollbar{
         font-size: 1.4rem;
     }
     #section-matriculas #matriculas-btn{
-        width: 35%;
+        width: 20%;
         font-size: 1.2rem;
     }
     #section-equipe{
@@ -600,7 +600,7 @@ body::-webkit-scrollbar{
         font-size: 1.4rem;
     }
     #section-matriculas #matriculas-btn{
-        width: 40%;
+        width: 20%;
         font-size: 1.2rem;
     }
     #section-equipe{
@@ -705,7 +705,7 @@ body::-webkit-scrollbar{
         font-size: 1.4rem;
     }
     #section-matriculas #matriculas-btn{
-        width: 40%;
+        width: 20%;
         font-size: 1.2rem;
     }
     #section-equipe{
@@ -797,7 +797,7 @@ body::-webkit-scrollbar{
         width: 70%;
     }
     #section-matriculas #matriculas-btn{
-        width: 40%;
+        width: 25%;
     }
     #section-equipe{
         height: 95vh;
@@ -883,7 +883,7 @@ body::-webkit-scrollbar{
             width: 80%;
         }
         #section-matriculas #matriculas-btn{
-            width: 50%;
+            width: 30%;
         }
         #section-equipe{
             height: 95vh;
@@ -965,7 +965,7 @@ body::-webkit-scrollbar{
             width: 100%;
         }
         #section-matriculas #matriculas-btn{
-            width: 75%;
+            width: 35%;
         }
         #section-equipe{
             height: 100vh;
@@ -994,6 +994,10 @@ body::-webkit-scrollbar{
         }
         #section-loc{
             height: 50vh;
+        }
+        #gmap_canvas{
+            width: 300px;
+            height: 300px;
         }
         .footer-title{
             font-size: 1.2rem;
