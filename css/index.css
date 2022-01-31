@@ -221,6 +221,13 @@ body::-webkit-scrollbar{
     .footer-text-copy{
         font-size: .9rem;
     }
+    /*Página Sobre*/
+    #section-historia .nossa-historia-fotos{
+        display: flex;
+    }
+    #section-historia p{
+        font-size: 1.8rem;
+    }
 }
 
 
@@ -331,6 +338,13 @@ body::-webkit-scrollbar{
     .footer-text-copy{
         font-size: .9rem;
     }
+    /*Página Sobre*/
+    #section-historia .nossa-historia-fotos{
+        display: flex;
+    }
+    #section-historia p{
+        font-size: 1.8rem;
+    }
 }
 
 
@@ -439,6 +453,13 @@ body::-webkit-scrollbar{
     }
     .footer-text-copy{
         font-size: .9rem;
+    }
+    /*Página Sobre*/
+    #section-historia .nossa-historia-fotos{
+        display: flex;
+    }
+    #section-historia p{
+        font-size: 1.6rem;
     }
 }
     
@@ -550,6 +571,13 @@ body::-webkit-scrollbar{
     .footer-text-copy{
         font-size: .7rem;
     }
+    /*Página Sobre*/
+    #section-historia .nossa-historia-fotos{
+        display: flex;
+    }
+    #section-historia p{
+        font-size: 1.6rem;
+    }
 }
 
 
@@ -655,6 +683,13 @@ body::-webkit-scrollbar{
     .footer-text-copy{
         font-size: .7rem;
     }
+    /*Página Sobre*/
+    #section-historia .nossa-historia-fotos{
+        display: flex;
+    }
+    #section-historia p{
+        font-size: 1.4rem;
+    }
 }
 
 
@@ -750,6 +785,13 @@ body::-webkit-scrollbar{
     .footer-text-copy{
         font-size: .5rem;
     }
+    /*Página Sobre*/
+    #section-historia .nossa-historia-fotos{
+        display: flex;
+    }
+    #section-historia p{
+        font-size: 1.2rem;
+    }
 }
 
 
@@ -838,7 +880,13 @@ body::-webkit-scrollbar{
     .footer-text-copy{
         font-size: .5rem;
     }
-    
+    /*Página Sobre*/
+    #section-historia .nossa-historia-fotos{
+        display: flex;
+    }
+    #section-proposta-curricular .proposta-fotos{
+        display: flex;
+    }
 }
 
 
@@ -920,6 +968,13 @@ body::-webkit-scrollbar{
         }
         .footer-text-copy{
             font-size: .5rem;
+        }
+        /*Página Sobre*/
+        #section-historia .nossa-historia-fotos{
+            display: none;
+        }
+        #section-proposta-curricular .proposta-fotos{
+            display: none;
         }
 }
 
@@ -1007,6 +1062,13 @@ body::-webkit-scrollbar{
         }
         .footer-text-copy{
             font-size: .5rem;
+        }
+        /*Página Sobre*/
+        #section-historia .nossa-historia-fotos{
+            display: none;
+        }
+        #section-proposta-curricular .proposta-fotos{
+            display: none;
         }
 }
 
