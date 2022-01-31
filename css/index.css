@@ -884,7 +884,7 @@ body::-webkit-scrollbar{
     #section-historia .nossa-historia-fotos{
         display: flex;
     }
-    #section-proposta-curricular .proposta-fotos{
+    #section-proposta-pedagogica .proposta-fotos{
         display: flex;
     }
 }
@@ -973,7 +973,7 @@ body::-webkit-scrollbar{
         #section-historia .nossa-historia-fotos{
             display: none;
         }
-        #section-proposta-curricular .proposta-fotos{
+        #section-proposta-pedagogica .proposta-fotos{
             display: none;
         }
 }
@@ -1067,7 +1067,7 @@ body::-webkit-scrollbar{
         #section-historia .nossa-historia-fotos{
             display: none;
         }
-        #section-proposta-curricular .proposta-fotos{
+        #section-proposta-pedagogica .proposta-fotos{
             display: none;
         }
 }
