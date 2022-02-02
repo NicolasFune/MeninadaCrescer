@@ -28,12 +28,16 @@ body::-webkit-scrollbar{
     border-radius: 2px;
     border-bottom: 2px solid yellow;
 }
-
+.footer-link{
+    transition: .1s;
+}
+.footer-link:hover{
+    transform: scale(1.1);
+}
 .nav-link:hover{
     color: #fce42e;
     
 }
-
 .nav-link-social:hover{
     transform: scale(1.1);
 }
@@ -1070,23 +1074,4 @@ body::-webkit-scrollbar{
         #section-proposta-pedagogica .proposta-fotos{
             display: none;
         }
-}
-
-
-
-
-
-@media (min-width:0px) and (max-width:299px){
-   	/*150*/
-       #section-nav{
-        height: 100vh;
-    }
-    #section-nav .img-container{
-        width: 25%;
-    }
-    #section-nav h1{
-        width: 40%;
-        height: 10%;
-        font-size: 1.2rem;
-    }
 }
