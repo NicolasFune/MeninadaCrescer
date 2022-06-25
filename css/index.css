@@ -132,32 +132,42 @@ h3{
     .navbar-collapse{
         padding-right: 4rem;
     }
+
+
+
+    /*SECTION-NAV*/
     #section-nav{
         height: 80vh;
     }
     #section-nav .img-container{
-        width: 50%;
+        width: 70%;
       }
       #section-nav h1{
-        width: 65%;
+        width: 100%;
         height: 10%;
-        font-size: 1.2rem;
+        font-size: 1.8rem;
       }
+      
+
+
+    /*SECTION-SEG*/
       #section-segmentos{
         height: 75vh;
     }
-    #segmentos{
-        height: 60vh;
+    #section-segmentos h1{
+        font-size: 5rem;
     }
-    #segmentos .carousel-inner{
-        height: 60vh;
+    #section-segmentos img{
+        width: 60%;
     }
-    #segmentos .img-container{
-        width: 32%;
+    #section-segmentos p{
+        font-size: 2.5rem;
     }
-    #segmentos h1{
-        font-size: 2rem;
-    }
+    
+
+
+
+    /*SECTION-MATRICULA*/
     #section-matriculas{
         height: 75vh;
     }
@@ -165,26 +175,46 @@ h3{
     #section-matriculas .img-container{
         width: 50%;
     }
+    #section-matriculas h1{
+        font-size: 5rem;
+    }
     #section-matriculas p{
-        font-size: 1.6rem;
+        font-size: 1.8rem;
     }
     #section-matriculas #matriculas-btn{
         width: 15%;
-        font-size: 1.4rem;
+        font-size: 2rem;
     }
+
+
+
+
+/*SECTION-EQUIPE*/
     #section-equipe{
         height: 90vh;
     }
+    #section-equipe h1{
+        font-size: 5rem;
+       
+    }
     #section-equipe p{
-        font-size: 1.6rem;
+        font-size: 2.4rem;
         padding: 4rem 2rem;
     }
     #section-equipe .equipe-btn-container{
         padding-top: 3rem;
     }
     #section-equipe #equipe-btn{
-        font-size: 1.2rem;
+        font-size: 2rem;
     }
+    #section-equipe img{
+        width: 75%;
+    }
+    
+
+
+
+/*SECTION-FORMANDOS*/
     #section-formandos{
         height: 85vh;
     }
@@ -195,13 +225,26 @@ h3{
         padding: 5rem 45rem;
         font-size: 1.4rem;
     }
+
+
+/*SECTION-PARCEIROS*/
     #section-parceiros{
-        height: 40vh;
+        height: 90vh;
+    }
+    #section-parceiros h1{
+        font-size: 5rem;
+        padding: 0 55rem;
     }
     #section-parceiros p{
         padding: 0 55rem;
-        font-size: 1.4rem;
+        font-size: 1.9rem;
     }
+    #section-parceiros img{
+        width: 90%;
+    }
+
+
+/*SECTION-DEPOIMENTOS*/
     #section-depoimentos{
         height: 50vh;
     }
@@ -211,32 +254,65 @@ h3{
     #section-depoimentos p{
         font-size: 1.4rem;
     }
+
+
+/*SECTION-LOCALIZAÇÃO*/
+    #section-loc-h1{
+        font-size: 5rem;
+    }
     #section-loc-h2{
-        font-size: 2.6rem;
+        font-size: 3rem;
+        font-weight: bold;
     }
     #section-loc-p{
-        font-size: 1.8rem;
+        font-size: 2rem;
     }
+       
+
+
+
+/*SECTION-FOOTER*/
     .footer-title{
-        font-size: 1.4rem;
+        font-size: 2rem;
+        color: white;
     }
     .footer-text{
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
     #footer-text-instituto{
         margin: 0 auto;
     }
     .footer-text-copy{
-        font-size: .9rem;
+        font-size: 1.2rem;
+        color: white;
     }
-    /*Página Sobre*/
-    #section-historia .nossa-historia-fotos{
-        display: flex;
-    }
-    #section-historia p{
-        font-size: 1.8rem;
-    }
+    
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -247,58 +323,89 @@ h3{
     .navbar-collapse{
         padding-right: 4rem;
     }
+
+
+
+    /*SECTION-NAV*/
     #section-nav{
         height: 80vh;
     }
     #section-nav .img-container{
-        width: 50%;
+        width: 70%;
       }
       #section-nav h1{
-        width: 65%;
+        width: 100%;
         height: 10%;
-        font-size: 1.2rem;
+        font-size: 1.8rem;
       }
+      
+
+
+    /*SECTION-SEG*/
       #section-segmentos{
         height: 75vh;
     }
-    #segmentos{
-        height: 60vh;
+    #section-segmentos h1{
+        font-size: 5rem;
     }
-    #segmentos .carousel-inner{
-        height: 60vh;
+    #section-segmentos img{
+        width: 60%;
     }
-    #segmentos .img-container{
-        width: 28%;
+    #section-segmentos p{
+        font-size: 2rem;
     }
-    #segmentos h1{
-        font-size: 1.8rem;
-    }
+    
+
+
+
+    /*SECTION-MATRICULA*/
     #section-matriculas{
-        height: 85vh;
+        height: 75vh;
     }
+    
     #section-matriculas .img-container{
         width: 50%;
     }
+    #section-matriculas h1{
+        font-size: 5rem;
+    }
     #section-matriculas p{
-        font-size: 1.6rem;
+        font-size: 1.8rem;
     }
     #section-matriculas #matriculas-btn{
         width: 15%;
-        font-size: 1.4rem;
+        font-size: 2rem;
     }
+
+
+
+
+/*SECTION-EQUIPE*/
     #section-equipe{
         height: 90vh;
     }
+    #section-equipe h1{
+        font-size: 5rem;
+       
+    }
     #section-equipe p{
-        font-size: 1.4rem;
+        font-size: 2rem;
         padding: 4rem 2rem;
     }
     #section-equipe .equipe-btn-container{
         padding-top: 3rem;
     }
     #section-equipe #equipe-btn{
-        font-size: 1.2rem;
+        font-size: 1.8rem;
     }
+    #section-equipe img{
+        width: 72%;
+    }
+    
+
+
+
+/*SECTION-FORMANDOS*/
     #section-formandos{
         height: 85vh;
     }
@@ -307,15 +414,28 @@ h3{
     }
     #section-formandos p{
         padding: 5rem 45rem;
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
+
+
+/*SECTION-PARCEIROS*/
     #section-parceiros{
-        height: 50vh;
+        height: 95vh;
+    }
+    #section-parceiros h1{
+        font-size: 5rem;
+        padding: 0 55rem;
     }
     #section-parceiros p{
-        padding: 0 45rem;
-        font-size: 1.2rem;
+        padding: 0 55rem;
+        font-size: 1.9rem;
     }
+    #section-parceiros img{
+        width: 90%;
+    }
+
+
+/*SECTION-DEPOIMENTOS*/
     #section-depoimentos{
         height: 50vh;
     }
@@ -323,34 +443,74 @@ h3{
         height: 50vh;
     }
     #section-depoimentos p{
-        font-size: 1.2rem;
-    }
-    #section-loc-h2{
-        font-size: 2.6rem;
-    }
-    #section-loc-p{
-        font-size: 1.8rem;
-    }
-    .footer-title{
         font-size: 1.4rem;
     }
+
+
+/*SECTION-LOCALIZAÇÃO*/
+    #section-loc-h1{
+        font-size: 5rem;
+    }
+    #section-loc-h2{
+        font-size: 3rem;
+        font-weight: bold;
+    }
+    #section-loc-p{
+        font-size: 2rem;
+    }
+       
+
+
+
+/*SECTION-FOOTER*/
+    .footer-title{
+        font-size: 2rem;
+        color: white;
+    }
     .footer-text{
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
     #footer-text-instituto{
         margin: 0 auto;
     }
     .footer-text-copy{
-        font-size: .9rem;
+        font-size: 1.2rem;
+        color: white;
     }
-    /*Página Sobre*/
-    #section-historia .nossa-historia-fotos{
-        display: flex;
-    }
-    #section-historia p{
-        font-size: 1.8rem;
-    }
+    
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -359,60 +519,91 @@ h3{
 @media (min-width:2100px) and (max-width:2399px){
 	/*2250*/
     .navbar-collapse{
-        padding-right: 3.5rem;
+        padding-right: 4rem;
     }
+
+
+
+    /*SECTION-NAV*/
     #section-nav{
         height: 80vh;
     }
     #section-nav .img-container{
-        width: 50%;
+        width: 60%;
       }
       #section-nav h1{
-        width: 65%;
+        width: 100%;
         height: 10%;
-        font-size: 1.2rem;
+        font-size: 1.6rem;
       }
+      
+
+
+    /*SECTION-SEG*/
       #section-segmentos{
         height: 75vh;
     }
-    #segmentos{
-        height: 60vh;
+    #section-segmentos h1{
+        font-size: 4.5rem;
     }
-    #segmentos .carousel-inner{
-        height: 60vh;
+    #section-segmentos img{
+        width: 52%;
     }
-    #segmentos .img-container{
-        width: 25%;
+    #section-segmentos p{
+        font-size: 2rem;
     }
-    #segmentos h1{
-        font-size: 1.6rem;
-    }
+    
+
+
+
+    /*SECTION-MATRICULA*/
     #section-matriculas{
-        height: 85vh;
+        height: 75vh;
     }
+    
     #section-matriculas .img-container{
-        width: 55%;
+        width: 45%;
+    }
+    #section-matriculas h1{
+        font-size: 4.5rem;
     }
     #section-matriculas p{
-        font-size: 1.4rem;
+        font-size: 1.5rem;
     }
     #section-matriculas #matriculas-btn{
         width: 15%;
-        font-size: 1.2rem;
+        font-size: 1.6rem;
     }
+
+
+
+
+/*SECTION-EQUIPE*/
     #section-equipe{
-        height: 90vh;
+        height: 95vh;
+    }
+    #section-equipe h1{
+        font-size: 4.5rem;
+       
     }
     #section-equipe p{
-        font-size: 1.2rem;
+        font-size: 1.6rem;
         padding: 4rem 2rem;
     }
     #section-equipe .equipe-btn-container{
         padding-top: 3rem;
     }
     #section-equipe #equipe-btn{
-        font-size: 1.2rem;
+        font-size: 1.8rem;
     }
+    #section-equipe img{
+        width: 60%;
+    }
+    
+
+
+
+/*SECTION-FORMANDOS*/
     #section-formandos{
         height: 85vh;
     }
@@ -421,14 +612,28 @@ h3{
     }
     #section-formandos p{
         padding: 5rem 45rem;
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
+
+
+/*SECTION-PARCEIROS*/
     #section-parceiros{
-        height: 50vh;
+        height: 90vh;
+    }
+    #section-parceiros h1{
+        font-size: 3.5rem;
+        padding: 0 55rem;
     }
     #section-parceiros p{
-        padding: 0 45rem;
+        padding: 0 55rem;
+        font-size: 1.6rem;
     }
+    #section-parceiros img{
+        width: 60%;
+    }
+
+
+/*SECTION-DEPOIMENTOS*/
     #section-depoimentos{
         height: 50vh;
     }
@@ -436,32 +641,39 @@ h3{
         height: 50vh;
     }
     #section-depoimentos p{
-        font-size: 1.2rem;
-    }
-    #section-loc-h2{
-        font-size: 2.6rem;
-    }
-    #section-loc-p{
-        font-size: 1.8rem;
-    }
-    .footer-title{
         font-size: 1.4rem;
     }
+
+
+/*SECTION-LOCALIZAÇÃO*/
+    #section-loc-h1{
+        font-size: 4.5rem;
+    }
+    #section-loc-h2{
+        font-size: 3rem;
+        font-weight: bold;
+    }
+    #section-loc-p{
+        font-size: 2rem;
+    }
+       
+
+
+
+/*SECTION-FOOTER*/
+    .footer-title{
+        font-size: 2rem;
+        color: white;
+    }
     .footer-text{
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
     #footer-text-instituto{
         margin: 0 auto;
     }
     .footer-text-copy{
-        font-size: .9rem;
-    }
-    /*Página Sobre*/
-    #section-historia .nossa-historia-fotos{
-        display: flex;
-    }
-    #section-historia p{
-        font-size: 1.6rem;
+        font-size: 1.2rem;
+        color: white;
     }
 }
     
@@ -470,114 +682,63 @@ h3{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (min-width:1800px) and (max-width:2099px){
      	/*1950*/
-         .navbar-collapse{
-            padding-right: 3rem;
-        }
-        #section-nav{
-        height: 80vh;
-    }
-    #section-nav .img-container{
-        width: 50%;
-      }
-      #section-nav h1{
-        width: 65%;
-        height: 10%;
-        font-size: 1.2rem;
-      }
-      #section-segmentos{
-        height: 75vh;
-    }
-    #segmentos{
-        height: 60vh;
-    }
-    #segmentos .carousel-inner{
-        height: 60vh;
-    }
-    #segmentos .img-container{
-        width: 22%;
-    }
-    #segmentos h1{
-        font-size: 1.4rem;
-    }
-    #section-matriculas{
-        height: 80vh;
-    }
-    #section-matriculas .img-container{
-        width: 60%;
-    }
-    #section-matriculas p{
-        font-size: 1.4rem;
-    }
-    #section-matriculas #matriculas-btn{
-        width: 20%;
-        font-size: 1.2rem;
-    }
-    #section-equipe{
-        height: 90vh;
-    }
-    #section-equipe p{
-        font-size: 1.2rem;
-        padding: 4rem 2rem;
-    }
-    #section-equipe .equipe-btn-container{
-        padding-top: 3rem;
-    }
-    #section-equipe #equipe-btn{
-        font-size: 1.2rem;
-    }
-    #section-formandos{
-        height: 85vh;
-    }
-    #section-formandos h1{
-        padding-bottom: 2rem;
-    }
-    #section-formandos p{
-        padding: 5rem 25rem;
-    }
-    #section-parceiros{
-        height: 50vh;
-    }
-    #section-parceiros p{
-        padding: 0 35rem;
-        font-size: 1.2rem;
-    }
-    #section-depoimentos{
-        height: 50vh;
-    }
-    #section-depoimentos #depoimentos{
-        height: 50vh;
-    }
-    #section-depoimentos p{
-        font-size: 1.2rem;
-    }
-    #section-loc-h2{
-        font-size: 2.2rem;
-    }
-    #section-loc-p{
-        font-size: 1.6rem;
-    }
-    .footer-title{
-        font-size: 1.2rem;
-    }
-    .footer-text{
-        font-size: .8rem;
-    }
-    #footer-text-instituto{
-        margin: 0 auto;
-    }
-    .footer-text-copy{
-        font-size: .7rem;
-    }
-    /*Página Sobre*/
-    #section-historia .nossa-historia-fotos{
-        display: flex;
-    }
-    #section-historia p{
-        font-size: 1.6rem;
-    }
+        
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -585,132 +746,29 @@ h3{
 
 @media (min-width:1500px) and (max-width:1799px){
      	/*1650*/
-    .navbar-collapse{
-        padding-right: 3rem;
-    }
-
-
-
-    #section-nav{
-    height: 80vh;
-    }
-    #section-nav .img-container{
-        width: 50%;
-      }
-      #section-nav h1{
-        width: 65%;
-        height: 10%;
-        font-size: 1.2rem;
-      }
-
-
-
-    #section-segmentos{
-        height: 75vh;
-    }
-    #section-segmentos .img-container{
-        width: 70%;
-    }
-    #section-segmentos h1{
-        font-size: 3rem;
-    }
-
-
-    #section-matriculas{
-        height: 75vh;
-    }
-    #section-matriculas .img-container{
-        width: 55%;
-    }
-    #section-matriculas p{
-        font-size: 1.10rem;
-    }
-    #section-matriculas #matriculas-btn{
-        width: 20%;
-        font-size: 1.2rem;
-    }
-
-
-
-    #section-equipe{
-        height: 95vh;
-    }
-    #section-equipe p{
-        padding: 4rem 2rem;
-    }
-
-
-
-    #section-formandos{
-        height: 85vh;
-    }
-    #section-formandos p{
-        padding: 0 18rem;
-    }
-
-
-    #section-parceiros{
-        height: 80vh;
-    }
-    #section-parceiros p{
-        padding: 0 25rem;
-        font-size: 1.2rem;
-    }
-    #section-parceiros .img-container{
-        width: 5%;
-    }
-
-
-
-
-    #section-depoimentos{
-        height: 50vh;
-    }
-    #section-depoimentos #depoimentos{
-        height: 50vh;
-    }
-    #section-depoimentos p{
-        font-size: 1.2rem;
-    }
-
-
-
-    #section-loc-h2{
-        font-size: 2.2;
-    }
-    #section-loc-p{
-        font-size: 1.6rem;
-    }
-    #gmap_canvas{
-        width: 500px;
-        height: 500px;
-    }
-
-
-
-
-
-
-    .footer-title{
-        font-size: 1.2rem;
-    }
-    .footer-text{
-        font-size: .8rem;
-    }
-    #footer-text-instituto{
-        margin: 0 auto;
-    }
-    .footer-text-copy{
-        font-size: .7rem;
-    }
-    /*Página Sobre*/
-    #section-historia .nossa-historia-fotos{
-        display: flex;
-    }
-    #section-historia p{
-        font-size: 1.4rem;
-    }
+    
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -718,98 +776,30 @@ h3{
 
 @media (min-width:1200px) and (max-width:1499px){
   	/*1350*/
-      .navbar-collapse{
-        padding-right: 3rem;
-    }
-      #section-nav{
-        height: 80vh;
-    }
-    #section-nav .img-container{
-        width: 50%;
-      }
-      #section-nav h1{
-        width: 65%;
-        height: 10%;
-        font-size: 1.2rem;
-      }
-      #section-segmentos{
-        height: 80vh;
-    }
-    #segmentos{
-        height: 55vh;
-    }
-    #segmentos .carousel-inner{
-        height: 55vh;
-    }
-    #segmentos .img-container{
-        width: 20%;
-    }
-    #segmentos h1{
-        font-size: 1.4rem;
-    }
-    #section-matriculas{
-        height: 70vh;
-    }
-    #section-matriculas .img-container{
-        width: 65%;
-    }
-    #section-matriculas p{
-        font-size: 1.4rem;
-    }
-    #section-matriculas #matriculas-btn{
-        width: 20%;
-        font-size: 1.2rem;
-    }
-    #section-equipe{
-        height: 95vh;
-    }
-    #section-equipe p{
-        padding: 4rem 2rem;
-    }
-    #section-formandos{
-        height: 85vh;
-    }
-    #section-formandos p{
-        padding: 0 10rem;
-    }
-    #section-parceiros{
-        height: 50vh;
-    }
-    #section-parceiros p{
-        padding: 0 15rem;
-    }
-    #section-depoimentos{
-        height: 50vh;
-    }
-    #section-depoimentos #depoimentos{
-        height: 50vh;
-    }
-    #section-depoimentos p{
-        font-size: 1.2rem;
-    }
-    #section-loc-p{
-        font-size: 1.2rem;
-    }
-    .footer-title{
-        font-size: 1rem;
-    }
-    .footer-text{
-        font-size: .7rem;
-    }
-    #footer-text-instituto{
-        margin: 0 auto;
-    }
-    .footer-text-copy{
-        font-size: .5rem;
-    }
-    /*Página Sobre*/
-    #section-historia .nossa-historia-fotos{
-        display: flex;
-    }
-    #section-historia p{
-        font-size: 1.2rem;
-    }
+     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -817,91 +807,32 @@ h3{
 
 @media (min-width:991px) and (max-width:1199px){
   	/*1050*/
-      .navbar-collapse{
-        padding-right: 1rem;
-    }
-      #section-nav{
-          height: 70vh;
-      }
-      #section-nav .img-container{
-        width: 50%;
-      }
-      #section-nav h1{
-        width: 65%;
-        height: 10%;
-        font-size: 1.2rem;
-      }
-      #section-segmentos{
-        height: 70vh;
-    }
-    #segmentos{
-        height: 50vh;
-    }
-    #segmentos .carousel-inner{
-        height: 50vh;
-    }
-    #segmentos .img-container{
-        width: 22%;
-    }
-    #segmentos h1{
-        font-size: 1.4rem;
-    }
-    #section-matriculas{
-        height: 70vh;
-    }
-    #section-matriculas .img-container{
-        width: 70%;
-    }
-    #section-matriculas #matriculas-btn{
-        width: 25%;
-    }
-    #section-equipe{
-        height: 95vh;
-    }
-    #section-equipe p{
-        padding: 4rem 2rem;
-    }
-    #section-formandos{
-        height: 85vh;
-    }
-    #section-formandos p{
-        padding: 0 5rem;
-    }
-    #section-parceiros{
-        height: 50vh;
-    }
-    #section-parceiros p{
-        padding: 0 10rem;
-    }
-    #section-depoimentos{
-        height: 60vh;
-    }
-    #section-depoimentos #depoimentos{
-        height: 50vh;
-    }
-    #section-depoimentos p{
-        font-size: 1.2rem;
-    }
-    .footer-title{
-        font-size: 1rem;
-    }
-    .footer-text{
-        font-size: .7rem;
-    }
-    #footer-text-instituto{
-        margin: 0 auto;
-    }
-    .footer-text-copy{
-        font-size: .5rem;
-    }
-    /*Página Sobre*/
-    #section-historia .nossa-historia-fotos{
-        display: flex;
-    }
-    #section-proposta-pedagogica .proposta-fotos{
-        display: flex;
-    }
+     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -909,85 +840,29 @@ h3{
 
 @media (min-width:600px) and (max-width:990px){
     	/*750*/
-        #section-nav{
-            height: 100vh;
-        }
-        #section-nav .img-container{
-            width: 25%;
-        }
-        #section-nav h1{
-            width: 40%;
-            height: 10%;
-            font-size: 1.2rem;
-        }
-        #section-segmentos{
-            height: 60vh;
-        }
-        #segmentos{
-            height: 40vh;
-        }
-        #segmentos .carousel-inner{
-            height: 40vh;
-        }
-        #segmentos .img-container{
-            width: 30%;
-        }
-        #segmentos h1{
-            font-size: 1.2rem;
-        }
-        #section-matriculas{
-            height: 50vh;
-        }
-        #section-matriculas .img-container{
-            width: 80%;
-        }
-        #section-matriculas #matriculas-btn{
-            width: 30%;
-        }
-        #section-equipe{
-            height: 95vh;
-        }
-        #section-equipe p{
-            padding: 4rem 2rem;
-        }
-        #section-formandos{
-            height: 85vh;
-        }
-        #section-formandos p{
-            padding: 0 5rem;
-        }
-        #section-parceiros{
-            height: 60vh;
-        }
-        #section-parceiros p{
-            padding: 0 4rem;
-        }
-        #section-depoimentos{
-            height: 60vh;
-        }
-        #section-depoimentos #depoimentos{
-            height: 50vh;
-        }
-        .footer-title{
-            font-size: 1rem;
-        }
-        .footer-text{
-            font-size: .7rem;
-        }
-        #footer-text-instituto{
-            margin: 0 auto;
-        }
-        .footer-text-copy{
-            font-size: .5rem;
-        }
-        /*Página Sobre*/
-        #section-historia .nossa-historia-fotos{
-            display: none;
-        }
-        #section-proposta-pedagogica .proposta-fotos{
-            display: none;
-        }
+       
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -995,87 +870,5 @@ h3{
 
 @media (min-width:300px) and (max-width:599px){
     	/*450*/
-        #section-nav{
-            height: 100vh;
-        }
-        #section-nav .img-container{
-            width: 25%;
-        }
-        #section-nav h1{
-            width: 100%;
-            height: 10%;
-            font-size: 1.2rem;
-        }
-        #section-segmentos{
-            height: 60vh;
-        }
-        #segmentos{
-            height: 40vh;
-        }
-        #segmentos .carousel-inner{
-            height: 40vh;
-        }
-        #segmentos .img-container{
-            width: 40%;
-        }
-        #segmentos h1{
-            font-size: 1rem;
-        }
-        #section-matriculas{
-            height: 50vh;
-        }
-        #section-matriculas .img-container{
-            width: 100%;
-        }
-        #section-matriculas #matriculas-btn{
-            width: 35%;
-        }
-        #section-equipe{
-            height: 100vh;
-        }
-        #section-equipe p{
-            padding-top: 5rem;
-        }
-        #section-formandos{
-            height: 85vh;
-        }
-        #section-formandos p{
-            padding: 0 1.2rem;
-            font-size: .8rem;
-        }
-        #section-parceiros{
-            height: 120vh;
-        }
-        #section-parceiros p{
-            padding: 0 1rem;
-        }
-        #section-depoimentos{
-            height: 60vh;
-        }
-        #section-depoimentos #depoimentos{
-            height: 50vh;
-        }
-        #section-loc{
-            height: 50vh;
-        }
-        #gmap_canvas{
-            width: 300px;
-            height: 300px;
-        }
-        .footer-title{
-            font-size: 1.2rem;
-        }
-        .footer-text{
-            font-size: .7rem;
-        }
-        .footer-text-copy{
-            font-size: .5rem;
-        }
-        /*Página Sobre*/
-        #section-historia .nossa-historia-fotos{
-            display: none;
-        }
-        #section-proposta-pedagogica .proposta-fotos{
-            display: none;
-        }
+       
 }
