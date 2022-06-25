@@ -139,9 +139,6 @@ body::-webkit-scrollbar{
       #section-segmentos{
         height: 75vh;
     }
-    .segmentos-title{
-        height: 10vh;
-    }
     #segmentos{
         height: 60vh;
     }
@@ -257,9 +254,6 @@ body::-webkit-scrollbar{
       #section-segmentos{
         height: 75vh;
     }
-    .segmentos-title{
-        height: 10vh;
-    }
     #segmentos{
         height: 60vh;
     }
@@ -373,9 +367,6 @@ body::-webkit-scrollbar{
       }
       #section-segmentos{
         height: 75vh;
-    }
-    .segmentos-title{
-        height: 10vh;
     }
     #segmentos{
         height: 60vh;
@@ -491,9 +482,6 @@ body::-webkit-scrollbar{
       #section-segmentos{
         height: 75vh;
     }
-    .segmentos-title{
-        height: 10vh;
-    }
     #segmentos{
         height: 60vh;
     }
@@ -593,6 +581,9 @@ body::-webkit-scrollbar{
     .navbar-collapse{
         padding-right: 3rem;
     }
+
+
+
     #section-nav{
     height: 80vh;
     }
@@ -604,62 +595,67 @@ body::-webkit-scrollbar{
         height: 10%;
         font-size: 1.2rem;
       }
-      #section-segmentos{
+
+
+
+    #section-segmentos{
         height: 75vh;
     }
-    .segmentos-title{
-        height: 10vh;
+    #section-segmentos .img-container{
+        width: 70%;
     }
-    #segmentos{
-        height: 60vh;
+    #section-segmentos h1{
+        font-size: 3rem;
     }
-    #segmentos .carousel-inner{
-        height: 60vh;
-    }
-    #segmentos .img-container{
-        width: 22%;
-    }
-    #segmentos h1{
-        font-size: 1.4rem;
-    }
+
+
     #section-matriculas{
-        height: 70vh;
+        height: 75vh;
     }
     #section-matriculas .img-container{
-        width: 60%;
+        width: 55%;
     }
     #section-matriculas p{
-        font-size: 1.4rem;
+        font-size: 1.10rem;
     }
     #section-matriculas #matriculas-btn{
         width: 20%;
         font-size: 1.2rem;
     }
+
+
+
     #section-equipe{
         height: 95vh;
     }
     #section-equipe p{
         padding: 4rem 2rem;
     }
+
+
+
     #section-formandos{
         height: 85vh;
     }
     #section-formandos p{
         padding: 0 18rem;
     }
+
+
     #section-parceiros{
         height: 80vh;
-    }
-    #section-parceiros p{
-        padding: 0 4rem;
-    }
-    #section-parceiros{
-        height: 50vh;
     }
     #section-parceiros p{
         padding: 0 25rem;
         font-size: 1.2rem;
     }
+    #section-parceiros .img-container{
+        width: 5%;
+    }
+
+
+
+
     #section-depoimentos{
         height: 50vh;
     }
@@ -669,12 +665,25 @@ body::-webkit-scrollbar{
     #section-depoimentos p{
         font-size: 1.2rem;
     }
+
+
+
     #section-loc-h2{
         font-size: 2.2;
     }
     #section-loc-p{
         font-size: 1.6rem;
     }
+    #gmap_canvas{
+        width: 500px;
+        height: 500px;
+    }
+
+
+
+
+
+
     .footer-title{
         font-size: 1.2rem;
     }
@@ -717,10 +726,7 @@ body::-webkit-scrollbar{
         font-size: 1.2rem;
       }
       #section-segmentos{
-        height: 70vh;
-    }
-    .segmentos-title{
-        height: 10vh;
+        height: 80vh;
     }
     #segmentos{
         height: 55vh;
@@ -821,9 +827,6 @@ body::-webkit-scrollbar{
       #section-segmentos{
         height: 70vh;
     }
-    .segmentos-title{
-        height: 10vh;
-    }
     #segmentos{
         height: 50vh;
     }
@@ -913,9 +916,6 @@ body::-webkit-scrollbar{
         #section-segmentos{
             height: 60vh;
         }
-        .segmentos-title{
-            height: 10vh;
-        }
         #segmentos{
             height: 40vh;
         }
@@ -1001,9 +1001,6 @@ body::-webkit-scrollbar{
         }
         #section-segmentos{
             height: 60vh;
-        }
-        .segmentos-title{
-            height: 10vh;
         }
         #segmentos{
             height: 40vh;
