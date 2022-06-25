@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="134" height="134" viewBox="0 0 134 134">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0556a9;
+      }
+
+      .cls-2 {
+        fill: #f9f9f9;
+        font-size: 84px;
+        font-family: Montserrat-Bold, Montserrat;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <g id="Grupo_1768" data-name="Grupo 1768" transform="translate(-705 -1646)">
+    <circle id="Elipse_29" data-name="Elipse 29" class="cls-1" cx="67" cy="67" r="67" transform="translate(705 1646)"/>
+    <text id="_1" data-name="1" class="cls-2" transform="translate(756 1743)"><tspan x="0" y="0">1</tspan></text>
+  </g>
+</svg>

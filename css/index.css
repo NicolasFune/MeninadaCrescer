@@ -87,7 +87,14 @@ body::-webkit-scrollbar{
     position: absolute;
     z-index: 1;
 }
-
+h1{
+    color: rgb(91,79,53);
+    text-shadow: 1px 1px 3px rgba(68, 59, 39, 0.575);
+}
+h3{
+    color: rgb(91,79,53);
+    text-shadow: 1px 1px 3px rgba(68, 59, 39, 0.575);
+}
 
 
 
