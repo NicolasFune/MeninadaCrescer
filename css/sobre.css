@@ -1,0 +1,1016 @@
+@font-face {
+    font-family: 'index';
+    src: url(../fonts/Montserrat-SemiBold.ttf);
+}
+*{
+    font-family: 'index';
+   /*outline: 1px solid #f00 !important;*/
+}
+body::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #fce42e;
+    border-radius: 10px;
+}
+.hidden{
+    display: none;
+}
+.nav-link{
+    color: white;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.507);
+    transition: .1s;
+}
+.nav-link.active{
+    border-radius: 2px;
+    border-bottom: 2px solid yellow;
+}
+.footer-link{
+    transition: .1s;
+}
+.footer-link:hover{
+    transform: scale(1.1);
+}
+.nav-link:hover{
+    color: #fce42e;
+    
+}
+.nav-link-social:hover{
+    transform: scale(1.1);
+}
+#nav-li-matricula{
+    background-color: #fce42e;
+    color: #0556a9;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.24);
+    transition: .1s;
+    width: fit-content;
+    text-shadow: none;
+}
+#nav-li-matricula:hover{
+    background-color: white;
+    transform: translateY(-3px);
+}
+.default-btn{
+    background-color: #0556a9;
+    color: White;
+    border: none;
+    font-size: .8rem;
+    transition: .2s;
+}
+.default-btn:hover{
+    transform: translateY(-3px);
+    background-color: #b0d5fc;
+    color: #0556a9;
+}
+#nav-li-a-matricula{
+    color: #0556a9;
+}
+
+#section-nav  h1{
+    color: rgb(91,79,53);
+    font-size: 1rem;
+}
+.img-container-hover{
+    transition: .3s;
+}
+.img-container-hover:hover{
+    transform: scale(1.1);
+}
+.background-pattern{
+    background-image: url(../img/backgrounds/Novo\ BG\ Sem\ Cor.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 99.7vw;
+    position: absolute;
+    z-index: 1;
+}
+h1{
+    color: rgb(91,79,53);
+    text-shadow: 1px 1px 3px rgba(68, 59, 39, 0.575);
+}
+h3{
+    color: rgb(91,79,53);
+    text-shadow: 1px 1px 3px rgba(68, 59, 39, 0.575);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:2700px) and (max-width:3000px){
+	/*2850*/
+    .navbar-collapse{
+        padding-right: 4rem;
+    }
+    /*SECTION-HISTORIA*/
+    #section-historia img{
+        width: 90%;
+    }
+    #section-historia h1{
+        font-size: 5rem;
+    }
+    #section-historia p{
+        font-size: 2rem;
+    }
+    /*SECTION-PROPOSTA-PEDAGOGICA*/
+    #section-proposta-pedagogica img{
+        width: 90%;
+        transform: rotate(-12deg);
+    }
+    #section-proposta-pedagogica h1{
+        font-size: 5rem;
+    }
+    #section-proposta-pedagogica p{
+        font-size: 2rem;
+    }
+
+    /*SECTION-PROPOSTA-CURRICULAR*/
+    #section-proposta-curricular img{
+        width: 90%;
+        transform: rotate(-12deg);
+    }
+    #section-proposta-curricular h1{
+        font-size: 5rem;
+    }
+    #section-proposta-curricular p{
+        font-size: 2rem;
+    }
+    /*SECTION-EQUIPE*/
+    #section-equipe {
+        height: 200vh;
+    }
+    #section-equipe img{
+        width: 15%;
+        transform: rotate(-12deg);
+    }
+    #section-equipe h1{
+        font-size: 5rem;
+    }
+    #section-equipe p{
+        font-size: 2rem;
+    }
+
+
+
+
+/*SECTION-FOOTER*/
+    .footer-title{
+        font-size: 2rem;
+        color: white;
+    }
+    .footer-text{
+        font-size: 1.3rem;
+    }
+    #footer-text-instituto{
+        margin: 0 auto;
+    }
+    .footer-text-copy{
+        font-size: 1.2rem;
+        color: white;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:2400px) and (max-width:2699px){
+	/*2550*/
+    .navbar-collapse{
+        padding-right: 4rem;
+    }
+    .navbar-collapse{
+        padding-right: 4rem;
+    }
+    /*SECTION-HISTORIA*/
+    #section-historia img{
+        width: 90%;
+        transform: rotate(-12deg);
+    }
+    #section-historia h1{
+        font-size: 5rem;
+    }
+    #section-historia p{
+        font-size: 2rem;
+    }
+    /*SECTION-PROPOSTA-PEDAGOGICA*/
+    #section-proposta-pedagogica img{
+        width: 90%;
+        transform: rotate(-12deg);
+    }
+    #section-proposta-pedagogica h1{
+        font-size: 5rem;
+    }
+    #section-proposta-pedagogica p{
+        font-size: 2rem;
+    }
+
+    /*SECTION-PROPOSTA-CURRICULAR*/
+    #section-proposta-curricular img{
+        width: 90%;
+        transform: rotate(-12deg);
+    }
+    #section-proposta-curricular h1{
+        font-size: 5rem;
+    }
+    #section-proposta-curricular p{
+        font-size: 2rem;
+    }
+    /*SECTION-EQUIPE*/
+    #section-equipe {
+        height: 200vh;
+    }
+    #section-equipe img{
+        width: 15%;
+        transform: rotate(-12deg);
+    }
+    #section-equipe h1{
+        font-size: 5rem;
+    }
+    #section-equipe p{
+        font-size: 2rem;
+    }
+
+
+
+/*SECTION-FOOTER*/
+    .footer-title{
+        font-size: 2rem;
+        color: white;
+    }
+    .footer-text{
+        font-size: 1.3rem;
+    }
+    #footer-text-instituto{
+        margin: 0 auto;
+    }
+    .footer-text-copy{
+        font-size: 1.2rem;
+        color: white;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:2100px) and (max-width:2399px){
+	/*2250*/
+    .navbar-collapse{
+        padding-right: 4rem;
+    }
+    .navbar-collapse{
+        padding-right: 4rem;
+    }
+    /*SECTION-HISTORIA*/
+    #section-historia img{
+        width: 90%;
+        transform: rotate(-12deg);
+    }
+    #section-historia h1{
+        font-size: 5rem;
+    }
+    #section-historia p{
+        font-size: 2rem;
+    }
+    /*SECTION-PROPOSTA-PEDAGOGICA*/
+    #section-proposta-pedagogica img{
+        width: 90%;
+        transform: rotate(-12deg);
+    }
+    #section-proposta-pedagogica h1{
+        font-size: 5rem;
+    }
+    #section-proposta-pedagogica p{
+        font-size: 2rem;
+    }
+
+    /*SECTION-PROPOSTA-CURRICULAR*/
+    #section-proposta-curricular img{
+        width: 90%;
+        transform: rotate(-12deg);
+    }
+    #section-proposta-curricular h1{
+        font-size: 5rem;
+    }
+    #section-proposta-curricular p{
+        font-size: 2rem;
+    }
+    /*SECTION-EQUIPE*/
+    #section-equipe {
+        height: 160vh;
+    }
+    #section-equipe img{
+        width: 12%;
+        transform: rotate(-12deg);
+    }
+    #section-equipe h1{
+        font-size: 5rem;
+    }
+    #section-equipe p{
+        font-size: 2rem;
+    }
+
+
+       
+
+
+
+/*SECTION-FOOTER*/
+    .footer-title{
+        font-size: 2rem;
+        color: white;
+    }
+    .footer-text{
+        font-size: 1.3rem;
+    }
+    #footer-text-instituto{
+        margin: 0 auto;
+    }
+    .footer-text-copy{
+        font-size: 1.2rem;
+        color: white;
+    }
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:1800px) and (max-width:2099px){
+     	/*1950*/
+        .navbar-collapse{
+            padding-right: 4rem;
+        }
+        /*SECTION-HISTORIA*/
+        #section-historia img{
+            width: 90%;
+            transform: rotate(-12deg);
+        }
+        #section-historia h1{
+            font-size: 4rem;
+        }
+        #section-historia p{
+            font-size: 1.8rem;
+        }
+        /*SECTION-PROPOSTA-PEDAGOGICA*/
+        #section-proposta-pedagogica img{
+            width: 90%;
+            transform: rotate(-12deg);
+        }
+        #section-proposta-pedagogica h1{
+            font-size: 4rem;
+        }
+        #section-proposta-pedagogica p{
+            font-size: 1.8rem;
+        }
+    
+        /*SECTION-PROPOSTA-CURRICULAR*/
+        #section-proposta-curricular img{
+            width: 90%;
+            transform: rotate(-12deg);
+        }
+        #section-proposta-curricular h1{
+            font-size: 4rem;
+        }
+        #section-proposta-curricular p{
+            font-size: 1.8rem;
+        }
+        /*SECTION-EQUIPE*/
+        #section-equipe {
+            height: 160vh;
+        }
+        #section-equipe img{
+            width: 12%;
+            transform: rotate(-12deg);
+        }
+        #section-equipe h1{
+            font-size: 4rem;
+        }
+        #section-equipe p{
+            font-size: 1.8rem;
+        }
+    
+    
+    
+           
+    
+    
+    
+    /*SECTION-FOOTER*/
+        .footer-title{
+            font-size: 2rem;
+            color: white;
+        }
+        .footer-text{
+            font-size: 1.3rem;
+        }
+        #footer-text-instituto{
+            margin: 0 auto;
+        }
+        .footer-text-copy{
+            font-size: 1.2rem;
+            color: white;
+        }
+        .social-footer{
+            font-size: 2.2rem;
+        }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:1500px) and (max-width:1799px){
+     	/*1650*/
+         .navbar-collapse{
+            padding-right: 4rem;
+        }
+     /*SECTION-HISTORIA*/
+     #section-historia img{
+        width: 90%;
+        transform: rotate(-12deg);
+    }
+    #section-historia h1{
+        font-size: 3rem;
+    }
+    #section-historia p{
+        font-size: 1.4rem;
+    }
+    /*SECTION-PROPOSTA-PEDAGOGICA*/
+    #section-proposta-pedagogica img{
+        width: 90%;
+        transform: rotate(-12deg);
+    }
+    #section-proposta-pedagogica h1{
+        font-size: 3rem;
+    }
+    #section-proposta-pedagogica p{
+        font-size: 1.4rem;
+    }
+
+    /*SECTION-PROPOSTA-CURRICULAR*/
+    #section-proposta-curricular img{
+        width: 90%;
+        transform: rotate(-12deg);
+    }
+    #section-proposta-curricular h1{
+        font-size: 3rem;
+    }
+    #section-proposta-curricular p{
+        font-size: 1.4rem;
+    }
+    /*SECTION-EQUIPE*/
+    #section-equipe {
+        height: 190vh;
+    }
+    #section-equipe img{
+        width: 12%;
+        transform: rotate(-12deg);
+    }
+    #section-equipe h1{
+        font-size: 3rem;
+    }
+    #section-equipe p{
+        font-size: 1.4rem;
+    }
+    
+    
+    
+           
+    
+    
+    
+    /*SECTION-FOOTER*/
+        .footer-title{
+            font-size: 2rem;
+            color: white;
+        }
+        .footer-text{
+            font-size: 1.3rem;
+        }
+        #footer-text-instituto{
+            margin: 0 auto;
+        }
+        .footer-text-copy{
+            font-size: 1.2rem;
+            color: white;
+        }
+        .social-footer{
+            font-size: 2.2rem;
+        }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:1200px) and (max-width:1499px){
+  	/*1350*/
+      .navbar-collapse{
+        padding-right: 4rem;
+    }
+/*SECTION-HISTORIA*/
+#section-historia img{
+    width: 90%;
+    transform: rotate(-12deg);
+}
+#section-historia h1{
+    font-size: 3rem;
+}
+#section-historia p{
+    font-size: 1.4rem;
+}
+/*SECTION-PROPOSTA-PEDAGOGICA*/
+#section-proposta-pedagogica img{
+    width: 90%;
+    transform: rotate(-12deg);
+}
+#section-proposta-pedagogica h1{
+    font-size: 3rem;
+}
+#section-proposta-pedagogica p{
+    font-size: 1.4rem;
+}
+
+/*SECTION-PROPOSTA-CURRICULAR*/
+#section-proposta-curricular img{
+    width: 90%;
+    transform: rotate(-12deg);
+}
+#section-proposta-curricular h1{
+    font-size: 3rem;
+}
+#section-proposta-curricular p{
+    font-size: 1.4rem;
+}
+/*SECTION-EQUIPE*/
+#section-equipe {
+    height: 190vh;
+}
+#section-equipe img{
+    width: 12%;
+    transform: rotate(-12deg);
+}
+#section-equipe h1{
+    font-size: 3rem;
+}
+#section-equipe p{
+    font-size: 1.4rem;
+}
+
+
+
+
+/*SECTION-FOOTER*/
+    .footer-title{
+        font-size: 1.6rem;
+        color: white;
+    }
+    .footer-text{
+        font-size: 1rem;
+    }
+    #footer-text-instituto{
+        margin: 0 auto;
+    }
+    .footer-text-copy{
+        font-size: 1rem;
+        color: white;
+    }
+    .social-footer{
+        font-size: 1.4rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:991px) and (max-width:1199px){
+  	/*1050*/
+      .navbar-collapse{
+        padding-right: 4rem;
+    }
+
+/*SECTION-HISTORIA*/
+#section-historia img{
+    width: 90%;
+    transform: rotate(-12deg);
+}
+#section-historia h1{
+    font-size: 2rem;
+}
+#section-historia p{
+    font-size: 1rem;
+}
+/*SECTION-PROPOSTA-PEDAGOGICA*/
+#section-proposta-pedagogica img{
+    width: 90%;
+    transform: rotate(-12deg);
+}
+#section-proposta-pedagogica h1{
+    font-size: 2rem;
+}
+#section-proposta-pedagogica p{
+    font-size: 1rem;
+}
+
+/*SECTION-PROPOSTA-CURRICULAR*/
+#section-proposta-curricular img{
+    width: 90%;
+    transform: rotate(-12deg);
+}
+#section-proposta-curricular h1{
+    font-size: 2rem;
+}
+#section-proposta-curricular p{
+    font-size: 1rem;
+}
+/*SECTION-EQUIPE*/
+#section-equipe {
+    height: 170vh;
+}
+#section-equipe img{
+    width: 12%;
+    transform: rotate(-12deg);
+}
+#section-equipe h1{
+    font-size: 2rem;
+}
+#section-equipe p{
+    font-size: 1rem;
+}
+
+
+
+/*SECTION-FOOTER*/
+    .footer-title{
+        font-size: 1.6rem;
+        color: white;
+    }
+    .footer-text{
+        font-size: .6rem;
+    }
+    #footer-text-instituto{
+        margin: 0 auto;
+    }
+    .footer-text-copy{
+        font-size: .6rem;
+        color: white;
+    }
+    .social-footer{
+        font-size: 1.0rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:600px) and (max-width:990px){
+    	/*750*/
+        .navbar-collapse{
+            padding-right: 4rem;
+        }
+    /*SECTION-HISTORIA*/
+#section-historia .img-container{
+    margin-bottom: 20%;
+}
+#section-historia img{
+    width: 200%;
+    transform: translateX(-27%);
+    
+}
+#section-historia h1{
+    font-size: 2rem;
+}
+#section-historia p{
+    font-size: 1rem;
+}
+/*SECTION-PROPOSTA-PEDAGOGICA*/
+#section-proposta-pedagogica .img-container{
+    margin-bottom: 20%;
+}
+#section-proposta-pedagogica img{
+    width: 200%;
+    transform: translateX(-27%);
+}
+#section-proposta-pedagogica h1{
+    font-size: 2rem;
+}
+#section-proposta-pedagogica p{
+    font-size: 1rem;
+}
+
+/*SECTION-PROPOSTA-CURRICULAR*/
+#section-proposta-curricular .img-container{
+    margin-bottom: 20%;
+}
+#section-proposta-curricular img{
+    width: 200%;
+    transform: translateX(-27%);
+}
+#section-proposta-curricular h1{
+    font-size: 2rem;
+}
+#section-proposta-curricular p{
+    font-size: 1rem;
+}
+/*SECTION-EQUIPE*/
+#section-equipe {
+    height: 240vh;
+}
+#section-equipe img{
+    width: 18%;
+}
+#section-equipe h1{
+    font-size: 2rem;
+}
+#section-equipe p{
+    font-size: 1rem;
+}
+   
+    
+    /*SECTION-FOOTER*/
+        .footer-title{
+            font-size: 1rem;
+            color: white;
+        }
+        .footer-text{
+            font-size: .4rem;
+        }
+        #footer-text-instituto{
+            margin: 0 auto;
+        }
+        .footer-text-copy{
+            font-size: .6rem;
+            color: white;
+        }
+        .social-footer{
+            font-size: 1.0rem;
+        }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:300px) and (max-width:599px){
+    	/*450*/
+        .navbar-collapse{
+            padding-right: 4rem;
+        }
+    
+    
+    
+    
+    /*SECTION-FOOTER*/
+        .footer-title{
+            font-size: 1rem;
+            color: white;
+        }
+        .footer-text{
+            font-size: .6rem;
+        }
+        #footer-text-instituto{
+            margin: 0 auto;
+        }
+        .footer-text-copy{
+            font-size: .6rem;
+            color: white;
+        }
+        .social-footer{
+            font-size: 1.0rem;
+        }
+}
