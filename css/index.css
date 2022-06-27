@@ -371,6 +371,7 @@ h3{
     }
     #section-matriculas p{
         font-size: 1.8rem;
+        width: 75%;
     }
     #section-matriculas #matriculas-btn{
         width: 15%;
@@ -569,6 +570,7 @@ h3{
     }
     #section-matriculas p{
         font-size: 1.5rem;
+        width: 75%;
     }
     #section-matriculas #matriculas-btn{
         width: 15%;
@@ -714,7 +716,167 @@ h3{
 
 @media (min-width:1800px) and (max-width:2099px){
      	/*1950*/
+         .navbar-collapse{
+            padding-right: 4rem;
+        }
+    
+    
+    
+        /*SECTION-NAV*/
+        #section-nav{
+            height: 80vh;
+        }
+        #section-nav .img-container{
+            width: 60%;
+          }
+          #section-nav h1{
+            width: 100%;
+            height: 10%;
+            font-size: 1.4rem;
+          }
+          
+    
+    
+        /*SECTION-SEG*/
+          #section-segmentos{
+            height: 80vh;
+        }
+        #section-segmentos h1{
+            font-size: 4.2rem;
+        }
+        #section-segmentos img{
+            width: 52%;
+        }
+        #section-segmentos p{
+            font-size: 2rem;
+        }
         
+    
+    
+    
+        /*SECTION-MATRICULA*/
+        #section-matriculas{
+            height: 95vh;
+        }
+        
+        #section-matriculas .img-container{
+            width: 55%;
+        }
+        #section-matriculas h1{
+            font-size: 4.2rem;
+        }
+        #section-matriculas p{
+            font-size: 1.5rem;
+            width: 75%;
+        }
+        #section-matriculas #matriculas-btn{
+            width: 15%;
+            font-size: 1.6rem;
+        }
+    
+    
+    
+    
+    /*SECTION-EQUIPE*/
+        #section-equipe{
+            height: 100vh;
+        }
+        #section-equipe h1{
+            font-size: 4.2rem;
+           
+        }
+        #section-equipe p{
+            font-size: 1.6rem;
+            padding: 4rem 2rem;
+        }
+        #section-equipe .equipe-btn-container{
+            padding-top: 3rem;
+        }
+        #section-equipe #equipe-btn{
+            font-size: 1.4rem;
+        }
+        #section-equipe img{
+            width: 55%;
+        }
+        
+    
+    
+    
+    /*SECTION-FORMANDOS*/
+        #section-formandos{
+            height: 85vh;
+        }
+        #section-formandos h1{
+            padding-bottom: 2rem;
+        }
+        #section-formandos p{
+            padding: 5rem 45rem;
+            font-size: 1.4rem;
+        }
+    
+    
+    /*SECTION-PARCEIROS*/
+        #section-parceiros{
+            height: 95vh;
+        }
+        #section-parceiros h1{
+            font-size: 3.5rem;
+            padding: 0 30rem;
+        }
+        #section-parceiros p{
+            padding: 0 55rem;
+            font-size: 1.6rem;
+        }
+        #section-parceiros img{
+            width: 60%;
+        }
+    
+    
+    /*SECTION-DEPOIMENTOS*/
+        #section-depoimentos{
+            height: 50vh;
+        }
+        #section-depoimentos #depoimentos{
+            height: 50vh;
+        }
+        #section-depoimentos p{
+            font-size: 1.4rem;
+        }
+    
+    
+    /*SECTION-LOCALIZAÇÃO*/
+        #section-loc-h1{
+            font-size: 4.2rem;
+        }
+        #section-loc-h2{
+            font-size: 3rem;
+            font-weight: bold;
+        }
+        #section-loc-p{
+            font-size: 2rem;
+        }
+           
+    
+    
+    
+    /*SECTION-FOOTER*/
+        .footer-title{
+            font-size: 2rem;
+            color: white;
+        }
+        .footer-text{
+            font-size: 1.3rem;
+        }
+        #footer-text-instituto{
+            margin: 0 auto;
+        }
+        .footer-text-copy{
+            font-size: 1.2rem;
+            color: white;
+        }
+        .social-footer{
+            font-size: 2.2rem;
+        }
 }
 
 
@@ -746,7 +908,167 @@ h3{
 
 @media (min-width:1500px) and (max-width:1799px){
      	/*1650*/
+         .navbar-collapse{
+            padding-right: 4rem;
+        }
     
+    
+    
+        /*SECTION-NAV*/
+        #section-nav{
+            height: 80vh;
+        }
+        #section-nav .img-container{
+            width: 55%;
+          }
+          #section-nav h1{
+            width: 100%;
+            height: 10%;
+            font-size: 1.4rem;
+          }
+          
+    
+    
+        /*SECTION-SEG*/
+          #section-segmentos{
+            height: 80vh;
+        }
+        #section-segmentos h1{
+            font-size: 4.2rem;
+        }
+        #section-segmentos img{
+            width: 52%;
+        }
+        #section-segmentos p{
+            font-size: 2rem;
+        }
+        
+    
+    
+    
+        /*SECTION-MATRICULA*/
+        #section-matriculas{
+            height: 95vh;
+        }
+        
+        #section-matriculas .img-container{
+            width: 55%;
+        }
+        #section-matriculas h1{
+            font-size: 4.2rem;
+        }
+        #section-matriculas p{
+            font-size: 1.5rem;
+            width: 75%;
+        }
+        #section-matriculas #matriculas-btn{
+            width: 15%;
+            font-size: 1.6rem;
+        }
+    
+    
+    
+    
+    /*SECTION-EQUIPE*/
+        #section-equipe{
+            height: 100vh;
+        }
+        #section-equipe h1{
+            font-size: 4.2rem;
+           
+        }
+        #section-equipe p{
+            font-size: 1.6rem;
+            padding: 4rem 2rem;
+        }
+        #section-equipe .equipe-btn-container{
+            padding-top: 3rem;
+        }
+        #section-equipe #equipe-btn{
+            font-size: 1.4rem;
+        }
+        #section-equipe img{
+            width: 55%;
+        }
+        
+    
+    
+    
+    /*SECTION-FORMANDOS*/
+        #section-formandos{
+            height: 85vh;
+        }
+        #section-formandos h1{
+            padding-bottom: 2rem;
+        }
+        #section-formandos p{
+            padding: 5rem 45rem;
+            font-size: 1.4rem;
+        }
+    
+    
+    /*SECTION-PARCEIROS*/
+        #section-parceiros{
+            height: 95vh;
+        }
+        #section-parceiros h1{
+            font-size: 3.5rem;
+            padding: 0 30rem;
+        }
+        #section-parceiros p{
+            padding: 0 55rem;
+            font-size: 1.6rem;
+        }
+        #section-parceiros img{
+            width: 60%;
+        }
+    
+    
+    /*SECTION-DEPOIMENTOS*/
+        #section-depoimentos{
+            height: 50vh;
+        }
+        #section-depoimentos #depoimentos{
+            height: 50vh;
+        }
+        #section-depoimentos p{
+            font-size: 1.4rem;
+        }
+    
+    
+    /*SECTION-LOCALIZAÇÃO*/
+        #section-loc-h1{
+            font-size: 4.2rem;
+        }
+        #section-loc-h2{
+            font-size: 3rem;
+            font-weight: bold;
+        }
+        #section-loc-p{
+            font-size: 2rem;
+        }
+           
+    
+    
+    
+    /*SECTION-FOOTER*/
+        .footer-title{
+            font-size: 2rem;
+            color: white;
+        }
+        .footer-text{
+            font-size: 1.3rem;
+        }
+        #footer-text-instituto{
+            margin: 0 auto;
+        }
+        .footer-text-copy{
+            font-size: 1.2rem;
+            color: white;
+        }
+        .social-footer{
+            font-size: 2.2rem;
+        }
 }
 
 
@@ -776,7 +1098,167 @@ h3{
 
 @media (min-width:1200px) and (max-width:1499px){
   	/*1350*/
-     
+      .navbar-collapse{
+        padding-right: 4rem;
+    }
+
+
+
+    /*SECTION-NAV*/
+    #section-nav{
+        height: 80vh;
+    }
+    #section-nav .img-container{
+        width: 55%;
+      }
+      #section-nav h1{
+        width: 100%;
+        height: 10%;
+        font-size: 1.2rem;
+      }
+      
+
+
+    /*SECTION-SEG*/
+      #section-segmentos{
+        height: 80vh;
+    }
+    #section-segmentos h1{
+        font-size: 4rem;
+    }
+    #section-segmentos img{
+        width: 52%;
+    }
+    #section-segmentos p{
+        font-size: 1.6rem;
+    }
+    
+
+
+
+    /*SECTION-MATRICULA*/
+    #section-matriculas{
+        height: 100vh;
+    }
+    
+    #section-matriculas .img-container{
+        width: 60%;
+    }
+    #section-matriculas h1{
+        font-size: 3rem;
+    }
+    #section-matriculas p{
+        font-size: 1.2rem;
+        width: 75%;
+    }
+    #section-matriculas #matriculas-btn{
+        width: 15%;
+        font-size: 1.2rem;
+    }
+
+
+
+
+/*SECTION-EQUIPE*/
+    #section-equipe{
+        height: 100vh;
+    }
+    #section-equipe h1{
+        font-size: 3rem;
+       
+    }
+    #section-equipe p{
+        font-size: 1.2rem;
+        padding: 4rem 2rem;
+    }
+    #section-equipe .equipe-btn-container{
+        padding-top: 3rem;
+    }
+    #section-equipe #equipe-btn{
+        font-size: 1.2rem;
+    }
+    #section-equipe img{
+        width: 52%;
+    }
+    
+
+
+
+/*SECTION-FORMANDOS*/
+    #section-formandos{
+        height: 85vh;
+    }
+    #section-formandos h1{
+        padding-bottom: 2rem;
+    }
+    #section-formandos p{
+        padding: 5rem 45rem;
+        font-size: 1.4rem;
+    }
+
+
+/*SECTION-PARCEIROS*/
+    #section-parceiros{
+        height: 80vh;
+    }
+    #section-parceiros h1{
+        font-size: 3rem;
+        padding: 0 20rem;
+    }
+    #section-parceiros p{
+        padding: 0 55rem;
+        font-size: 1.2rem;
+    }
+    #section-parceiros img{
+        width: 55%;
+    }
+
+
+/*SECTION-DEPOIMENTOS*/
+    #section-depoimentos{
+        height: 50vh;
+    }
+    #section-depoimentos #depoimentos{
+        height: 50vh;
+    }
+    #section-depoimentos p{
+        font-size: 1.4rem;
+    }
+
+
+/*SECTION-LOCALIZAÇÃO*/
+    #section-loc-h1{
+        font-size: 3rem;
+    }
+    #section-loc-h2{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    #section-loc-p{
+        font-size: 1.6rem;
+    }
+       
+
+
+
+/*SECTION-FOOTER*/
+    .footer-title{
+        font-size: 1.6rem;
+        color: white;
+    }
+    .footer-text{
+        font-size: 1rem;
+    }
+    #footer-text-instituto{
+        margin: 0 auto;
+    }
+    .footer-text-copy{
+        font-size: 1rem;
+        color: white;
+    }
+    .social-footer{
+        font-size: 1.4rem;
+    }
 }
 
 
@@ -807,7 +1289,167 @@ h3{
 
 @media (min-width:991px) and (max-width:1199px){
   	/*1050*/
-     
+      .navbar-collapse{
+        padding-right: 4rem;
+    }
+
+
+
+    /*SECTION-NAV*/
+    #section-nav{
+        height: 80vh;
+    }
+    #section-nav .img-container{
+        width: 50%;
+      }
+      #section-nav h1{
+        width: 100%;
+        height: 10%;
+        font-size: 0.8rem;
+      }
+      
+
+
+    /*SECTION-SEG*/
+      #section-segmentos{
+        height: 75vh;
+    }
+    #section-segmentos h1{
+        font-size: 3rem;
+    }
+    #section-segmentos img{
+        width: 60%;
+    }
+    #section-segmentos p{
+        font-size: 1.2rem;
+    }
+    
+
+
+
+    /*SECTION-MATRICULA*/
+    #section-matriculas{
+        height: 100vh;
+    }
+    
+    #section-matriculas .img-container{
+        width: 70%;
+    }
+    #section-matriculas h1{
+        font-size: 3rem;
+    }
+    #section-matriculas p{
+        font-size: 1rem;
+        width: 75%;
+    }
+    #section-matriculas #matriculas-btn{
+        width: 15%;
+        font-size: 1.2rem;
+    }
+
+
+
+
+/*SECTION-EQUIPE*/
+    #section-equipe{
+        height: 95vh;
+    }
+    #section-equipe h1{
+        font-size: 2.8rem;
+       
+    }
+    #section-equipe p{
+        font-size: 1.2rem;
+        padding: 4rem 2rem;
+    }
+    #section-equipe .equipe-btn-container{
+        padding-top: 3rem;
+    }
+    #section-equipe #equipe-btn{
+        font-size: 1.2rem;
+    }
+    #section-equipe img{
+        width: 58%;
+    }
+    
+
+
+
+/*SECTION-FORMANDOS*/
+    #section-formandos{
+        height: 85vh;
+    }
+    #section-formandos h1{
+        padding-bottom: 2rem;
+    }
+    #section-formandos p{
+        padding: 5rem 45rem;
+        font-size: 1.4rem;
+    }
+
+
+/*SECTION-PARCEIROS*/
+    #section-parceiros{
+        height: 80vh;
+    }
+    #section-parceiros h1{
+        font-size: 2.8rem;
+        padding: 0 20rem;
+    }
+    #section-parceiros p{
+        padding: 0 55rem;
+        font-size: 1.2rem;
+    }
+    #section-parceiros img{
+        width: 55%;
+    }
+
+
+/*SECTION-DEPOIMENTOS*/
+    #section-depoimentos{
+        height: 50vh;
+    }
+    #section-depoimentos #depoimentos{
+        height: 50vh;
+    }
+    #section-depoimentos p{
+        font-size: 1.4rem;
+    }
+
+
+/*SECTION-LOCALIZAÇÃO*/
+    #section-loc-h1{
+        font-size: 2.8rem;
+    }
+    #section-loc-h2{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    #section-loc-p{
+        font-size: 1.4rem;
+    }
+       
+
+
+
+/*SECTION-FOOTER*/
+    .footer-title{
+        font-size: 1.6rem;
+        color: white;
+    }
+    .footer-text{
+        font-size: .6rem;
+    }
+    #footer-text-instituto{
+        margin: 0 auto;
+    }
+    .footer-text-copy{
+        font-size: .6rem;
+        color: white;
+    }
+    .social-footer{
+        font-size: 1.0rem;
+    }
 }
 
 
@@ -840,7 +1482,170 @@ h3{
 
 @media (min-width:600px) and (max-width:990px){
     	/*750*/
-       
+        .navbar-collapse{
+            padding-right: 4rem;
+        }
+    
+    
+    
+        /*SECTION-NAV*/
+        #section-nav{
+            height: 96vh;
+        }
+        #section-nav .img-container{
+            width: 30%;
+          }
+          #section-nav h1{
+            width: 100%;
+            height: 10%;
+            font-size: 1.2rem;
+          }
+          
+    
+    
+        /*SECTION-SEG*/
+          #section-segmentos{
+            height: 90vh;
+        }
+        #section-segmentos h1{
+            font-size: 3rem;
+        }
+        #section-segmentos img{
+            width: 60%;
+        }
+        #section-segmentos p{
+            font-size: 1.2rem;
+        }
+        
+    
+    
+    
+        /*SECTION-MATRICULA*/
+        #section-matriculas{
+            height: 125vh;
+        }
+        
+        #section-matriculas .img-container{
+            width: 95%;
+            margin-top: 25%;
+        }
+        #section-matriculas h1{
+            font-size: 3rem;
+        }
+        #section-matriculas p{
+            font-size: 1rem;
+            width: 100%;
+        }
+        #section-matriculas #matriculas-btn{
+            width: 15%;
+            font-size: 1.2rem;
+            width: 30%;
+        }
+    
+    
+    
+    
+    /*SECTION-EQUIPE*/
+        #section-equipe{
+            height: 98vh;
+        }
+        #section-equipe h1{
+            font-size: 2.8rem;
+           
+        }
+        #section-equipe p{
+            font-size: 1.2rem;
+            padding: 4rem 2rem;
+        }
+        #section-equipe .equipe-btn-container{
+            padding-top: 3rem;
+        }
+        #section-equipe #equipe-btn{
+            font-size: 1.2rem;
+        }
+        #section-equipe img{
+            width: 95%;
+        }
+        
+    
+    
+    
+    /*SECTION-FORMANDOS*/
+        #section-formandos{
+            height: 85vh;
+        }
+        #section-formandos h1{
+            padding-bottom: 2rem;
+        }
+        #section-formandos p{
+            padding: 5rem 45rem;
+            font-size: 1.4rem;
+        }
+    
+    
+    /*SECTION-PARCEIROS*/
+        #section-parceiros{
+            height: 80vh;
+        }
+        #section-parceiros h1{
+            font-size: 2.8rem;
+            padding: 0 5rem;
+        }
+        #section-parceiros p{
+            padding: 0 55rem;
+            font-size: 1.2rem;
+            width: 100%;
+        }
+        #section-parceiros img{
+            width: 85%;
+        }
+    
+    
+    /*SECTION-DEPOIMENTOS*/
+        #section-depoimentos{
+            height: 50vh;
+        }
+        #section-depoimentos #depoimentos{
+            height: 50vh;
+        }
+        #section-depoimentos p{
+            font-size: 1.4rem;
+        }
+    
+    
+    /*SECTION-LOCALIZAÇÃO*/
+        #section-loc-h1{
+            font-size: 2.8rem;
+        }
+        #section-loc-h2{
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        #section-loc-p{
+            font-size: 1.4rem;
+        }
+           
+    
+    
+    
+    /*SECTION-FOOTER*/
+        .footer-title{
+            font-size: 1rem;
+            color: white;
+        }
+        .footer-text{
+            font-size: .4rem;
+        }
+        #footer-text-instituto{
+            margin: 0 auto;
+        }
+        .footer-text-copy{
+            font-size: .6rem;
+            color: white;
+        }
+        .social-footer{
+            font-size: 1.0rem;
+        }
 }
 
 
@@ -870,5 +1675,171 @@ h3{
 
 @media (min-width:300px) and (max-width:599px){
     	/*450*/
-       
+        .navbar-collapse{
+            padding-right: 4rem;
+        }
+    
+    
+    
+        /*SECTION-NAV*/
+        #section-nav{
+            height: 98vh;
+        }
+        #section-nav .img-container{
+            width: 30%;
+          }
+          #section-nav h1{
+            width: 100%;
+            height: 10%;
+            font-size: 1rem;
+          }
+          
+    
+    
+        /*SECTION-SEG*/
+          #section-segmentos{
+            height: 100vh;
+        }
+        #section-segmentos h1{
+            font-size: 2rem;
+        }
+        #section-segmentos img{
+            width: 65%;
+        }
+        #section-segmentos p{
+            font-size: .8rem;
+        }
+        
+    
+    
+    
+        /*SECTION-MATRICULA*/
+        #section-matriculas{
+            height: 130vh;
+        }
+        
+        #section-matriculas .img-container{
+            width: 92%;
+            margin-top: 25%;
+            margin-left: 15%;
+        }
+        #section-matriculas h1{
+            font-size: 2rem;
+            padding-left: 8%;
+        }
+        #section-matriculas p{
+            font-size: .8rem;
+            width: 120%;
+        }
+        #section-matriculas #matriculas-btn{
+            width: 15%;
+            font-size: .8rem;
+            width: 38%;
+            margin-left: 12%;
+        }
+    
+    
+    
+    
+    /*SECTION-EQUIPE*/
+        #section-equipe{
+            height: 110vh;
+        }
+        #section-equipe h1{
+            font-size: 2rem;
+           
+        }
+        #section-equipe p{
+            font-size: .8rem;
+            padding: 4rem 2rem;
+        }
+        #section-equipe .equipe-btn-container{
+            padding-top: 3rem;
+        }
+        #section-equipe #equipe-btn{
+            font-size: .8rem;
+        }
+        #section-equipe img{
+            width: 95%;
+        }
+        
+    
+    
+    
+    /*SECTION-FORMANDOS*/
+        #section-formandos{
+            height: 85vh;
+        }
+        #section-formandos h1{
+            padding-bottom: 2rem;
+        }
+        #section-formandos p{
+            padding: 5rem 45rem;
+            font-size: 1.4rem;
+        }
+    
+    
+    /*SECTION-PARCEIROS*/
+        #section-parceiros{
+            height: 80vh;
+        }
+        #section-parceiros h1{
+            font-size: 2rem;
+            padding: 0 5rem;
+        }
+        #section-parceiros p{
+            padding: 0 55rem;
+            font-size: .8rem;
+            width: 100%;
+        }
+        #section-parceiros img{
+            width: 85%;
+        }
+    
+    
+    /*SECTION-DEPOIMENTOS*/
+        #section-depoimentos{
+            height: 50vh;
+        }
+        #section-depoimentos #depoimentos{
+            height: 50vh;
+        }
+        #section-depoimentos p{
+            font-size: 1.4rem;
+        }
+    
+    
+    /*SECTION-LOCALIZAÇÃO*/
+        #section-loc-h1{
+            font-size: 2rem;
+        }
+        #section-loc-h2{
+            font-size: 1.4rem;
+            font-weight: bold;
+        }
+        #section-loc-p{
+            font-size: .8rem;
+        }
+           
+    
+    
+    
+    /*SECTION-FOOTER*/
+        .footer-title{
+            font-size: 1rem;
+            color: white;
+        }
+        .footer-text{
+            font-size: .6rem;
+        }
+        #footer-text-instituto{
+            margin: 0 auto;
+        }
+        .footer-text-copy{
+            font-size: .6rem;
+            color: white;
+        }
+        .social-footer{
+            font-size: 1.0rem;
+        }
 }
