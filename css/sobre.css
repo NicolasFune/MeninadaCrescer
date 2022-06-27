@@ -992,7 +992,63 @@ h3{
             padding-right: 4rem;
         }
     
+/*SECTION-HISTORIA*/
+#section-historia .img-container{
+    margin-bottom: 20%;
+}
+#section-historia img{
+    width: 200%;
+    transform: translateX(-27%);
     
+}
+#section-historia h1{
+    font-size: 2rem;
+}
+#section-historia p{
+    font-size: 1rem;
+}
+/*SECTION-PROPOSTA-PEDAGOGICA*/
+#section-proposta-pedagogica .img-container{
+    margin-bottom: 20%;
+}
+#section-proposta-pedagogica img{
+    width: 240%;
+    transform: translateX(-27%);
+}
+#section-proposta-pedagogica h1{
+    font-size: 2rem;
+}
+#section-proposta-pedagogica p{
+    font-size: 1rem;
+}
+
+/*SECTION-PROPOSTA-CURRICULAR*/
+#section-proposta-curricular .img-container{
+    margin-bottom: 20%;
+}
+#section-proposta-curricular img{
+    width: 200%;
+    transform: translateX(-27%);
+}
+#section-proposta-curricular h1{
+    font-size: 2rem;
+}
+#section-proposta-curricular p{
+    font-size: 1rem;
+}
+/*SECTION-EQUIPE*/
+#section-equipe {
+    height: 500vh;
+}
+#section-equipe img{
+    width: 40%;
+}
+#section-equipe h1{
+    font-size: 2rem;
+}
+#section-equipe p{
+    font-size: 1rem;
+}
     
     
     /*SECTION-FOOTER*/
