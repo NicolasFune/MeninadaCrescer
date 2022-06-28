@@ -134,10 +134,13 @@ h3{
     }
     /*SECTION-MATRICULA*/
     #section-matricula{
-        height: 200vh;
+        height: 220vh;
     }
     #section-matricula h1{
         font-size: 4rem;
+    }
+    #section-matricula h2{
+        font-size: 3rem;
     }
     #section-matricula h3{
         font-size: 2rem;
@@ -145,9 +148,7 @@ h3{
     #section-matricula p{
         font-size: 2rem;
     }
-    #section-matricula img{
-        
-    }
+ 
     #section-matricula .img-container{
         width: 30%;
     }
@@ -208,6 +209,29 @@ h3{
         padding-right: 4rem;
     }
     
+     /*SECTION-MATRICULA*/
+     #section-matricula{
+        height: 250vh;
+    }
+    #section-matricula h1{
+        font-size: 4rem;
+    }
+    #section-matricula h2{
+        font-size: 3rem;
+    }
+    #section-matricula h3{
+        font-size: 2rem;
+    }
+    #section-matricula p{
+        font-size: 2rem;
+    }
+
+    #section-matricula .img-container{
+        width: 30%;
+    }
+    #matriculas-btn{
+        font-size: 2rem;
+    }
 
 /*SECTION-FOOTER*/
     .footer-title{
@@ -268,7 +292,29 @@ h3{
     .navbar-collapse{
         padding-right: 4rem;
     }
+/*SECTION-MATRICULA*/
+#section-matricula{
+    height: 250vh;
+}
+#section-matricula h1{
+    font-size: 3.5rem;
+}
+#section-matricula h2{
+    font-size: 2rem;
+}
+#section-matricula h3{
+    font-size: 2rem;
+}
+#section-matricula p{
+    font-size: 1.8rem;
+}
 
+#section-matricula .img-container{
+    width: 30%;
+}
+#matriculas-btn{
+    font-size: 1.8rem;
+}
 /*SECTION-FOOTER*/
     .footer-title{
         font-size: 2rem;
@@ -326,7 +372,29 @@ h3{
     .navbar-collapse{
      padding-right: 4rem;
     }
-       
+       /*SECTION-MATRICULA*/
+#section-matricula{
+    height: 220vh;
+}
+#section-matricula h1{
+    font-size: 3rem;
+}
+#section-matricula h2{
+    font-size: 1.6rem;
+}
+#section-matricula h3{
+    font-size: 1.6rem;
+}
+#section-matricula p{
+    font-size: 1.4rem;
+}
+
+#section-matricula .img-container{
+    width: 30%;
+}
+#matriculas-btn{
+    font-size: 1.2rem;
+}
         
     
     
@@ -383,6 +451,28 @@ h3{
          .navbar-collapse{
             padding-right: 4rem;
         }
+        /*SECTION-MATRICULA*/
+#section-matricula{
+    height: 220vh;
+}
+#section-matricula h1{
+    font-size: 2.8rem;
+}
+#section-matricula h2{
+    font-size: 1.6rem;
+}
+#section-matricula h3{
+    font-size: 1.4rem;
+}
+#section-matricula p{
+    font-size: 1.2rem;
+}
+#section-matricula .img-container{
+    width: 30%;
+}
+#matriculas-btn{
+    font-size: 1.2rem;
+}
         
     
     
@@ -441,7 +531,28 @@ h3{
       .navbar-collapse{
         padding-right: 4rem;
     }
-    
+         /*SECTION-MATRICULA*/
+#section-matricula{
+    height: 220vh;
+}
+#section-matricula h1{
+    font-size: 2.2rem;
+}
+#section-matricula h2{
+    font-size: 1.4rem;
+}
+#section-matricula h3{
+    font-size: 1.4rem;
+}
+#section-matricula p{
+    font-size: 1rem;
+}
+#section-matricula .img-container{
+    width: 30%;
+}
+#matriculas-btn{
+    font-size: 1rem;
+}
 
        
 
@@ -497,7 +608,28 @@ h3{
       .navbar-collapse{
         padding-right: 4rem;
     }
-    
+             /*SECTION-MATRICULA*/
+#section-matricula{
+    height: 230vh;
+}
+#section-matricula h1{
+    font-size: 2rem;
+}
+#section-matricula h2{
+    font-size: 1.4rem;
+}
+#section-matricula h3{
+    font-size: 1.2rem;
+}
+#section-matricula p{
+    font-size: 1rem;
+}
+#section-matricula .img-container{
+    width: 30%;
+}
+#matriculas-btn{
+    font-size: 1rem;
+}
 
 
 
@@ -555,7 +687,28 @@ h3{
         .navbar-collapse{
             padding-right: 4rem;
         }
-        
+ /*SECTION-MATRICULA*/
+#section-matricula{
+    height: 230vh;
+}
+#section-matricula h1{
+    font-size: 2rem;
+}
+#section-matricula h2{
+    font-size: 1.4rem;
+}
+#section-matricula h3{
+    font-size: 1.2rem;
+}
+#section-matricula p{
+    font-size: 1rem;
+}
+#section-matricula .img-container{
+    width:30%;
+}
+#matriculas-btn{
+    font-size: 1rem;
+}
     
     
     /*SECTION-FOOTER*/
@@ -609,6 +762,28 @@ h3{
             padding-right: 4rem;
         }
         
+    /*SECTION-MATRICULA*/
+#section-matricula{
+    height: 300vh;
+}
+#section-matricula h1{
+    font-size: 2rem;
+}
+#section-matricula h2{
+    font-size: 1.2rem;
+}
+#section-matricula h3{
+    font-size: 1.2rem;
+}
+#section-matricula p{
+    font-size: 1rem;
+}
+#section-matricula .img-container{
+    width:30%;
+}
+#matriculas-btn{
+    font-size: 1rem;
+}
     
     /*SECTION-FOOTER*/
         .footer-title{
