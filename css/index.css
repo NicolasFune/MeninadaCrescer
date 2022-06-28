@@ -84,6 +84,7 @@ body::-webkit-scrollbar{
     background-repeat: no-repeat;
     background-size: cover;
     width: 99.7vw;
+    height: 100vh;
     position: absolute;
     z-index: 1;
 }

@@ -26,7 +26,7 @@ body::-webkit-scrollbar{
 }
 .nav-link.active{
     border-radius: 2px;
-    border-bottom: 2px solid yellow;
+    
 }
 .footer-link{
     transition: .1s;
@@ -42,7 +42,7 @@ body::-webkit-scrollbar{
     transform: scale(1.1);
 }
 #nav-li-matricula{
-    background-color: #fce42e;
+    background-color: white;
     color: #0556a9;
     box-shadow: 0 5px 8px rgba(0, 0, 0, 0.24);
     transition: .1s;
